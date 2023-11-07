@@ -11,8 +11,12 @@
             "id": "ea539b350dc8b79a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Programming/Compiladores/Interpreters vs Compilers.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -90,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Programming/Git/Untitled.canvas"
+                "file": "Notes/Programming/Compiladores/Interpreters vs Compilers.md"
               }
             }
           },
@@ -125,6 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Programming/Compiladores/Interpreters vs Compilers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,6 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Programming/Compiladores/Interpreters vs Compilers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,8 +179,9 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "489e08986c5e7673",
+  "active": "ea539b350dc8b79a",
   "lastOpenFiles": [
+    "Notes/Programming/Compiladores/Basics of compilers.md",
     "Notes/Programming/Git/Untitled.canvas",
     "Notes/Programming/Git/Good commit practices.md",
     "Notes/Programming/Git/Branches commands.md",
@@ -189,7 +196,6 @@
     "Notes/Programming/Compiladores/Rinha de compilers.md",
     "Notes/Programming/Compiladores/Parsing and lexing.md",
     "Notes/Programming/Compiladores/Interpreters vs Compilers.md",
-    "Notes/Programming/Compiladores/Basics of compilers.md",
     "Notes/Programming/Compiladores/AOT, JIT and Transpilers.md",
     "Notes/Programming/Linguagens/Elixir",
     "Notes/Programming/Compiladores/Walking a tree, compiling and transpiling.md",

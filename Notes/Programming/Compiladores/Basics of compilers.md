@@ -73,5 +73,3 @@ We can have a Node for `NumberLiteral` and a Node for `CallExpression` just like
 ```
 
 When transforming the AST we can add more nodes, remove existing ones, replace them or we can even leave the existing AST as it is and generate an entirely new one based on it. Since a compiler usually targets to compile code to another language, that's what we're going to do.
-
-## Traversal
