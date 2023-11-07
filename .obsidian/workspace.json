@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Programming/Compiladores/Interpreters vs Compilers.md",
+                "file": "Notes/Programming/Linguagens/Elixir/Basics.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Programming/Compiladores/Interpreters vs Compilers.md"
+                "file": "Notes/Programming/Linguagens/Elixir/Basics.md"
               }
             }
           },
@@ -129,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Programming/Compiladores/Interpreters vs Compilers.md",
+                "file": "Notes/Programming/Linguagens/Elixir/Basics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Programming/Compiladores/Interpreters vs Compilers.md",
+                "file": "Notes/Programming/Linguagens/Elixir/Basics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -181,6 +181,8 @@
   },
   "active": "ea539b350dc8b79a",
   "lastOpenFiles": [
+    "Notes/Programming/Compiladores/AOT, JIT and Transpilers.md",
+    "Notes/Programming/Compiladores/Interpreters vs Compilers.md",
     "Notes/Programming/Compiladores/Basics of compilers.md",
     "Notes/Programming/Git/Untitled.canvas",
     "Notes/Programming/Git/Good commit practices.md",
@@ -195,8 +197,6 @@
     "Untitled.md",
     "Notes/Programming/Compiladores/Rinha de compilers.md",
     "Notes/Programming/Compiladores/Parsing and lexing.md",
-    "Notes/Programming/Compiladores/Interpreters vs Compilers.md",
-    "Notes/Programming/Compiladores/AOT, JIT and Transpilers.md",
     "Notes/Programming/Linguagens/Elixir",
     "Notes/Programming/Compiladores/Walking a tree, compiling and transpiling.md",
     "Notes/Programming/Compiladores/Symbolic expressions and evaluating.md",
