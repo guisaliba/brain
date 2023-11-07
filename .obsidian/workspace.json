@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "12f074d28377a733",
+        "id": "a74ecf9ed1d67966",
         "type": "tabs",
         "children": [
           {
-            "id": "63f9402b2e21ef18",
+            "id": "ea539b350dc8b79a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/Programming/Linguagens/Elixir/Basics.md",
-                "mode": "preview",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -94,7 +90,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Programming/Linguagens/Elixir/Basics.md"
+                "file": "Notes/Programming/Git/Untitled.canvas"
               }
             }
           },
@@ -129,7 +125,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Programming/Linguagens/Elixir/Basics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +141,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Programming/Linguagens/Elixir/Basics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -181,9 +175,12 @@
   },
   "active": "489e08986c5e7673",
   "lastOpenFiles": [
+    "Notes/Programming/Git/Untitled.canvas",
+    "Notes/Programming/Git/Good commit practices.md",
+    "Notes/Programming/Git/Branches commands.md",
+    "Notes/Programming/Linguagens/Elixir/Basics.md",
     "README.md",
     "brain",
-    "Notes/Programming/Linguagens/Elixir/Basics.md",
     "Notes/Data structure/O que são estruturas de dados.md",
     "Git/Test.md",
     "FleetingNotes",
@@ -208,9 +205,6 @@
     "Notes/Programming/Conceitos básicos/Internet/What is a naked domain.md",
     "Notes/Programming/Linguagens/JavaScript/const let e var.md",
     "Anotações/Programação/Linguagens/JavaScript/let, const e var.md",
-    "FleetingNotes/AI concepts.md",
-    "Notes/Programming/Linguagens/HTML/HTML Elements.md",
-    "Notes/Programming/Linguagens/JavaScript/Tipos de dados em JavaScript 1.md",
     "Notes/Programming/Compiladores",
     "Images/Pasted image 20230918005920.png",
     "Images/Pasted image 20230918012049.png",
