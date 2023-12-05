@@ -1,5 +1,3 @@
-# brain
-
 <samp>
-  Obsidian notes.
+  My Obsidian notes.
 </samp>
