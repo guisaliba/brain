@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Algorithms/Sorting/Sorting algorithms.md",
+                "file": "Notes/Algorithms/Big O Notation.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Algorithms/Sorting/Sorting algorithms.md"
+                "file": "Notes/Algorithms/Big O Notation.md"
               }
             }
           },
@@ -129,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Algorithms/Sorting/Sorting algorithms.md",
+                "file": "Notes/Algorithms/Big O Notation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Algorithms/Sorting/Sorting algorithms.md",
+                "file": "Notes/Algorithms/Big O Notation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,19 +179,19 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "489e08986c5e7673",
+  "active": "ea539b350dc8b79a",
   "lastOpenFiles": [
-    "Notes/Algorithms/Sorting",
-    "Notes/Algorithms/Sorting/Bubble Sort.md",
-    "Notes/Algorithms/Sorting/Selection Sort.md",
-    "Notes/Algorithms/Sorting/Sorting algorithms.md",
-    "Notes/Data structures/Arrays.md",
     "Notes/Algorithms/O que são algoritmos.md",
+    "Notes/Algorithms/Sorting/Selection Sort.md",
+    "Notes/Algorithms/Sorting/Bubble Sort.md",
+    "Notes/Algorithms/Big O Notation.md",
     "Notes/Algorithms/Algoritmo de Dijkstra.md",
+    "Notes/Algorithms/Argumentos, parâmetros e referências.md",
+    "Notes/Algorithms/Sorting/What is sorting.md",
+    "Notes/Algorithms/Sorting",
+    "Notes/Data structures/Arrays.md",
     "Notes/Algorithms/O que torna um algoritmo eficiente.md",
     "Notes/Algorithms/O que torna um algoritmo correto.md",
-    "Notes/Algorithms/Argumentos, parâmetros e referências.md",
-    "Notes/Algorithms/Big O Notation.md",
     "README.md",
     "Notes/Algorithms/O(n).md",
     "Notes/Programming/Linguagens/Elixir/Basics.md",
@@ -221,7 +221,6 @@
     "Fleeting Notes",
     "Notes/Programming/Desenvolvimento/Front-end",
     "Listas de leitura/Software Design",
-    "To-Read",
     "Images/Csharp/Estrutura de um ConsoleApp em Csharp/1.png",
     "Images/Programming concepts/HTTP/1.png",
     "Images/Programming concepts/HTTP/3.png",
