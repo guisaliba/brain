@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Algorithms/Search algorithms.md",
+                "file": "Notes/Algorithms/Sorting/Sorting algorithms.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 310.5,
-    "collapsed": true
+    "width": 310.5
   },
   "right": {
     "id": "835f8b7b5d9e31cc",
@@ -95,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Algorithms/Search algorithms.md"
+                "file": "Notes/Algorithms/Sorting/Sorting algorithms.md"
               }
             }
           },
@@ -130,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Algorithms/Search algorithms.md",
+                "file": "Notes/Algorithms/Sorting/Sorting algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Algorithms/Search algorithms.md",
+                "file": "Notes/Algorithms/Sorting/Sorting algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,15 +179,21 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "4165a45158718d15",
+  "active": "489e08986c5e7673",
   "lastOpenFiles": [
-    "Notes/Algorithms/Search algorithms.md",
-    "Notes/Algorithms/Big O Notation.md",
+    "Notes/Algorithms/Sorting",
+    "Notes/Algorithms/Sorting/Bubble Sort.md",
+    "Notes/Algorithms/Sorting/Selection Sort.md",
+    "Notes/Algorithms/Sorting/Sorting algorithms.md",
     "Notes/Data structures/Arrays.md",
-    "README.md",
-    "Notes/Algorithms/O(n).md",
+    "Notes/Algorithms/O que são algoritmos.md",
+    "Notes/Algorithms/Algoritmo de Dijkstra.md",
+    "Notes/Algorithms/O que torna um algoritmo eficiente.md",
     "Notes/Algorithms/O que torna um algoritmo correto.md",
     "Notes/Algorithms/Argumentos, parâmetros e referências.md",
+    "Notes/Algorithms/Big O Notation.md",
+    "README.md",
+    "Notes/Algorithms/O(n).md",
     "Notes/Programming/Linguagens/Elixir/Basics.md",
     "Notes/Programming/Compiladores/AOT, JIT and Transpilers.md",
     "Notes/Programming/Compiladores/Interpreters vs Compilers.md",
@@ -207,12 +212,6 @@
     "Notes/Programming/Linguagens/Elixir",
     "Notes/Programming/Compiladores/Walking a tree, compiling and transpiling.md",
     "Notes/Programming/Compiladores/Symbolic expressions and evaluating.md",
-    "Notes/Programming/Compiladores/Building a lexer.md",
-    "Notes/Programming/Compiladores/Abstract Syntax Trees (ASTs).md",
-    "Notes/Programming/AI/Tokenization and context length.md",
-    "Anotações/Programação/AI/Introdução à IAs generativas.md",
-    "Notes/Programming/Conceitos básicos/Computadores/Como os computadores funcionam.md",
-    "Notes/Programming/Conceitos básicos/Computadores/Como computadores nos entendem.md",
     "Notes/Programming/Compiladores",
     "Images/Pasted image 20230918005920.png",
     "Images/Pasted image 20230918012049.png",
