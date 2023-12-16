@@ -94,7 +94,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Notes/Algorithms/Search algorithms.md"
+              }
             }
           },
           {
@@ -128,6 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Algorithms/Search algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,6 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Algorithms/Search algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
