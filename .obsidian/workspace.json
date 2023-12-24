@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Algorithms/Sorting/Bubble Sort.md",
+                "file": "Notes/Programming/Desenvolvimento/Front-end/Svelte/Svelte X React Virtual DOM.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 310.5,
-    "collapsed": true
+    "width": 310.5
   },
   "right": {
     "id": "835f8b7b5d9e31cc",
@@ -95,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Algorithms/Sorting/Bubble Sort.md"
+                "file": "Notes/Programming/Desenvolvimento/Front-end/Svelte/Svelte X React Virtual DOM.md"
               }
             }
           },
@@ -130,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Algorithms/Sorting/Bubble Sort.md",
+                "file": "Notes/Programming/Desenvolvimento/Front-end/Svelte/Svelte X React Virtual DOM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Algorithms/Sorting/Bubble Sort.md",
+                "file": "Notes/Programming/Desenvolvimento/Front-end/Svelte/Svelte X React Virtual DOM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,10 +181,12 @@
   },
   "active": "ea539b350dc8b79a",
   "lastOpenFiles": [
+    "Notes/Algorithms/Sorting/Bubble Sort.md",
+    "Notes/Programming/Desenvolvimento/Front-end/Svelte/Svelte X React Virtual DOM.md",
+    "Notes/Programming/Desenvolvimento/Front-end/Svelte",
     "Notes/Algorithms/Sorting/Selection Sort.md",
     "Notes/Algorithms/Big O Notation.md",
     "Notes/Algorithms/O que são algoritmos.md",
-    "Notes/Algorithms/Sorting/Bubble Sort.md",
     "Notes/Algorithms/Algoritmo de Dijkstra.md",
     "Notes/Algorithms/Argumentos, parâmetros e referências.md",
     "Notes/Algorithms/Sorting/What is sorting.md",
@@ -221,7 +222,6 @@
     "Notes/Programming/Desenvolvimento",
     "Fleeting Notes",
     "Notes/Programming/Desenvolvimento/Front-end",
-    "Listas de leitura/Software Design",
     "Images/Csharp/Estrutura de um ConsoleApp em Csharp/1.png",
     "Images/Programming concepts/HTTP/1.png",
     "Images/Programming concepts/HTTP/3.png",
