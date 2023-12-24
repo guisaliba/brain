@@ -6,6 +6,7 @@ If you've used JavaScript frameworks in the last few years, you've probably hear
 It's time to take a closer look.
 
 ## What is the virtual DOM?
+
 In many frameworks, you build an app by creating `render()` functions, like this simple [React](https://reactjs.org/) component:
 
 ``` js
@@ -28,13 +29,17 @@ You can do the same thing without JSX...
 ...but the result is the same — an object representing how the page should now look. That object is the virtual DOM. Every time your app's state updates (for example when the `name` prop changes), you create a new one. The framework's job is to _reconcile_ the new one against the old one, to figure out what changes are necessary and apply them to the real DOM.
 
 ## How did the meme start?
+
 Misunderstood claims about virtual DOM performance date back to the launch of React. In [Rethinking Best Practices](https://www.youtube.com/watch?v=x7cQ3mrcKaY), a seminal 2013 talk by former React core team member Pete Hunt, we learned the following:
 
 > This is actually extremely fast, primarily because most DOM operations tend to be slow. There's been a lot of performance work on the DOM, but most DOM operations tend to drop frames.
 
 But hang on a minute! The virtual DOM operations are _in addition to_ the eventual operations on the real DOM. The only way it could be faster is if we were comparing it to a less efficient framework (there were plenty to go around back in 2013!), or arguing against a straw man — that the alternative is to do something no-one actually does:
 
-`   onEveryStateChange(() => {  	document.body.innerHTML = renderMyApp();  });   `
+``` js
+onEveryStateChange(() => {  	document.body.innerHTML = renderMyApp();  });
+```
+
 
 Pete clarifies soon after...
 
@@ -42,7 +47,7 @@ Pete clarifies soon after...
 
 ...but that's not the part that stuck.
 
-## So... is the virtual DOM _slow_?[permalink](https://svelte.dev/blog/virtual-dom-is-pure-overhead#so-is-the-virtual-dom-slow)
+## So... is the virtual DOM _slow_?
 
 Not exactly. It's more like 'the virtual DOM is usually fast enough', but with certain caveats.
 
@@ -50,7 +55,7 @@ The original promise of React was that you could re-render your entire app on ev
 
 Even with `shouldComponentUpdate`, updating your entire app's virtual DOM in one go is a lot of work. A while back, the React team introduced something called React Fiber which allows the update to be broken into smaller chunks. This means (among other things) that updates don't block the main thread for long periods of time, though it doesn't reduce the total amount of work or the time an update takes.
 
-## Where does the overhead come from?[permalink](https://svelte.dev/blog/virtual-dom-is-pure-overhead#where-does-the-overhead-come-from)
+## Where does the overhead come from?
 
 Most obviously, [diffing isn't free](https://twitter.com/pcwalton/status/1015694528857047040). You can't apply changes to the real DOM without first comparing the new virtual DOM with the previous snapshot. To take the earlier `HelloMessage` example, suppose the `name` prop changed from 'world' to 'everybody'.
 
@@ -64,7 +69,7 @@ Of these three steps, only the third has value in this case, since — as is the
 
 (This is almost exactly the update code that Svelte generates. Unlike traditional UI frameworks, Svelte is a compiler that knows at _build time_ how things could change in your app, rather than waiting to do the work at _run time_.)
 
-## It's not just the diffing though[permalink](https://svelte.dev/blog/virtual-dom-is-pure-overhead#it-s-not-just-the-diffing-though)
+## It's not just the diffing though
 
 The diffing algorithms used by React and other virtual DOM frameworks are fast. Arguably, the greater overhead is in the components themselves. You wouldn't write code like this...
 
@@ -82,7 +87,7 @@ The danger of defaulting to doing unnecessary work, even if that work is trivial
 
 Svelte is explicitly designed to prevent you from ending up in that situation.
 
-## Why do frameworks use the virtual DOM then?[permalink](https://svelte.dev/blog/virtual-dom-is-pure-overhead#why-do-frameworks-use-the-virtual-dom-then)
+## Why do frameworks use the virtual DOM then?
 
 It's important to understand that virtual DOM _isn't a feature_. It's a means to an end, the end being declarative, state-driven UI development. Virtual DOM is valuable because it allows you to build apps without thinking about state transitions, with performance that is _generally good enough_. That means less buggy code, and more time spent on creative tasks instead of tedious ones.
 
