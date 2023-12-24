@@ -90,37 +90,22 @@ function StrawManComponent(props) {
 ``` js
 function MoreRealisticComponent(props) {
   const [selected, setSelected] = useState(null);
-
+  
   return (
-
     <div>
-
       {' '}
-
       <p>Selected {selected ? selected.name : 'nothing'}</p>{' '}
-
       <ul>
-
         {' '}
-
         {props.items.map((item) => (
-
           <li>
-
             {' '}
-
             <button onClick={() => setSelected(item)}>{item.name}</button>{' '}
-
           </li>
-
         ))}{' '}
-
       </ul>{' '}
-
     </div>
-
   );
-
 }
 ```
 
