@@ -1,5 +1,6 @@
 ---
 source: https://svelte.dev/blog/virtual-dom-is-pure-overhead
+source_title: Virtual DOM is pure overhead
 ---
 If you've used JavaScript frameworks in the last few years, you've probably heard the phrase 'the virtual DOM is fast', often said to mean that it's faster than the _real_ DOM. It's a surprisingly resilient meme — for example people have asked how Svelte can be fast when it doesn't use a virtual DOM.
 
