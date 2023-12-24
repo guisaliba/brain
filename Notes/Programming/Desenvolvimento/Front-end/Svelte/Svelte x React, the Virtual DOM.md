@@ -5,11 +5,14 @@ If you've used JavaScript frameworks in the last few years, you've probably hear
 
 It's time to take a closer look.
 
-## What is the virtual DOM?[permalink](https://svelte.dev/blog/virtual-dom-is-pure-overhead#what-is-the-virtual-dom)
-
+## What is the virtual DOM?
 In many frameworks, you build an app by creating `render()` functions, like this simple [React](https://reactjs.org/) component:
 
-`   function HelloMessage(props) {  	return <div className="greeting">Hello {props.name}</div>;  }   `
+``` js
+ function HelloMessage(props) {
+	 return <div className="greeting">Hello {props.name}</div>;
+ } 
+```
 
 You can do the same thing without JSX...
 
@@ -17,7 +20,9 @@ You can do the same thing without JSX...
   function HelloMessage(props) {
 	  return React.createElement('div', 
 		  { className: 'greeting' }, 
-		  'Hello ', props.name);  } 
+		  'Hello ', props.name
+		);
+	} 
 ```  
 
 ...but the result is the same — an object representing how the page should now look. That object is the virtual DOM. Every time your app's state updates (for example when the `name` prop changes), you create a new one. The framework's job is to _reconcile_ the new one against the old one, to figure out what changes are necessary and apply them to the real DOM.
