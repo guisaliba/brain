@@ -78,11 +78,51 @@ Of these three steps, only the third has value in this case, since — as is the
 
 The diffing algorithms used by React and other virtual DOM frameworks are fast. Arguably, the greater overhead is in the components themselves. You wouldn't write code like this...
 
-`    
+``` js
+function StrawManComponent(props) {
+	const value = expensivelyCalculateValue(props.foo);
+	return <p>the value is {value}</p>;
+} 
+```
 
 ...because you'd be carelessly recalculating `value` on every update, regardless of whether `props.foo` had changed. But it's extremely common to do unnecessary computation and allocation in ways that seem much more benign:
 
-`   function MoreRealisticComponent(props) {  	const [selected, setSelected] = useState(null);  	return (  		<div>  			<p>Selected {selected ? selected.name : 'nothing'}</p>  			<ul>  				{props.items.map((item) => (  					<li>  						<button onClick={() => setSelected(item)}>{item.name}</button>  					</li>  				))}  			</ul>  		</div>  	);  }   `
+``` js
+function MoreRealisticComponent(props) {
+  const [selected, setSelected] = useState(null);
+
+  return (
+
+    <div>
+
+      {' '}
+
+      <p>Selected {selected ? selected.name : 'nothing'}</p>{' '}
+
+      <ul>
+
+        {' '}
+
+        {props.items.map((item) => (
+
+          <li>
+
+            {' '}
+
+            <button onClick={() => setSelected(item)}>{item.name}</button>{' '}
+
+          </li>
+
+        ))}{' '}
+
+      </ul>{' '}
+
+    </div>
+
+  );
+
+}
+```
 
 Here, we're generating a new array of virtual `<li>` elements — each with their own inline event handler — on every state change, regardless of whether `props.items` has changed. Unless you're unhealthily obsessed with performance, you're not going to optimise that. There's no point. It's plenty fast enough. But you know what would be even faster? _Not doing that._
 
