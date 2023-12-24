@@ -93,17 +93,15 @@ function MoreRealisticComponent(props) {
   
   return (
     <div>
-      {' '}
-      <p>Selected {selected ? selected.name : 'nothing'}</p>{' '}
+      <p>Selected {selected ? selected.name : 'nothing'}</p>
+      
       <ul>
-        {' '}
         {props.items.map((item) => (
           <li>
-            {' '}
-            <button onClick={() => setSelected(item)}>{item.name}</button>{' '}
+            <button onClick={() => setSelected(item)}>{item.name}</button>
           </li>
-        ))}{' '}
-      </ul>{' '}
+        ))}
+      </ul>
     </div>
   );
 }
@@ -111,8 +109,7 @@ function MoreRealisticComponent(props) {
 
 Here, we're generating a new array of virtual `<li>` elements — each with their own inline event handler — on every state change, regardless of whether `props.items` has changed. Unless you're unhealthily obsessed with performance, you're not going to optimise that. There's no point. It's plenty fast enough. But you know what would be even faster? _Not doing that._
 
-[React Hooks](https://reactjs.org/docs/hooks-intro.html) doubles down on defaulting to doing unnecessary work, with [predictable results](https://twitter.com/thekitze/status/1078582382201131008).
-
+[React Hooks](https://reactjs.org/docs/hooks-intro.html) doubles down on defaulting to doing unnecessary work, with [predictable results](https://twitter.com/thekitze/status/1078582382201131008)
 The danger of defaulting to doing unnecessary work, even if that work is trivial, is that your app will eventually succumb to 'death by a thousand cuts' with no clear bottleneck to aim at once it's time to optimise.
 
 Svelte is explicitly designed to prevent you from ending up in that situation.
