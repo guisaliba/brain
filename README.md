@@ -5,7 +5,7 @@
 
 ## Description
 
-Backup for my entire knowledge base fed from Obsidian with Git community plugin. Feel free to read and use my notes as you wish but keep in mind they were not meant to be used or understood by anyone but me. This repo gets updated everytime I alter my Obsidian vault.
+Backup for my entire knowledge base fed from Obsidian with Git community plugin. Feel free to read and use my notes as you wish but keep in mind they were not meant to be understood by anyone but me. This repo gets updated everytime I alter my Obsidian vault.
 
 ## Technologies
 
