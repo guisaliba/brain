@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Programming/development/Blockchain/Studying path.md",
+                "file": "notes/programming/101/frontend-vs-backend.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 310.5
+    "width": 349.5
   },
   "right": {
     "id": "835f8b7b5d9e31cc",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Programming/development/Blockchain/Studying path.md"
+                "file": "notes/programming/101/frontend-vs-backend.md"
               }
             }
           },
@@ -129,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Programming/development/Blockchain/Studying path.md",
+                "file": "notes/programming/101/frontend-vs-backend.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Programming/development/Blockchain/Studying path.md",
+                "file": "notes/programming/101/frontend-vs-backend.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -181,53 +181,53 @@
   },
   "active": "489e08986c5e7673",
   "lastOpenFiles": [
-    "Notes/Programming/development/Front-end/Svelte/Svelte x React, the Virtual DOM.md",
-    "Notes/Programming/development/Blockchain/Studying path.md",
-    "Notes/Programming/development/Blockchain",
-    "Notes/Algorithms/Sorting/Bubble Sort.md",
-    "Notes/Programming/development/Front-end/Svelte",
-    "Notes/Algorithms/Sorting/Selection Sort.md",
-    "Notes/Algorithms/Big O Notation.md",
-    "Notes/Algorithms/O que são algoritmos.md",
+    "notes/programming/101/internet/www-and-internet.md",
+    "notes/programming/101/internet/what-is-a-naked-domain.md",
+    "notes/programming/development/Blockchain/Studying path.md",
+    "notes/programming/development/Front-end/Svelte/Svelte x React, the Virtual DOM.md",
+    "notes/programming/development/Blockchain",
+    "notes/algorithms/Sorting/Bubble Sort.md",
+    "notes/programming/development/Front-end/Svelte",
+    "notes/algorithms/Sorting/Selection Sort.md",
+    "notes/algorithms/Big O Notation.md",
+    "notes/algorithms/O que são algoritmos.md",
     "Notes/Algorithms/Algoritmo de Dijkstra.md",
     "Notes/Algorithms/Argumentos, parâmetros e referências.md",
-    "Notes/Algorithms/Sorting/What is sorting.md",
-    "Notes/Algorithms/Sorting",
-    "Notes/Data structures/Arrays.md",
+    "notes/algorithms/Sorting/What is sorting.md",
+    "notes/algorithms/Sorting",
+    "notes/data structures/Arrays.md",
     "Notes/Algorithms/O que torna um algoritmo eficiente.md",
     "Notes/Algorithms/O que torna um algoritmo correto.md",
     "README.md",
     "Notes/Algorithms/O(n).md",
-    "Notes/Programming/Linguagens/Elixir/Basics.md",
-    "Notes/Programming/Compiladores/AOT, JIT and Transpilers.md",
-    "Notes/Programming/Compiladores/Interpreters vs Compilers.md",
-    "Notes/Programming/Compiladores/Basics of compilers.md",
+    "notes/programming/Linguagens/Elixir/Basics.md",
+    "notes/programming/Compiladores/AOT, JIT and Transpilers.md",
+    "notes/programming/Compiladores/Interpreters vs Compilers.md",
+    "notes/programming/Compiladores/Basics of compilers.md",
     "Notes/Programming/Git/Untitled.canvas",
-    "Notes/Programming/Git/Good commit practices.md",
-    "Notes/Programming/Git/Branches commands.md",
+    "notes/programming/Git/Good commit practices.md",
+    "notes/programming/Git/Branches commands.md",
     "brain",
-    "Notes/Data structures/O que são estruturas de dados.md",
+    "notes/data structures/O que são estruturas de dados.md",
     "Git/Test.md",
     "FleetingNotes",
     "Git",
     "Untitled.md",
-    "Notes/Programming/Compiladores/Rinha de compilers.md",
-    "Notes/Programming/Compiladores/Parsing and lexing.md",
-    "Notes/Programming/Linguagens/Elixir",
-    "Notes/Programming/Compiladores/Walking a tree, compiling and transpiling.md",
-    "Notes/Programming/Compiladores",
-    "Images/Pasted image 20230918005920.png",
-    "Images/Pasted image 20230918012049.png",
-    "Images/Pasted image 20230918011841.png",
-    "Images/Pasted image 20230918011838.png",
-    "Notes/Programming/development",
+    "notes/programming/Compiladores/Rinha de compilers.md",
+    "notes/programming/Linguagens/Elixir",
+    "notes/programming/Compiladores",
+    "images/Pasted image 20230918005920.png",
+    "images/Pasted image 20230918012049.png",
+    "images/Pasted image 20230918011841.png",
+    "images/Pasted image 20230918011838.png",
+    "notes/programming/development",
     "Fleeting Notes",
-    "Images/Csharp/Estrutura de um ConsoleApp em Csharp/1.png",
-    "Images/Programming concepts/HTTP/1.png",
-    "Images/Programming concepts/HTTP/3.png",
-    "Images/Programming concepts/HTTP/2.png",
-    "Images/Programming concepts/Frontend vs. Backend/1.png",
-    "Images/Algoritmos/Sistema binário/3.png",
+    "images/Csharp/Estrutura de um ConsoleApp em Csharp/1.png",
+    "images/Programming concepts/HTTP/1.png",
+    "images/Programming concepts/HTTP/3.png",
+    "images/Programming concepts/HTTP/2.png",
+    "images/Programming concepts/Frontend vs. Backend/1.png",
+    "images/Algoritmos/Sistema binário/3.png",
     "Untitled.canvas"
   ]
 }

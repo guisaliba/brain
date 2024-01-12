@@ -14,7 +14,7 @@ Traduzindo o fluxo dessa analogia para um entendimento de programação, temos a
 
 O cliente da farmácia (user) pede por algo (request) ao farmacêutico (navegador Web). O farmacêutico, agindo em nome do cliente, vai até às prateleiras da farmácia (servidor) buscar pelas medicações requisitadas pelo cliente e retorna ao cliente (response) seja de mãos vazias ou com os remédios pedidos.
 
-![[Images/Programming concepts/Frontend vs. Backend/1.png]]
+![[images/Programming concepts/Frontend vs. Backend/1.png]]
 
 Podemos concluir que, o frontend é toda a parte, todas as informações que o cliente da farmácia consegue visualizar através do farmacêutico, que por sua vez consegue acessar as prateleiras da farmácia que podemos chamar de backend. O farmacêutico que age em nome do cliente da farmácia consegue assim disponibilizar informações através do backend.
 

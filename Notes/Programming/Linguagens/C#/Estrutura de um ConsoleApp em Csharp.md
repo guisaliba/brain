@@ -28,7 +28,7 @@ Ao aceitarmos a notificação, uma nova pasta nominada **.vscode** será adicion
 
 Agora, no explorador, veremos algo parecido com isso:
 
-![[Images/Csharp/Estrutura de um ConsoleApp em Csharp/1.png]]
+![[images/Csharp/Estrutura de um ConsoleApp em Csharp/1.png]]
 
 *A pasta .vscode possui alguns arquivos de configuração JSON e não nos importa muito nesse momento, apesar de serem arquivos importantes para a execução do projeto.
 

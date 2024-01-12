@@ -13,7 +13,7 @@ O único caso que atende a condição para a lâmpada ser acesa é se **A e B es
 
 Se representássemos esse caso com uma tabela, usando **0** para o interruptor estar aberto e **1** para o interruptor está fechado, teríamos algo assim:
 
-![[Images/Programming concepts/Como os computadores funcionam/1.png]]
+![[images/Programming concepts/Como os computadores funcionam/1.png]]
 
 Quando ambos interruptores estão **fechados (1**), a corrente fluirá através deles e como resposta teremos a lâmpada acendida, que está sendo representada pelo **Output** de valor 1
 
@@ -23,16 +23,16 @@ Essa tabela é chamada de tabela da verdade. Como nesse exemplo o Output só pod
 
 O que acontece nesse exemplo é que estamos invertendo a lógica do exemplo anterior. Aqui, quando o interruptor possuir o valor de 1 (fechado), a lâmpada não acenderá e sim será apagada. Chamamos esse operador lógico de ****!**** (ou NOT).
 
-![[Images/Algoritmos/Operadores lógicos/2.png]]
+![[images/Algoritmos/Operadores lógicos/2.png]]
 #### Os interruptores dos computadores são nada menos que transistors.
 
 Se usarmos o segundo exemplo novamente, mas dessa vez com um transistor no lugar de um interruptor, poderíamos recriá-lo dessa maneira:
-![[Images/Algoritmos/Operadores lógicos/3.png]]
+![[images/Algoritmos/Operadores lógicos/3.png]]
 Nesse primeiro momento, o “interruptor” está aberto, o que faz com que a corrente passe pelo caminho da lâmpada, o que faz com que ela ser acendida.
 
 Porém, se colocássemos uma fonte de energia nesse transistor, a corrente encontraria através dele um caminho mais fácil para percorrer, passando por ele. Nesse momento, ele agiria como um interruptor fechado, fazendo com que a lâmpada se apague.
 
-![[Images/Algoritmos/Operadores lógicos/4.png]]
+![[images/Algoritmos/Operadores lógicos/4.png]]
 
 ### Podemos entender mais sobre essa lógica em: Operadores lógicos.
 #cs #logic

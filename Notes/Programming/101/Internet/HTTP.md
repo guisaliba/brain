@@ -10,7 +10,7 @@ Cada requisição individual é enviada para um servidor, que irá lidar com iss
 
 Na realidade, existem muitos outros computadores entre o navegador e o servidor que está tratando a requisição: existem roteadores, modems e muito mais. Graças ao modelo de camadas da Web, essas funcionalidades estão escondidas nas camadas de rede e transporte, respectivamente.
 
-![[Images/Programming concepts/HTTP/1.png]]
+![[images/Programming concepts/HTTP/1.png]]
 
 O agente-usuário, predominantemente chamado de **cliente**, é qualquer ferramenta que age em nome do **usuário**. Na maioria dos casos, é o **navegador Web** (o browser).
 
@@ -82,7 +82,7 @@ No HTTP/2.0, essas mensagens são embutidas numa nova estrutura binária, um qua
 
 Exemplo de uma requisição HTTP:
 
-![[Images/Programming concepts/HTTP/2.png]]
+![[images/Programming concepts/HTTP/2.png]]
 
 As requisições consistem dos seguintes elementos:
 
@@ -96,7 +96,7 @@ As requisições consistem dos seguintes elementos:
 
 Exemplo de resposta HTTP:
 
-![[Images/Programming concepts/HTTP/3.png]]
+![[images/Programming concepts/HTTP/3.png]]
 
 Respostas consistem dos seguintes elementos:
 
