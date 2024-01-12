@@ -93,9 +93,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "notes/programming/development/blockchain/studying-path.md"
-              }
+              "state": {}
             }
           },
           {
@@ -129,7 +127,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/programming/development/blockchain/studying-path.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +143,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/programming/development/blockchain/studying-path.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +163,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 204.5
+    "width": 304.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -179,13 +175,13 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "7ff7ca75f40ebbeb",
+  "active": "4165a45158718d15",
   "lastOpenFiles": [
+    "notes/programming/development/blockchain/studying-path.md",
     "notes/algorithms/what-are-algorithms.md",
     "notes/programming/development/frontend/next.js/what-is-next.js.md",
     "notes/programming/development/tests/software-testing.md",
     "notes/programming/development/frontend/next.js",
-    "notes/programming/development/blockchain/studying-path.md",
     "notes/programming/development/frontend/svelte/svelte-vs-react-and-the-virtual-dom.md",
     "notes/programming/development/frontend/react/why-react.md",
     "notes/programming/development/frontend/react/what-is-react.md",
