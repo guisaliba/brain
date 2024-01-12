@@ -11,8 +11,12 @@
             "id": "7ff7ca75f40ebbeb",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "notes/programming/AI/tokenization-and-context-length.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -89,7 +93,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "notes/programming/AI/tokenization-and-context-length.md"
+              }
             }
           },
           {
@@ -123,6 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "notes/programming/AI/tokenization-and-context-length.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,6 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "notes/programming/AI/tokenization-and-context-length.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,24 +179,25 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "7ff7ca75f40ebbeb",
+  "active": "489e08986c5e7673",
   "lastOpenFiles": [
+    "notes/data structures/arrays.md",
+    "notes/data structures/what-are-data-structures.md",
+    "notes/algorithms/what-are-algorithms.md",
+    "notes/algorithms/big-o-notation.md",
     "notes/programming/101/frontend-vs-backend.md",
     "notes/programming/101/internet/www-and-internet.md",
     "notes/programming/101/internet/what-is-a-naked-domain.md",
     "notes/programming/development/Blockchain/Studying path.md",
     "notes/programming/development/Front-end/Svelte/Svelte x React, the Virtual DOM.md",
     "notes/programming/development/Blockchain",
-    "notes/algorithms/Sorting/Bubble Sort.md",
+    "notes/algorithms/sorting-algorithms/Bubble Sort.md",
     "notes/programming/development/Front-end/Svelte",
-    "notes/algorithms/Sorting/Selection Sort.md",
-    "notes/algorithms/Big O Notation.md",
-    "notes/algorithms/O que são algoritmos.md",
+    "notes/algorithms/sorting-algorithms/Selection Sort.md",
     "Notes/Algorithms/Algoritmo de Dijkstra.md",
     "Notes/Algorithms/Argumentos, parâmetros e referências.md",
-    "notes/algorithms/Sorting/What is sorting.md",
-    "notes/algorithms/Sorting",
-    "notes/data structures/Arrays.md",
+    "notes/algorithms/sorting-algorithms/What is sorting.md",
+    "notes/algorithms/sorting-algorithms",
     "Notes/Algorithms/O que torna um algoritmo eficiente.md",
     "Notes/Algorithms/O que torna um algoritmo correto.md",
     "README.md",
@@ -201,7 +210,6 @@
     "notes/programming/Git/Good commit practices.md",
     "notes/programming/Git/Branches commands.md",
     "brain",
-    "notes/data structures/O que são estruturas de dados.md",
     "Git/Test.md",
     "FleetingNotes",
     "Git",
