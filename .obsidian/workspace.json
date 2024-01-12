@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/programming/101/computers/how-computers-understand-humans.md",
+                "file": "notes/programming/development/Back-end/Databases/Prisma/Como o Prisma funciona.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/programming/101/computers/how-computers-understand-humans.md"
+                "file": "notes/programming/development/Back-end/Databases/Prisma/Como o Prisma funciona.md"
               }
             }
           },
@@ -129,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/programming/101/computers/how-computers-understand-humans.md",
+                "file": "notes/programming/development/Back-end/Databases/Prisma/Como o Prisma funciona.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/programming/101/computers/how-computers-understand-humans.md",
+                "file": "notes/programming/development/Back-end/Databases/Prisma/Como o Prisma funciona.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -181,8 +181,14 @@
   },
   "active": "7ff7ca75f40ebbeb",
   "lastOpenFiles": [
+    "notes/programming/development/APIs/richardson.md",
+    "notes/programming/development/APIs/endpoints-requests-and-responses.md",
+    "notes/programming/development/APIs/protecting-an-api.md",
+    "notes/programming/development/APIs/asynchronous-apis.md",
+    "notes/programming/development/APIs/restful-api.md",
+    "notes/programming/development/APIs/api-mocking.md",
+    "notes/programming/101/computers/how-computers-understand-us.md",
     "notes/programming/101/computers/how-computers-work.md",
-    "notes/programming/101/computers/how-computers-understand-humans.md",
     "notes/algorithms/sorting-algorithms/what-is-sorting.md",
     "notes/algorithms/sorting-algorithms/seleciton-sort.md",
     "notes/algorithms/sorting-algorithms/bubble-sort.md",
@@ -199,14 +205,8 @@
     "notes/programming/compilers/basics-on-compilers.md",
     "notes/programming/compilers/aot-jit-and-transpilers.md",
     "notes/programming/compilers/abstract-syntax-trees.md",
-    "notes/programming/command-line/Bash/bash-history.md",
-    "notes/programming/command-line/Bash/basic-commands.md",
-    "notes/programming/AI/tokenization-and-context-length.md",
-    "notes/data structures/arrays.md",
-    "notes/data structures/what-are-data-structures.md",
-    "notes/algorithms/what-are-algorithms.md",
-    "notes/algorithms/big-o-notation.md",
-    "notes/programming/101/frontend-vs-backend.md",
+    "notes/programming/command-line/bash/bash-history.md",
+    "notes/programming/command-line/bash/basic-commands.md",
     "notes/programming/development/Blockchain",
     "notes/programming/development/Front-end/Svelte",
     "notes/algorithms/sorting-algorithms",
