@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/programming/development/blockchain/studying-path.md",
+                "file": "notes/algorithms/what-are-algorithms.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "notes/algorithms/what-are-algorithms.md"
+              }
             }
           },
           {
@@ -127,6 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "notes/algorithms/what-are-algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,6 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "notes/algorithms/what-are-algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +179,7 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "4165a45158718d15",
+  "active": "7ff7ca75f40ebbeb",
   "lastOpenFiles": [
     "notes/programming/development/blockchain/studying-path.md",
     "notes/algorithms/what-are-algorithms.md",
