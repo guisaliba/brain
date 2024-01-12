@@ -18,3 +18,7 @@ Ethereum (theory) > Solidity > ERC20/ERC721/ERC1155 > Deisgn patterns (proxy etc
 Security:
  - Understand and follow best practices, no need to delay your development because of it;
  - Study vulnerabilities: Reentrancy, signature malleability, transaction replaying.
+
+Material:
+https://hacken.io/category/discover/
+https://hacken.io/discover/create-erc-20-token/

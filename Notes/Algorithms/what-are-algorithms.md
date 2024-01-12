@@ -1,60 +1,43 @@
-Algoritmos são um conjunto de instruções ou regras que são seguidas para realizar uma tarefa ou resolver um problema. São fundamentais para a computação, pois possibilitam que computadores executem operações complexas de maneira eficiente.
+Algorithms are a set of instructions or rules that are followed to perform a task or solve a problem. They are fundamental to computing, as they enable computers to perform complex operations efficiently.
 
-Os algoritmos são usados na computação para realizar tarefas específicas, como busca e classificação de dados. Eles também são usados para ajudar a executar as instruções necessárias para executar um programa.
+Algorithms are used in computing to perform specific tasks, such as searching and sorting data. They are also used to help execute the necessary instructions to run a program.
 
-Em computação, um algoritmo é uma sequência de etapas a serem tomadas a partir de um **Input,** para que se obtenha um **Output**. Definimos **Input** como **ENTRADA** e **Output** como **SAÍDA**.
+In computing, an algorithm is a sequence of steps to be taken from an **Input** to obtain an **Output**. We define **Input** as **ENTRY** and **Output** as **EXIT**.
 
-Mas isso não significa que para cada Input exista somente um algoritmo que leve à um Output. E nem que existe somente um Output para cada Input.
+But this does not mean that for each Input there is only one algorithm that leads to an Output. Nor does it mean that there is only one Output for each Input.
 
-Algoritmos são desenvolvidos para qualquer tipo de problema, e tem como função resolver o problema para o qual ele foi desenvolvido, mesmo que esse problema possa variar inúmeras vezes.
+Algorithms are developed for any type of problem, and their function is to solve the problem for which they were developed, even if this problem may vary numerous times.
 
-Em resumo:
--   Um algoritmo é uma função, que dado um Input aponta para um Output. Esperamos que esse Output seja uma resposta correta para o problema.
--   Para provar que a resposta de um algoritmo está correta, muito provavelmente utilizamos loops, recursões e condições. Chamamos isso de **PROVA POR INDUÇÃO**.
--   Algoritmos devem sempre ser eficientes, e medimos a eficiência de um algoritmo não pelo tempo que ele gasta para ser executado mas sim pela quantidade de operações que ele precisa performar para solucionar o problema.
+In summary:
 
-Um exemplo de algoritmo capaz de solucionar um problema aleatório é o algoritmo de busca binária. Ele é usado para localizar um elemento específico em um conjunto de dados organizados. O algoritmo funciona dividindo a lista ao meio, comparando o elemento de meio com o elemento alvo e, em seguida, decide se o elemento alvo está no primeiro ou segundo conjunto de dados.
+- An algorithm is a function, which given an Input points to an Output. We hope that this Output is a correct answer to the problem.
+- To prove that the answer of an algorithm is correct, we most likely use loops, recursions, and conditions. We call this **PROOF BY INDUCTION**.
+- Algorithms must always be efficient, and we measure the efficiency of an algorithm not by the time it takes to be executed but rather by the number of operations it needs to perform to solve the problem.
 
-O processo se repete até que o elemento alvo seja encontrado.
+An example of an algorithm capable of solving a random problem is the binary search algorithm. It is used to locate a specific element in a set of organized data. The algorithm works by dividing the list in half, comparing the middle element with the target element, and then deciding whether the target element is in the first or second set of data.
 
-Uma representação desse algoritmo em JavaScript poderia ser assim:
+The process is repeated until the target element is found.
 
-```jsx
-function binarySearch(array, target) {
-  let left = 0;
-  let right = array.length - 1;
+A representation of this algorithm in JavaScript could be like this:
 
-  while (left <= right) {
-    let middle = Math.floor((left + right) / 2);
-    let value = array[middle];
+jsx
 
-    if (value === target) {
-      return middle;
-    } else if (value < target) {
-      left = middle + 1;
-    } else {
-      right = middle - 1;
-    }
-  }
+`function binarySearch(array, target) {   let left = 0;   let right = array.length - 1;    while (left <= right) {     let middle = Math.floor((left + right) / 2);     let value = array[middle];      if (value === target) {       return middle;     } else if (value < target) {       left = middle + 1;     } else {       right = middle - 1;     }   }    return -1; }`
 
-  return -1;
-}
-```
+The `binarySearch` function is the binary search algorithm itself.
 
-A função `binarySearch` é o algoritmo de busca binária em si.
+The variables `left` and `right` are used to define the search range limits. `left` starts at 0 because it is the first position of the array, `index 0`, commonly called the starting position. The `right` variable is defined as the last index of the array, i.e., `array.length - 1`, because the index starts at 0. As the index starts at 0, the last index is `array.length - 1`.
 
-As variáveis `left` e `right` são usadas para definir os limites do intervalo de busca. `left` começa em 0 pois é a primeira posição do array, o `index 0`, comumente chamado de posição inicial.A variável `right` é definida como o último índice do array, ou seja, `array.length - 1`, pois o índice começa em 0. Como o índice começa em 0, o último índice é `array.length - 1`.
+In an array of 6 numbers (1 to 6), for example, the first index would be 0, which would have as its corresponding value the number 1. The last index would be 5, which would have as its value the number 6.
 
-Num array de 6 números (1 a 6) por exemplo, o primeiro índice seria o 0, que teria como valor correspondente o número 1. O último indíce seria o 5, que teria como valor o número 6.
+The `while` loop is used to traverse the interval until the target element is found or until there are no more elements to be checked.
 
-O `while` loop é usado para percorrer o intervalo até que o elemento alvo seja encontrado ou até que não haja mais elementos para serem verificados.
+The `middle` is used to define the position of the middle of the interval.
 
-O `middle` é usado para definir a posição da metade do intervalo.
+The variable `value` is used to store the value of the current position of the interval.
 
-A variável `value` é usada para armazenar o valor da posição atual do intervalo.
+If the value is equal to the target element, the algorithm returns the index of the target element. If the value is less than the target element, the algorithm moves to the next half of the interval.
 
-Se o valor for igual ao elemento alvo, o algoritmo retorna o índice do elemento alvo. Se o valor for menor que o elemento alvo, o algoritmo avança para a próxima metade do intervalo.
+If the value is greater than the target element, the algorithm moves back to the previous half of the interval. If the element is not found, the algorithm returns -1.
 
-Se o valor for maior do que o elemento alvo, o algoritmo retrocede para a metade anterior do intervalo. Se o elemento não for encontrado, o algoritmo retorna -1.
-
-#alg 
+#alg
