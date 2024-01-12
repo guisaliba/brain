@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/data structures/arrays.md",
+                "file": "notes/programming/git/Git e versionamento.md",
                 "mode": "source",
                 "source": false
               }
@@ -107,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/data structures/arrays.md"
+                "file": "notes/programming/git/Git e versionamento.md"
               }
             }
           },
@@ -144,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/data structures/arrays.md",
+                "file": "notes/programming/git/Git e versionamento.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/data structures/arrays.md",
+                "file": "notes/programming/git/Git e versionamento.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,8 +194,9 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "6d6bd169605bc0d7",
+  "active": "489e08986c5e7673",
   "lastOpenFiles": [
+    "notes/data-structures/arrays.md",
     "notes/programming/development/blockchain/studying-path.md",
     "notes/algorithms/what-are-algorithms.md",
     "notes/programming/development/frontend/next.js/what-is-next.js.md",
@@ -222,7 +223,6 @@
     "notes/programming/software-design/what-is-an-abstraction-layer.md",
     "notes/programming/software-design/spa-vs-ssr.md",
     "notes/programming/software-design/repository-pattern.md",
-    "notes/programming/software-design/difference-between-a-service-and-a-helper-class.md",
     "notes/programming/development/blockchain",
     "notes/programming/development/frontend/svelte",
     "notes/algorithms/sorting-algorithms",
