@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/programming/development/blockchain/studying-path.md",
+                "file": "notes/programming/development/frontend/next.js/what-is-next.js.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/programming/development/blockchain/studying-path.md"
+                "file": "notes/programming/development/frontend/next.js/what-is-next.js.md"
               }
             }
           },
@@ -129,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/programming/development/blockchain/studying-path.md",
+                "file": "notes/programming/development/frontend/next.js/what-is-next.js.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/programming/development/blockchain/studying-path.md",
+                "file": "notes/programming/development/frontend/next.js/what-is-next.js.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -181,6 +181,10 @@
   },
   "active": "489e08986c5e7673",
   "lastOpenFiles": [
+    "notes/programming/development/tests/software-testing.md",
+    "notes/programming/development/frontend/next.js/what-is-next.js.md",
+    "notes/programming/development/frontend/next.js",
+    "notes/programming/development/blockchain/studying-path.md",
     "notes/programming/development/frontend/svelte/svelte-vs-react-and-the-virtual-dom.md",
     "notes/programming/development/frontend/react/why-react.md",
     "notes/programming/development/frontend/react/what-is-react.md",
@@ -204,9 +208,6 @@
     "notes/programming/software-design/repository-pattern.md",
     "notes/programming/software-design/difference-between-a-service-and-a-helper-class.md",
     "notes/programming/compilers/walking-a-tree-compiling-and-transpiling.md",
-    "notes/programming/compilers/symbolic-expressions-and-evaluating.md",
-    "notes/programming/compilers/parsing-and-lexing.md",
-    "notes/programming/compilers/interpreters-vs-compilers.md",
     "notes/programming/development/blockchain",
     "notes/programming/development/frontend/svelte",
     "notes/algorithms/sorting-algorithms",
@@ -221,7 +222,6 @@
     "images/Pasted image 20230918011841.png",
     "images/Pasted image 20230918011838.png",
     "notes/programming/development",
-    "Fleeting Notes",
     "images/Csharp/Estrutura de um ConsoleApp em Csharp/1.png",
     "images/Programming concepts/HTTP/1.png",
     "images/Programming concepts/HTTP/3.png",
