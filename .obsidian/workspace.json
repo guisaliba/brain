@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/programming/AI/tokenization-and-context-length.md",
+                "file": "notes/programming/Compiladores/Symbolic expressions and evaluating.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/programming/AI/tokenization-and-context-length.md"
+                "file": "notes/programming/Compiladores/Symbolic expressions and evaluating.md"
               }
             }
           },
@@ -129,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/programming/AI/tokenization-and-context-length.md",
+                "file": "notes/programming/Compiladores/Symbolic expressions and evaluating.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/programming/AI/tokenization-and-context-length.md",
+                "file": "notes/programming/Compiladores/Symbolic expressions and evaluating.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,8 +179,17 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "489e08986c5e7673",
+  "active": "7ff7ca75f40ebbeb",
   "lastOpenFiles": [
+    "notes/programming/Compiladores/parsing-and-lexing.md",
+    "notes/programming/Compiladores/interpreters-vs-compilers.md",
+    "notes/programming/Compiladores/building-a-lexer.md",
+    "notes/programming/Compiladores/basics-on-compilers.md",
+    "notes/programming/Compiladores/aot-jit-and-transpilers.md",
+    "notes/programming/Compiladores/abstract-syntax-trees.md",
+    "notes/programming/Command Line/Bash/bash-history.md",
+    "notes/programming/Command Line/Bash/basic-commands.md",
+    "notes/programming/AI/tokenization-and-context-length.md",
     "notes/data structures/arrays.md",
     "notes/data structures/what-are-data-structures.md",
     "notes/algorithms/what-are-algorithms.md",
@@ -201,19 +210,10 @@
     "Notes/Algorithms/O que torna um algoritmo eficiente.md",
     "Notes/Algorithms/O que torna um algoritmo correto.md",
     "README.md",
-    "Notes/Algorithms/O(n).md",
-    "notes/programming/Linguagens/Elixir/Basics.md",
-    "notes/programming/Compiladores/AOT, JIT and Transpilers.md",
-    "notes/programming/Compiladores/Interpreters vs Compilers.md",
-    "notes/programming/Compiladores/Basics of compilers.md",
     "Notes/Programming/Git/Untitled.canvas",
-    "notes/programming/Git/Good commit practices.md",
-    "notes/programming/Git/Branches commands.md",
     "brain",
-    "Git/Test.md",
     "FleetingNotes",
     "Git",
-    "Untitled.md",
     "notes/programming/Linguagens/Elixir",
     "notes/programming/Compiladores",
     "images/Pasted image 20230918005920.png",
