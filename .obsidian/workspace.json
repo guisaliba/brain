@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "a74ecf9ed1d67966",
+        "id": "08d283c22aebf4a1",
         "type": "tabs",
         "children": [
           {
-            "id": "ea539b350dc8b79a",
+            "id": "7ff7ca75f40ebbeb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/programming/101/frontend-vs-backend.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -93,9 +89,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "notes/programming/101/frontend-vs-backend.md"
-              }
+              "state": {}
             }
           },
           {
@@ -129,7 +123,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/programming/101/frontend-vs-backend.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +139,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/programming/101/frontend-vs-backend.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,8 +171,9 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "489e08986c5e7673",
+  "active": "7ff7ca75f40ebbeb",
   "lastOpenFiles": [
+    "notes/programming/101/frontend-vs-backend.md",
     "notes/programming/101/internet/www-and-internet.md",
     "notes/programming/101/internet/what-is-a-naked-domain.md",
     "notes/programming/development/Blockchain/Studying path.md",
@@ -213,7 +206,6 @@
     "FleetingNotes",
     "Git",
     "Untitled.md",
-    "notes/programming/Compiladores/Rinha de compilers.md",
     "notes/programming/Linguagens/Elixir",
     "notes/programming/Compiladores",
     "images/Pasted image 20230918005920.png",
