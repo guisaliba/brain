@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Programming/Desenvolvimento/Front-end/Svelte/Svelte x React, the Virtual DOM.md",
+                "file": "Notes/Programming/development/Blockchain/Studying path.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Programming/Desenvolvimento/Front-end/Svelte/Svelte x React, the Virtual DOM.md"
+                "file": "Notes/Programming/development/Blockchain/Studying path.md"
               }
             }
           },
@@ -129,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Programming/Desenvolvimento/Front-end/Svelte/Svelte x React, the Virtual DOM.md",
+                "file": "Notes/Programming/development/Blockchain/Studying path.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Programming/Desenvolvimento/Front-end/Svelte/Svelte x React, the Virtual DOM.md",
+                "file": "Notes/Programming/development/Blockchain/Studying path.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,11 +179,13 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "ea539b350dc8b79a",
+  "active": "489e08986c5e7673",
   "lastOpenFiles": [
+    "Notes/Programming/development/Front-end/Svelte/Svelte x React, the Virtual DOM.md",
+    "Notes/Programming/development/Blockchain/Studying path.md",
+    "Notes/Programming/development/Blockchain",
     "Notes/Algorithms/Sorting/Bubble Sort.md",
-    "Notes/Programming/Desenvolvimento/Front-end/Svelte/Svelte x React, the Virtual DOM.md",
-    "Notes/Programming/Desenvolvimento/Front-end/Svelte",
+    "Notes/Programming/development/Front-end/Svelte",
     "Notes/Algorithms/Sorting/Selection Sort.md",
     "Notes/Algorithms/Big O Notation.md",
     "Notes/Algorithms/O que são algoritmos.md",
@@ -213,15 +215,13 @@
     "Notes/Programming/Compiladores/Parsing and lexing.md",
     "Notes/Programming/Linguagens/Elixir",
     "Notes/Programming/Compiladores/Walking a tree, compiling and transpiling.md",
-    "Notes/Programming/Compiladores/Symbolic expressions and evaluating.md",
     "Notes/Programming/Compiladores",
     "Images/Pasted image 20230918005920.png",
     "Images/Pasted image 20230918012049.png",
     "Images/Pasted image 20230918011841.png",
     "Images/Pasted image 20230918011838.png",
-    "Notes/Programming/Desenvolvimento",
+    "Notes/Programming/development",
     "Fleeting Notes",
-    "Notes/Programming/Desenvolvimento/Front-end",
     "Images/Csharp/Estrutura de um ConsoleApp em Csharp/1.png",
     "Images/Programming concepts/HTTP/1.png",
     "Images/Programming concepts/HTTP/3.png",
