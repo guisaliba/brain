@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/programming/development/Back-end/Databases/Prisma/Como o Prisma funciona.md",
+                "file": "notes/programming/development/blockchain/studying-path.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/programming/development/Back-end/Databases/Prisma/Como o Prisma funciona.md"
+                "file": "notes/programming/development/blockchain/studying-path.md"
               }
             }
           },
@@ -129,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/programming/development/Back-end/Databases/Prisma/Como o Prisma funciona.md",
+                "file": "notes/programming/development/blockchain/studying-path.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/programming/development/Back-end/Databases/Prisma/Como o Prisma funciona.md",
+                "file": "notes/programming/development/blockchain/studying-path.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,8 +179,14 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "7ff7ca75f40ebbeb",
+  "active": "489e08986c5e7673",
   "lastOpenFiles": [
+    "notes/programming/development/frontend/svelte/svelte-vs-react-and-the-virtual-dom.md",
+    "notes/programming/development/frontend/react/why-react.md",
+    "notes/programming/development/frontend/react/what-is-react.md",
+    "notes/programming/development/backend/databases/prisma/models.md",
+    "notes/programming/development/backend/databases/prisma/getting-started.md",
+    "notes/programming/development/backend/databases/prisma/how-prisma-works.md",
     "notes/programming/development/APIs/richardson.md",
     "notes/programming/development/APIs/endpoints-requests-and-responses.md",
     "notes/programming/development/APIs/protecting-an-api.md",
@@ -201,14 +207,8 @@
     "notes/programming/compilers/symbolic-expressions-and-evaluating.md",
     "notes/programming/compilers/parsing-and-lexing.md",
     "notes/programming/compilers/interpreters-vs-compilers.md",
-    "notes/programming/compilers/building-a-lexer.md",
-    "notes/programming/compilers/basics-on-compilers.md",
-    "notes/programming/compilers/aot-jit-and-transpilers.md",
-    "notes/programming/compilers/abstract-syntax-trees.md",
-    "notes/programming/command-line/bash/bash-history.md",
-    "notes/programming/command-line/bash/basic-commands.md",
-    "notes/programming/development/Blockchain",
-    "notes/programming/development/Front-end/Svelte",
+    "notes/programming/development/blockchain",
+    "notes/programming/development/frontend/svelte",
     "notes/algorithms/sorting-algorithms",
     "Notes/Programming/Git/Untitled.canvas",
     "brain",
