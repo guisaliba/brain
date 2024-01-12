@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/programming/Compiladores/Symbolic expressions and evaluating.md",
+                "file": "notes/programming/software-design/The concept of Service Layers.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 349.5
+    "width": 367.5
   },
   "right": {
     "id": "835f8b7b5d9e31cc",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/programming/Compiladores/Symbolic expressions and evaluating.md"
+                "file": "notes/programming/software-design/The concept of Service Layers.md"
               }
             }
           },
@@ -129,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/programming/Compiladores/Symbolic expressions and evaluating.md",
+                "file": "notes/programming/software-design/The concept of Service Layers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/programming/Compiladores/Symbolic expressions and evaluating.md",
+                "file": "notes/programming/software-design/The concept of Service Layers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,16 +179,21 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "7ff7ca75f40ebbeb",
+  "active": "489e08986c5e7673",
   "lastOpenFiles": [
-    "notes/programming/Compiladores/parsing-and-lexing.md",
-    "notes/programming/Compiladores/interpreters-vs-compilers.md",
-    "notes/programming/Compiladores/building-a-lexer.md",
-    "notes/programming/Compiladores/basics-on-compilers.md",
-    "notes/programming/Compiladores/aot-jit-and-transpilers.md",
-    "notes/programming/Compiladores/abstract-syntax-trees.md",
-    "notes/programming/Command Line/Bash/bash-history.md",
-    "notes/programming/Command Line/Bash/basic-commands.md",
+    "notes/programming/software-design/spa-vs-ssr.md",
+    "notes/programming/software-design/repository-pattern.md",
+    "notes/programming/software-design/difference-between-a-service-and-a-helper-class.md",
+    "notes/programming/compilers/walking-a-tree-compiling-and-transpiling.md",
+    "notes/programming/compilers/symbolic-expressions-and-evaluating.md",
+    "notes/programming/compilers/parsing-and-lexing.md",
+    "notes/programming/compilers/interpreters-vs-compilers.md",
+    "notes/programming/compilers/building-a-lexer.md",
+    "notes/programming/compilers/basics-on-compilers.md",
+    "notes/programming/compilers/aot-jit-and-transpilers.md",
+    "notes/programming/compilers/abstract-syntax-trees.md",
+    "notes/programming/command-line/Bash/bash-history.md",
+    "notes/programming/command-line/Bash/basic-commands.md",
     "notes/programming/AI/tokenization-and-context-length.md",
     "notes/data structures/arrays.md",
     "notes/data structures/what-are-data-structures.md",
@@ -204,18 +209,13 @@
     "notes/programming/development/Front-end/Svelte",
     "notes/algorithms/sorting-algorithms/Selection Sort.md",
     "Notes/Algorithms/Algoritmo de Dijkstra.md",
-    "Notes/Algorithms/Argumentos, parâmetros e referências.md",
-    "notes/algorithms/sorting-algorithms/What is sorting.md",
     "notes/algorithms/sorting-algorithms",
-    "Notes/Algorithms/O que torna um algoritmo eficiente.md",
-    "Notes/Algorithms/O que torna um algoritmo correto.md",
-    "README.md",
     "Notes/Programming/Git/Untitled.canvas",
     "brain",
     "FleetingNotes",
     "Git",
-    "notes/programming/Linguagens/Elixir",
-    "notes/programming/Compiladores",
+    "notes/programming/languages/Elixir",
+    "notes/programming/compilers",
     "images/Pasted image 20230918005920.png",
     "images/Pasted image 20230918012049.png",
     "images/Pasted image 20230918011841.png",
