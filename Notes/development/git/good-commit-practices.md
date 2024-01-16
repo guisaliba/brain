@@ -1,0 +1,1 @@
+Sources: https://tilburgsciencehub.com/building-blocks/collaborate-and-share-your-work/use-github/naming-git-branches/
