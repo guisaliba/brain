@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/programming/languages/typescript/first-steps-on-typescript.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -107,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/programming/languages/typescript/first-steps-on-typescript.md"
+                "file": "README.md"
               }
             }
           },
@@ -122,14 +122,6 @@
                 "searchQuery": ""
               }
             }
-          },
-          {
-            "id": "2550a5a72da788a8",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
           }
         ]
       },
@@ -139,12 +131,20 @@
         "dimension": 37.4031007751938,
         "children": [
           {
+            "id": "2550a5a72da788a8",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
             "id": "064ac636cea57a26",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/programming/languages/typescript/first-steps-on-typescript.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/programming/languages/typescript/first-steps-on-typescript.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": false
               }
             }
           }
@@ -196,8 +196,15 @@
   },
   "active": "6d6bd169605bc0d7",
   "lastOpenFiles": [
-    "notes/programming/languages/Introdução ao Csharp.md",
+    "notes/algorithms/what-are-algorithms.md",
+    "notes/algorithms/big-o-notation.md",
+    "notes/algorithms/sorting-algorithms/what-is-sorting.md",
+    "notes/algorithms/sorting-algorithms/seleciton-sort.md",
+    "notes/algorithms/sorting-algorithms/bubble-sort.md",
+    "notes/data-structures/what-are-data-structures.md",
+    "notes/data-structures/arrays.md",
     "notes/programming/languages/typescript/first-steps-on-typescript.md",
+    "notes/programming/languages/Introdução ao Csharp.md",
     "notes/programming/languages/typescript/why-use-typescript.md",
     "notes/programming/languages/javascript/values-and-variables.md",
     "notes/programming/languages/python/O que é o Python.md",
@@ -215,13 +222,6 @@
     "notes/programming/languages/javascript/document-object-model.md",
     "notes/programming/languages/javascript/conversions-and-coercions.md",
     "notes/programming/languages/javascript/const-vs-let-vs-var.md",
-    "notes/programming/languages/html/tags-and-syntax.md",
-    "notes/programming/languages/html/document-object-model-DOM.md",
-    "notes/programming/languages/html/div-and-span.md",
-    "notes/programming/languages/html/html-elements.md",
-    "notes/programming/languages/html/html-structure.md",
-    "notes/programming/languages/elixir/basics.md",
-    "notes/programming/languages/c-sharp/types-and-variables.md",
     "notes/programming/development/frontend/next.js",
     "notes/programming/development/blockchain",
     "notes/programming/development/frontend/svelte",
