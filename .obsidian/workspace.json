@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/programming/git/Git e versionamento.md",
+                "file": "notes/programming/languages/typescript/first-steps-on-typescript.md",
                 "mode": "source",
                 "source": false
               }
@@ -107,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/programming/git/Git e versionamento.md"
+                "file": "notes/programming/languages/typescript/first-steps-on-typescript.md"
               }
             }
           },
@@ -144,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/programming/git/Git e versionamento.md",
+                "file": "notes/programming/languages/typescript/first-steps-on-typescript.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/programming/git/Git e versionamento.md",
+                "file": "notes/programming/languages/typescript/first-steps-on-typescript.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,35 +194,35 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "489e08986c5e7673",
+  "active": "6d6bd169605bc0d7",
   "lastOpenFiles": [
-    "notes/data-structures/arrays.md",
-    "notes/programming/development/blockchain/studying-path.md",
-    "notes/algorithms/what-are-algorithms.md",
-    "notes/programming/development/frontend/next.js/what-is-next.js.md",
-    "notes/programming/development/tests/software-testing.md",
+    "notes/programming/languages/Introdução ao Csharp.md",
+    "notes/programming/languages/typescript/first-steps-on-typescript.md",
+    "notes/programming/languages/typescript/why-use-typescript.md",
+    "notes/programming/languages/javascript/values-and-variables.md",
+    "notes/programming/languages/python/O que é o Python.md",
+    "notes/programming/languages/javascript/values-and-variables-in-javascript.md",
+    "notes/programming/languages/javascript/primitive-data-types.md",
+    "notes/programming/languages/javascript/data-types-in-javascript.md",
+    "notes/programming/languages/javascript/Tipos de dados em JavaScript 1.md",
+    "notes/programming/languages/javascript/switch-and-break.md",
+    "notes/programming/languages/javascript/properties-in-javascript.md",
+    "notes/programming/languages/javascript/npm-and-yarn.md",
+    "notes/programming/languages/javascript/linking-javascript-and-html.md",
+    "notes/programming/languages/javascript/Linkando JavaScript ao HTML 1.md",
+    "notes/programming/languages/javascript/javascript-and-beyond-chapter-1.md",
+    "notes/programming/languages/javascript/scopes.md",
+    "notes/programming/languages/javascript/document-object-model.md",
+    "notes/programming/languages/javascript/conversions-and-coercions.md",
+    "notes/programming/languages/javascript/const-vs-let-vs-var.md",
+    "notes/programming/languages/html/tags-and-syntax.md",
+    "notes/programming/languages/html/document-object-model-DOM.md",
+    "notes/programming/languages/html/div-and-span.md",
+    "notes/programming/languages/html/html-elements.md",
+    "notes/programming/languages/html/html-structure.md",
+    "notes/programming/languages/elixir/basics.md",
+    "notes/programming/languages/c-sharp/types-and-variables.md",
     "notes/programming/development/frontend/next.js",
-    "notes/programming/development/frontend/svelte/svelte-vs-react-and-the-virtual-dom.md",
-    "notes/programming/development/frontend/react/why-react.md",
-    "notes/programming/development/frontend/react/what-is-react.md",
-    "notes/programming/development/backend/databases/prisma/models.md",
-    "notes/programming/development/backend/databases/prisma/getting-started.md",
-    "notes/programming/development/backend/databases/prisma/how-prisma-works.md",
-    "notes/programming/development/APIs/richardson.md",
-    "notes/programming/development/APIs/endpoints-requests-and-responses.md",
-    "notes/programming/development/APIs/protecting-an-api.md",
-    "notes/programming/development/APIs/asynchronous-apis.md",
-    "notes/programming/development/APIs/restful-api.md",
-    "notes/programming/development/APIs/api-mocking.md",
-    "notes/programming/101/computers/how-computers-understand-us.md",
-    "notes/programming/101/computers/how-computers-work.md",
-    "notes/algorithms/sorting-algorithms/what-is-sorting.md",
-    "notes/algorithms/sorting-algorithms/seleciton-sort.md",
-    "notes/algorithms/sorting-algorithms/bubble-sort.md",
-    "notes/programming/software-design/the-concept-of-service-layers.md",
-    "notes/programming/software-design/what-is-an-abstraction-layer.md",
-    "notes/programming/software-design/spa-vs-ssr.md",
-    "notes/programming/software-design/repository-pattern.md",
     "notes/programming/development/blockchain",
     "notes/programming/development/frontend/svelte",
     "notes/algorithms/sorting-algorithms",
@@ -230,19 +230,19 @@
     "brain",
     "FleetingNotes",
     "Git",
-    "notes/programming/languages/Elixir",
+    "notes/programming/languages/elixir",
     "notes/programming/compilers",
     "images/Pasted image 20230918005920.png",
     "images/Pasted image 20230918012049.png",
     "images/Pasted image 20230918011841.png",
     "images/Pasted image 20230918011838.png",
     "notes/programming/development",
-    "images/Csharp/Estrutura de um ConsoleApp em Csharp/1.png",
-    "images/Programming concepts/HTTP/1.png",
-    "images/Programming concepts/HTTP/3.png",
-    "images/Programming concepts/HTTP/2.png",
-    "images/Programming concepts/Frontend vs. Backend/1.png",
-    "images/Algoritmos/Sistema binário/3.png",
+    "images/1 1.png",
+    "images/1 3.png",
+    "images/3 1.png",
+    "images/2 1.png",
+    "images/1 2.png",
+    "images/3 3.png",
     "Untitled.canvas"
   ]
 }

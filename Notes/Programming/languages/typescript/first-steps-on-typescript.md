@@ -31,7 +31,7 @@ Nesse exemplo da soma, tipamos as variaveis **`a,b`** utilizando os `:` após as
 
 ```tsx
 function resposta(): string {
-  return 'sim!';
+  return 'Sim!';
 }
 ```
 
