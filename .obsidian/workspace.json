@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/development/web-development/frontend/next.js/what-is-next.js.md",
+                "file": "01 Notes/development/web-development/frontend/next.js/what-is-next.js.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b7f251f1d3650cc8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 Notes/development/web-development/frontend/next.js/what-is-next.js.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 367.5,
-    "collapsed": true
+    "width": 367.5
   },
   "right": {
     "id": "835f8b7b5d9e31cc",
@@ -95,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/development/web-development/frontend/next.js/what-is-next.js.md"
+                "file": "01 Notes/development/web-development/frontend/next.js/what-is-next.js.md"
               }
             }
           },
@@ -132,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/development/web-development/frontend/next.js/what-is-next.js.md",
+                "file": "01 Notes/development/web-development/frontend/next.js/what-is-next.js.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/development/web-development/frontend/next.js/what-is-next.js.md",
+                "file": "01 Notes/development/web-development/frontend/next.js/what-is-next.js.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,55 +194,55 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "f887b9be2b9b45b5",
+  "active": "b7f251f1d3650cc8",
   "lastOpenFiles": [
-    "notes/algorithms/what-are-algorithms.md",
-    "notes/development/compilers/walking-a-tree-compiling-and-transpiling.md",
-    "notes/development/compilers/aot-jit-and-transpilers.md",
-    "notes/development/compilers/symbolic-expressions-and-evaluating.md",
-    "notes/development/compilers/Rinha de compilers.md",
-    "notes/development/compilers/parsing-and-lexing.md",
-    "notes/development/compilers/interpreters-vs-compilers.md",
-    "notes/development/compilers/building-a-lexer.md",
-    "notes/development/compilers/basics-on-compilers.md",
-    "notes/development/compilers/abstract-syntax-trees.md",
+    "02 Reading List/dev.md",
+    "02 Reading List/git.md",
+    "02 Reading List/react.md",
+    "02 Reading List/AI.md",
+    "02 Reading List/algorithms.md",
+    "02 Reading List/books.md",
+    "02 Reading List/software-design.md",
+    "02 Reading List/javascript.md",
+    "02 Reading List/databases.md",
+    "02 Reading List/courses.md",
+    "00 Home.md",
+    "03 Images",
+    "02 Reading List",
+    "01 Notes/development/web-development/frontend/next.js/what-is-next.js.md",
+    "00 Home",
+    "01 Notes",
+    "01 Notes/algorithms/what-are-algorithms.md",
+    "01 Notes/development/compilers/walking-a-tree-compiling-and-transpiling.md",
+    "01 Notes/development/compilers/aot-jit-and-transpilers.md",
+    "01 Notes/development/compilers/symbolic-expressions-and-evaluating.md",
+    "01 Notes/development/compilers/Rinha de compilers.md",
+    "01 Notes/development/compilers/parsing-and-lexing.md",
+    "01 Notes/development/compilers/interpreters-vs-compilers.md",
+    "01 Notes/development/compilers/building-a-lexer.md",
+    "01 Notes/development/compilers/basics-on-compilers.md",
+    "01 Notes/development/compilers/abstract-syntax-trees.md",
     "README.md",
-    "notes/algorithms/big-o-notation.md",
-    "notes/algorithms/sorting-algorithms/what-is-sorting.md",
-    "notes/algorithms/sorting-algorithms/seleciton-sort.md",
-    "notes/algorithms/sorting-algorithms/bubble-sort.md",
-    "notes/data-structures/what-are-data-structures.md",
-    "notes/data-structures/arrays.md",
-    "notes/development/languages/typescript/first-steps-on-typescript.md",
-    "notes/programming/languages/Introdução ao Csharp.md",
-    "notes/development/languages/typescript/why-use-typescript.md",
-    "notes/development/languages/javascript/values-and-variables.md",
-    "notes/programming/languages/python/O que é o Python.md",
-    "notes/programming/languages/javascript/values-and-variables-in-javascript.md",
-    "notes/development/languages/javascript/primitive-data-types.md",
-    "notes/development/languages/javascript/data-types-in-javascript.md",
-    "notes/programming/languages/javascript/Tipos de dados em JavaScript 1.md",
-    "notes/development/web-development/frontend/next.js",
-    "notes/development/web-development/blockchain",
-    "notes/development/web-development/frontend/svelte",
-    "notes/algorithms/sorting-algorithms",
+    "01 Notes/algorithms/big-o-notation.md",
+    "01 Notes/algorithms/sorting-algorithms/what-is-sorting.md",
+    "01 Notes/algorithms/sorting-algorithms/seleciton-sort.md",
+    "01 Notes/development/web-development/frontend/next.js",
+    "01 Notes/development/web-development/blockchain",
+    "01 Notes/development/web-development/frontend/svelte",
+    "01 Notes/algorithms/sorting-algorithms",
     "Notes/Programming/Git/Untitled.canvas",
     "brain",
     "FleetingNotes",
-    "Git",
-    "notes/development/languages/elixir",
-    "notes/development/compilers",
-    "images/Pasted image 20230918005920.png",
-    "images/Pasted image 20230918012049.png",
-    "images/Pasted image 20230918011841.png",
-    "images/Pasted image 20230918011838.png",
-    "notes/development/web-development",
-    "images/1 1.png",
-    "images/1 3.png",
-    "images/3 1.png",
-    "images/2 1.png",
-    "images/1 2.png",
-    "images/3 3.png",
+    "03 Images/images/Pasted image 20230918005920.png",
+    "03 Images/images/Pasted image 20230918012049.png",
+    "03 Images/images/Pasted image 20230918011841.png",
+    "03 Images/images/Pasted image 20230918011838.png",
+    "03 Images/images/1 1.png",
+    "03 Images/images/1 3.png",
+    "03 Images/images/3 1.png",
+    "03 Images/images/2 1.png",
+    "03 Images/images/1 2.png",
+    "03 Images/images/3 3.png",
     "Untitled.canvas"
   ]
 }
