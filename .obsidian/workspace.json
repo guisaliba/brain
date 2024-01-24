@@ -15,6 +15,7 @@
               "state": {
                 "file": "01 Notes/development/web-development/frontend/next.js/what-is-next.js.md",
                 "mode": "source",
+                "backlinks": true,
                 "source": false
               }
             }
@@ -25,8 +26,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Notes/development/web-development/frontend/next.js/what-is-next.js.md",
+                "file": "01 Notes/development/compilers/building-a-lexer.md",
                 "mode": "source",
+                "backlinks": true,
                 "source": false
               }
             }
@@ -107,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 Notes/development/web-development/frontend/next.js/what-is-next.js.md"
+                "file": "01 Notes/development/compilers/building-a-lexer.md"
               }
             }
           },
@@ -144,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 Notes/development/web-development/frontend/next.js/what-is-next.js.md",
+                "file": "01 Notes/development/compilers/building-a-lexer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 Notes/development/web-development/frontend/next.js/what-is-next.js.md",
+                "file": "01 Notes/development/compilers/building-a-lexer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +184,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 304.5
+    "width": 311.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,6 +198,13 @@
   },
   "active": "b7f251f1d3650cc8",
   "lastOpenFiles": [
+    "01 Notes/development/compilers/interpreters-vs-compilers.md",
+    "01 Notes/development/compilers/basics-on-compilers.md",
+    "01 Notes/development/compilers/aot-jit-and-transpilers.md",
+    "01 Notes/development/compilers/abstract-syntax-trees.md",
+    "01 Notes/development/web-development/frontend/react/why-react.md",
+    "01 Notes/development/web-development/frontend/react/what-is-react.md",
+    "01 Notes/development/web-development/frontend/next.js/what-is-next.js.md",
     "02 Reading List/dev.md",
     "02 Reading List/git.md",
     "02 Reading List/react.md",
@@ -209,23 +218,16 @@
     "00 Home.md",
     "03 Images",
     "02 Reading List",
-    "01 Notes/development/web-development/frontend/next.js/what-is-next.js.md",
     "00 Home",
     "01 Notes",
     "01 Notes/algorithms/what-are-algorithms.md",
     "01 Notes/development/compilers/walking-a-tree-compiling-and-transpiling.md",
-    "01 Notes/development/compilers/aot-jit-and-transpilers.md",
     "01 Notes/development/compilers/symbolic-expressions-and-evaluating.md",
     "01 Notes/development/compilers/Rinha de compilers.md",
     "01 Notes/development/compilers/parsing-and-lexing.md",
-    "01 Notes/development/compilers/interpreters-vs-compilers.md",
     "01 Notes/development/compilers/building-a-lexer.md",
-    "01 Notes/development/compilers/basics-on-compilers.md",
-    "01 Notes/development/compilers/abstract-syntax-trees.md",
     "README.md",
     "01 Notes/algorithms/big-o-notation.md",
-    "01 Notes/algorithms/sorting-algorithms/what-is-sorting.md",
-    "01 Notes/algorithms/sorting-algorithms/seleciton-sort.md",
     "01 Notes/development/web-development/frontend/next.js",
     "01 Notes/development/web-development/blockchain",
     "01 Notes/development/web-development/frontend/svelte",
