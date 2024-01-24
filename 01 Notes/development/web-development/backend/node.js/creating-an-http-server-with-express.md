@@ -35,4 +35,4 @@ O que essas duas linhas fazem é importar o framework Express no arquivo, e em s
 
 Simples assim, num único arquivo, criamos um servidor http utilizando o Express, subimos ele na porta 3000 da nossa máquina e definimos um método **GET** para a rota **/** que ao receber uma request retorna a string Hello World! como response.
 
-#nodejs #express
+#node 

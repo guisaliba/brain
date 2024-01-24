@@ -1,4 +1,4 @@
-Container e Imagem são dois conceitos no Docker que estão extremamente interligados. Entender o funcionamento de um é fundamental para entender o funcionamento do outro, e vice-versa.
+imageContainer e Imagem são dois conceitos no Docker que estão extremamente interligados. Entender o funcionamento de um é fundamental para entender o funcionamento do outro, e vice-versa.
 
 Em poucas palavras, uma Imagem é um ambiente em que se rodará um Container. É a partir da Imagem que o Container executa aquilo que ele precisa executar. Sem uma Imagem, um Container não pode existir.
 

@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Notes/development/compilers/building-a-lexer.md",
+                "file": "01 Notes/development/web-development/backend/node.js/creating-an-http-server-with-express.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -109,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 Notes/development/compilers/building-a-lexer.md"
+                "file": "01 Notes/development/web-development/backend/node.js/creating-an-http-server-with-express.md"
               }
             }
           },
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 Notes/development/compilers/building-a-lexer.md",
+                "file": "01 Notes/development/web-development/backend/node.js/creating-an-http-server-with-express.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 Notes/development/compilers/building-a-lexer.md",
+                "file": "01 Notes/development/web-development/backend/node.js/creating-an-http-server-with-express.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -196,19 +196,28 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "b7f251f1d3650cc8",
+  "active": "489e08986c5e7673",
   "lastOpenFiles": [
+    "01 Notes/development/databases/orm",
+    "01 Notes/development/web-development/backend/nest.js/what-is-nest.js.md",
+    "01 Notes/development/web-development/frontend/next.js/what-is-next.js.md",
+    "01 Notes/development/web-development/frontend/svelte/svelte-vs-react-and-the-virtual-dom.md",
+    "01 Notes/development/web-development/frontend/react/what-is-react.md",
+    "01 Notes/development/docker/image-vs-container.md",
+    "01 Notes/development/web-development/backend/node.js/middlewares.md",
+    "01 Notes/development/docker/daemon-and-client.md",
+    "01 Notes/development/docker/containers.md",
+    "01 Notes/development/compilers/building-a-lexer.md",
+    "01 Notes/development/web-development/backend/nest.js",
     "01 Notes/development/compilers/interpreters-vs-compilers.md",
     "01 Notes/development/compilers/basics-on-compilers.md",
     "01 Notes/development/compilers/aot-jit-and-transpilers.md",
     "01 Notes/development/compilers/abstract-syntax-trees.md",
     "01 Notes/development/web-development/frontend/react/why-react.md",
-    "01 Notes/development/web-development/frontend/react/what-is-react.md",
-    "01 Notes/development/web-development/frontend/next.js/what-is-next.js.md",
     "02 Reading List/dev.md",
     "02 Reading List/git.md",
     "02 Reading List/react.md",
-    "02 Reading List/AI.md",
+    "02 Reading List/ai.md",
     "02 Reading List/algorithms.md",
     "02 Reading List/books.md",
     "02 Reading List/software-design.md",
@@ -220,21 +229,12 @@
     "02 Reading List",
     "00 Home",
     "01 Notes",
-    "01 Notes/algorithms/what-are-algorithms.md",
-    "01 Notes/development/compilers/walking-a-tree-compiling-and-transpiling.md",
-    "01 Notes/development/compilers/symbolic-expressions-and-evaluating.md",
-    "01 Notes/development/compilers/Rinha de compilers.md",
-    "01 Notes/development/compilers/parsing-and-lexing.md",
-    "01 Notes/development/compilers/building-a-lexer.md",
-    "README.md",
-    "01 Notes/algorithms/big-o-notation.md",
     "01 Notes/development/web-development/frontend/next.js",
     "01 Notes/development/web-development/blockchain",
     "01 Notes/development/web-development/frontend/svelte",
     "01 Notes/algorithms/sorting-algorithms",
     "Notes/Programming/Git/Untitled.canvas",
     "brain",
-    "FleetingNotes",
     "03 Images/images/Pasted image 20230918005920.png",
     "03 Images/images/Pasted image 20230918012049.png",
     "03 Images/images/Pasted image 20230918011841.png",
