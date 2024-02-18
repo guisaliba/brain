@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Notes/development/web-development/backend/node.js/creating-an-http-server-with-express.md",
+                "file": "01 Notes/development/web-development/frontend/svelte/svelte-vs-react-and-the-virtual-dom.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -84,7 +84,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 367.5
+    "width": 367.5,
+    "collapsed": true
   },
   "right": {
     "id": "835f8b7b5d9e31cc",
@@ -109,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 Notes/development/web-development/frontend/next.js/what-is-next.js.md"
+                "file": "01 Notes/development/web-development/frontend/svelte/svelte-vs-react-and-the-virtual-dom.md"
               }
             }
           },
@@ -146,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 Notes/development/web-development/frontend/next.js/what-is-next.js.md",
+                "file": "01 Notes/development/web-development/frontend/svelte/svelte-vs-react-and-the-virtual-dom.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 Notes/development/web-development/frontend/next.js/what-is-next.js.md",
+                "file": "01 Notes/development/web-development/frontend/svelte/svelte-vs-react-and-the-virtual-dom.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -196,11 +197,13 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "489e08986c5e7673",
+  "active": "b7f251f1d3650cc8",
   "lastOpenFiles": [
+    "01 Notes/development/web-development/frontend/next.js/what-is-next.js.md",
+    "01 Notes/development/web-development/apis/asynchronous-apis.md",
+    "01 Notes/development/web-development/apis/api-mocking.md",
     "01 Notes/development/databases/orm",
     "01 Notes/development/web-development/backend/nest.js/what-is-nest.js.md",
-    "01 Notes/development/web-development/frontend/next.js/what-is-next.js.md",
     "01 Notes/development/web-development/frontend/svelte/svelte-vs-react-and-the-virtual-dom.md",
     "01 Notes/development/web-development/frontend/react/what-is-react.md",
     "01 Notes/development/docker/image-vs-container.md",
@@ -224,7 +227,6 @@
     "02 Reading List/javascript.md",
     "02 Reading List/databases.md",
     "02 Reading List/courses.md",
-    "00 Home.md",
     "03 Images",
     "02 Reading List",
     "00 Home",
@@ -234,7 +236,6 @@
     "01 Notes/development/web-development/frontend/svelte",
     "01 Notes/algorithms/sorting-algorithms",
     "Notes/Programming/Git/Untitled.canvas",
-    "brain",
     "03 Images/images/Pasted image 20230918005920.png",
     "03 Images/images/Pasted image 20230918012049.png",
     "03 Images/images/Pasted image 20230918011841.png",
