@@ -8,7 +8,7 @@ It's time to take a closer look.
 
 ## What is the virtual DOM?
 
-In many frameworks, you build an app by creating `render()` functions, like this simple [React](https://reactjs.org/) component:
+In many frameworks, you build an app by creating `render()` functions, like this simple [React](https://reactjs.org/)component:
 
 ``` js
  function HelloMessage(props) {

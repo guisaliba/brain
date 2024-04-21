@@ -32,19 +32,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "e8947f1ee889c95d",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.8"
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,8 +84,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 367.5,
-    "collapsed": true
+    "width": 338.5
   },
   "right": {
     "id": "835f8b7b5d9e31cc",
@@ -207,7 +196,7 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "e8947f1ee889c95d",
+  "active": "b7f251f1d3650cc8",
   "lastOpenFiles": [
     "01 Notes/development/web-development/frontend/next.js/what-is-next.js.md",
     "01 Notes/development/web-development/apis/asynchronous-apis.md",
