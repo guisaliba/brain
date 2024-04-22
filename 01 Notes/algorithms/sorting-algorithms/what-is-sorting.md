@@ -20,7 +20,14 @@ Some of the most famous sorting algorithms are:
 - **Radix Sort**
 
 There are many ways to classify sorting algorithms: 
-**1. Time complexity 2. Space complexity (memory usage) 3. Stability 4. Internal Sort vs External Sort 5. Recursive or Non-recursive**
+
+1. Time complexity;
+2. Space complexity (memory usage);
+3. Stability;
+4. Internal Sort vs External Sort; 
+5. Recursive or Non-recursive.
+
+Defining each one of those:
 
 1. Time complexity is how much time the algorithm takes to sort elements in respect to the input's size.
 2. Some sorting algorithms use constant amounts of memory to rearrange the elements in the list, but some, like Merge Sort uses extra memory to temporarily store data.
