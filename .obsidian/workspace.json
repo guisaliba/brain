@@ -32,9 +32,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "58e100b0a7bb9b44",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.12"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -196,7 +206,7 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "b7f251f1d3650cc8",
+  "active": "58e100b0a7bb9b44",
   "lastOpenFiles": [
     "01 Notes/algorithms/sorting-algorithms/selection-sort.md",
     "01 Notes/algorithms/sorting-algorithms/bubble-sort.md",
