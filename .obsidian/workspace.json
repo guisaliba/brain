@@ -8,43 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f887b9be2b9b45b5",
+            "id": "b4bf452ab587ae29",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Notes/development/web-development/frontend/next.js/what-is-next.js.md",
+                "file": "01 Notes/interesting-stuff/whitespaces-and-complexity.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "b7f251f1d3650cc8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 Notes/algorithms/sorting-algorithms/what-is-sorting.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "58e100b0a7bb9b44",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.12"
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 338.5
+    "width": 338.5,
+    "collapsed": true
   },
   "right": {
     "id": "835f8b7b5d9e31cc",
@@ -119,7 +96,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 Notes/algorithms/sorting-algorithms/what-is-sorting.md"
+                "file": "01 Notes/interesting-stuff/whitespaces-and-complexity.md"
               }
             }
           },
@@ -156,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 Notes/algorithms/sorting-algorithms/what-is-sorting.md",
+                "file": "01 Notes/interesting-stuff/whitespaces-and-complexity.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 Notes/algorithms/sorting-algorithms/what-is-sorting.md",
+                "file": "01 Notes/interesting-stuff/whitespaces-and-complexity.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,11 +183,15 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "58e100b0a7bb9b44",
+  "active": "b4bf452ab587ae29",
   "lastOpenFiles": [
+    "01 Notes/development/command-line/bash/bash-history.md",
+    "01 Notes/interesting-stuff/whitespaces-and-complexity.md",
+    "01 Notes/interesting-stuff",
+    "01 Notes/algorithms/big-o-notation.md",
+    "01 Notes/algorithms/sorting-algorithms/what-is-sorting.md",
     "01 Notes/algorithms/sorting-algorithms/selection-sort.md",
     "01 Notes/algorithms/sorting-algorithms/bubble-sort.md",
-    "01 Notes/algorithms/sorting-algorithms/what-is-sorting.md",
     "01 Notes/development/web-development/frontend/svelte/svelte-vs-react-and-the-virtual-dom.md",
     "01 Notes/development/web-development/frontend/next.js/what-is-next.js.md",
     "01 Notes/development/web-development/apis/asynchronous-apis.md",
@@ -233,9 +214,6 @@
     "02 Reading List/git.md",
     "02 Reading List/react.md",
     "02 Reading List/ai.md",
-    "02 Reading List/algorithms.md",
-    "02 Reading List/books.md",
-    "02 Reading List/software-design.md",
     "03 Images",
     "02 Reading List",
     "00 Home",
@@ -243,7 +221,6 @@
     "01 Notes/development/web-development/frontend/next.js",
     "01 Notes/development/web-development/blockchain",
     "01 Notes/development/web-development/frontend/svelte",
-    "01 Notes/algorithms/sorting-algorithms",
     "Notes/Programming/Git/Untitled.canvas",
     "03 Images/images/Pasted image 20230918005920.png",
     "03 Images/images/Pasted image 20230918012049.png",
