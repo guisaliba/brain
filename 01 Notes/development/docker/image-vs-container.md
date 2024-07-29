@@ -8,35 +8,35 @@ O Docker Hub é um repositório de Imagens, como se fosse um GitHub porém de im
 
 Podemos fazer uma analogia sobre Container e Imagem utilizando o JavaScript:
 
-```jsx
-class Imagem {
-	programas
-	variaveis_de_ambiente
-	aplicacao
+```js
+class Image {
+	programas,
+	variaveis_de_ambiente,
+	aplicacao,
 	etc
 }
 
-const container = new Imagem(); 
+const container = new Image(); 
 ```
 
 Assim como no JavaScript uma variável é uma caixa, um espaço que recebe algum dado, no Docker, o Container é um espaço aonde será recebido algo e posteriormente executado.
 
-A variável container nessa analogia está recebendo uma função que executa a classe Imagem.
+A variável container nessa analogia está recebendo uma função que executa a classe Imagem. E a partir de uma imagem, é possível iniciar VÁRIOS containers. 
 
-E a partir de uma imagem, é possível iniciar VÁRIOS containers. Na analogia, teríamos algo assim:
+Na analogia anterior provavelmente teríamos algo assim:
 
-```jsx
-class Imagem {
-	programas
-	variaveis_de_ambiente
-	aplicacao
+```js
+class Image {
+	programas,
+	variaveis_de_ambiente,
+	aplicacao,
 	etc
 }
 
-const container = new Imagem();
-const container2 = new Imagem();
-const container3 = new Imagem();
-const container4 = new Imagem(); 
+const container = new Image();
+const container_2 = new Image();
+const container_3 = new Image();
+const container_4 = new Image(); 
 ```
 
 Um **Container** pode ser definido também como um **processo**. Ele é um processo rodando dentro da Imagem, que engana o Container e o faz achar que ele está rodando dentro de um OS próprio.

@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "24ccae03676b2721",
+        "id": "04ac585934eedfe4",
         "type": "tabs",
         "children": [
           {
-            "id": "94b612803c860416",
+            "id": "b33d7bcf947d9a51",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 Notes/development/git/conventional-commits.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -49,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "[\"modified_date\"]",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,7 +61,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -94,9 +90,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "01 Notes/development/git/conventional-commits.md"
-              }
+              "state": {}
             }
           },
           {
@@ -132,7 +126,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 Notes/development/git/conventional-commits.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +142,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 Notes/development/git/conventional-commits.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,37 +174,37 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "94b612803c860416",
+  "active": "4165a45158718d15",
   "lastOpenFiles": [
-    "01 Notes/development/git/the-three-states-of-git.md",
-    "01 Notes/development/git/conventional-commits.md",
-    "01 Notes/development/git/good-commit-practices.md",
-    "01 Notes/development/git/git-and-versioning.md",
-    "01 Notes/development/command-line/bash/bash-history.md",
-    "01 Notes/interesting-stuff/whitespaces-and-complexity.md",
-    "01 Notes/interesting-stuff",
-    "01 Notes/algorithms/big-o-notation.md",
-    "01 Notes/algorithms/sorting-algorithms/what-is-sorting.md",
-    "01 Notes/algorithms/sorting-algorithms/selection-sort.md",
-    "01 Notes/algorithms/sorting-algorithms/bubble-sort.md",
-    "01 Notes/development/web-development/frontend/svelte/svelte-vs-react-and-the-virtual-dom.md",
-    "01 Notes/development/web-development/frontend/next.js/what-is-next.js.md",
-    "01 Notes/development/web-development/apis/asynchronous-apis.md",
-    "01 Notes/development/web-development/apis/api-mocking.md",
-    "01 Notes/development/databases/orm",
-    "01 Notes/development/web-development/backend/nest.js/what-is-nest.js.md",
-    "01 Notes/development/web-development/frontend/react/what-is-react.md",
-    "01 Notes/development/docker/image-vs-container.md",
-    "01 Notes/development/web-development/backend/node.js/middlewares.md",
-    "01 Notes/development/docker/daemon-and-client.md",
-    "01 Notes/development/docker/containers.md",
+    "Untitled.canvas",
+    "README.md",
+    "Untitled.md",
+    "02 Reading List/software-design.md",
+    "02 Reading List/react.md",
+    "02 Reading List/javascript.md",
+    "02 Reading List/git.md",
+    "02 Reading List/dev.md",
+    "02 Reading List/algorithms.md",
+    "02 Reading List/books.md",
+    "02 Reading List/courses.md",
+    "02 Reading List/databases.md",
+    "02 Reading List/ai.md",
+    "01 Notes/algorithms/what-are-algorithms.md",
+    "01 Notes/data-structures/arrays.md",
+    "01 Notes/data-structures/what-are-data-structures.md",
+    "01 Notes/development/101/computers/how-computers-work.md",
+    "01 Notes/development/101/computers/how-computers-understand-us.md",
+    "01 Notes/development/101/internet/HTTP.md",
+    "01 Notes/development/101/internet/what-is-a-naked-domain.md",
+    "01 Notes/development/101/declarative-vs-imperative-programming.md",
+    "01 Notes/development/101/frontend-vs-backend.md",
+    "01 Notes/development/ai/tokenization-and-context-length.md",
     "01 Notes/development/compilers/building-a-lexer.md",
-    "01 Notes/development/web-development/backend/nest.js",
-    "01 Notes/development/compilers/interpreters-vs-compilers.md",
     "01 Notes/development/compilers/basics-on-compilers.md",
     "01 Notes/development/compilers/aot-jit-and-transpilers.md",
-    "01 Notes/development/compilers/abstract-syntax-trees.md",
-    "01 Notes/development/web-development/frontend/react/why-react.md",
+    "01 Notes/interesting-stuff",
+    "01 Notes/development/databases/orm",
+    "01 Notes/development/web-development/backend/nest.js",
     "03 Images",
     "02 Reading List",
     "00 Home",
@@ -230,7 +222,6 @@
     "03 Images/images/3 1.png",
     "03 Images/images/2 1.png",
     "03 Images/images/1 2.png",
-    "03 Images/images/3 3.png",
-    "Untitled.canvas"
+    "03 Images/images/3 3.png"
   ]
 }

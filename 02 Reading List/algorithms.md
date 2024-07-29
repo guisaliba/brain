@@ -4,8 +4,8 @@ title: "algorithms reading list"
 source: ""
 aliases: ["algorithms reading list"]
 ---
-Dijkstra's Shortest Path Algorithm
+# Dijkstra's Shortest Path Algorithm
 https://brilliant.org/wiki/dijkstras-short-path-finder/
 
-JavaScript Algorithms and Data Structures
+# JavaScript Algorithms and Data Structures
 https://github.com/trekhleb/javascript-algorithms

@@ -1,4 +1,4 @@
-### Visão geral do HTTP
+## Visão geral do HTTP
 
 **HTTP** é um **protocolo** que permite a obtenção de recursos, como documentos HTML. É a **base** de qualquer troca de dados na Web e um protocolo **cliente-servidor**, o que significa que as requisições são iniciadas pelo destinatário, geralmente um navegador da Web.
 
@@ -46,39 +46,38 @@ Eles podem ser transparentes ou não (alterações nas requisições não passam
 Quando o cliente quer comunicar com um servidor, este sendo um servidor final ou um _proxy_, ele realiza os seguintes passos:
 
 1.  Abre uma conexão TCP: A conexão TCP será usada para enviar uma requisição, ou várias, e receber uma resposta. O cliente pode abrir uma nova conexão, reusar uma conexão existente, ou abrir várias conexões aos servidores.
-    
 2.  Envia uma mensagem HTTP: mensagens HTTP antigas (1.1 ou anteriores) são legíveis às pessoas. Isso foi completamente mudado a partir do HTTP/2.0.
-    
-    ```json
-    GET / HTTP/1.1
-    Host: developer.mozilla.org
-    Accept-Language: fr
-    ```
-    
+
+```json
+GET / HTTP/1.1
+Host: developer.mozilla.org
+Accept-Language: fr
+```
+
 3.  Lê a resposta do servidor:
-    
-    ```json
-    HTTP/1.1 200 OK
-    Date: Sat, 09 Oct 2010 14:28:02 GMT
-    Server: Apache
-    Last-Modified: Tue, 01 Dec 2009 20:18:22 GMT
-    ETag: "51142bc1-7449-479b075b2891b"
-    Accept-Ranges: bytes
-    Content-Length: 29769
-    Content-Type: text/html
-    
-    <!DOCTYPE html... (here comes the 29769 bytes of the requested web page)
-    ```
-    
+
+```json
+HTTP/1.1 200 OK
+Date: Sat, 09 Oct 2010 14:28:02 GMT
+Server: Apache
+Last-Modified: Tue, 01 Dec 2009 20:18:22 GMT
+ETag: "51142bc1-7449-479b075b2891b"
+Accept-Ranges: bytes
+Content-Length: 29769
+Content-Type: text/html
+
+<!DOCTYPE html... (here comes the 29769 bytes of the requested web page)
+```
+
 4.  Fecha ou reutiliza a conexão para requisições futuras.
 
-### Mensagens HTTP
+## Mensagens HTTP
 
 HTTP/1.1 e mensagens mais antigas HTTP são legíveis às pessoas.
 
 No HTTP/2.0, essas mensagens são embutidas numa nova estrutura binária, um quadro, permitindo otimizações como compressão de cabeçalhos e multiplexação.
 
-### Requisições
+## Requisições
 
 Exemplo de uma requisição HTTP:
 
@@ -92,7 +91,7 @@ As requisições consistem dos seguintes elementos:
 -   **Cabeçalhos** (headers) opcionais que contém informações adicionais para os servidores.
 -   Ou um corpo de dados, para alguns métodos como `POST`, similares aos corpos das respostas, que contém o recurso requisitado.
 
-### Respostas
+## Respostas
 
 Exemplo de resposta HTTP:
 
