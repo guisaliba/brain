@@ -8,30 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b4bf452ab587ae29",
+            "id": "94b612803c860416",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Notes/interesting-stuff/whitespaces-and-complexity.md",
+                "file": "01 Notes/development/git/conventional-commits.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
-          },
-          {
-            "id": "94b612803c860416",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.6.7"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 Notes/interesting-stuff/whitespaces-and-complexity.md"
+                "file": "01 Notes/development/git/conventional-commits.md"
               }
             }
           },
@@ -143,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 Notes/interesting-stuff/whitespaces-and-complexity.md",
+                "file": "01 Notes/development/git/conventional-commits.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 Notes/interesting-stuff/whitespaces-and-complexity.md",
+                "file": "01 Notes/development/git/conventional-commits.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -195,6 +184,10 @@
   },
   "active": "94b612803c860416",
   "lastOpenFiles": [
+    "01 Notes/development/git/the-three-states-of-git.md",
+    "01 Notes/development/git/conventional-commits.md",
+    "01 Notes/development/git/good-commit-practices.md",
+    "01 Notes/development/git/git-and-versioning.md",
     "01 Notes/development/command-line/bash/bash-history.md",
     "01 Notes/interesting-stuff/whitespaces-and-complexity.md",
     "01 Notes/interesting-stuff",
@@ -220,10 +213,6 @@
     "01 Notes/development/compilers/aot-jit-and-transpilers.md",
     "01 Notes/development/compilers/abstract-syntax-trees.md",
     "01 Notes/development/web-development/frontend/react/why-react.md",
-    "02 Reading List/dev.md",
-    "02 Reading List/git.md",
-    "02 Reading List/react.md",
-    "02 Reading List/ai.md",
     "03 Images",
     "02 Reading List",
     "00 Home",
