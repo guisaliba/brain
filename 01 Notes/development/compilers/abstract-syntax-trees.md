@@ -1,14 +1,13 @@
-### Como uma linguagem consegue reconhecer e saber exatamente o que um determinado método ou variável escrita em outra linguagem quer dizer no seu próprio vocabulário?
+## How can a language recognize and understand exactly what a particular method or variable written in another language means in its own vocabulary?
 
-Isso é possível graças as **Abstracts Syntax Tree (AST)** ou Árvores de Sintaxe Abstratas.
-As ASTs nada mais são que a representação de um determinado código em uma determinada linguagem na forma de uma estrutura de dados (uma árvore). Por serem uma estrutura de dados, elas podem ser representadas em diversos formatos, comumente representadas por um JSON.
+This is made possible through **Abstract Syntax Trees (AST)**. ASTs are simply the representation of a particular code in a particular language in the form of a data structure (a tree). As a data structure, they can be represented in various formats, commonly as JSON.
 
-No momento em que a conversão do código-fonte para uma AST ocorre, apenas o conteúdo estrutural do código é preservado, qualquer outra informação adicional é descartada. Isso significa que ao final, temos apenas uma árvore contendo as partes estruturais do código escrito naquela linguagem, dessa forma, temos a "base" da linguagem.
+When the conversion from source code to an AST occurs, only the structural content of the code is preserved; any other additional information is discarded. This means that in the end, we only have a tree containing the structural parts of the code written in that language, thus having the "base" of the language.
 
-A partir dela é possível então implementar em outra linguagem, um agente ou entidade capaz de ler essa estrutura de dados e interpretar as informações ali presentes para seu próprio vocabulário, métodos e ações.
+From this, it is possible to implement in another language an agent or entity capable of reading this data structure and interpreting the information present for its own vocabulary, methods, and actions.
 
-Nas ASTs, cada nó da árvore representa um **construct**, uma característica do código-fonte (da linguagem original) e nesses nós podemos encontrar métodos ou representações pertencentes àquele construct.
+In ASTs, each node of the tree represents a **construct**, a feature of the source code (of the original language), and in these nodes, we can find methods or representations belonging to that construct.
 
-**Uma AST pode ser utilizada por um compilador ou por um interpretador, para traduzir (transpilar) o conteúdo estrutural do código fonte para uma outra linguagem.** Dessa forma, podemos compilar ou interpretar qualquer linguagem de programação para outra. 
+**An AST can be used by a compiler or an interpreter to translate (transpile) the structural content of the source code into another language.** In this way, we can compile or interpret any programming language into another.
 
 [[parsing-and-lexing]].
