@@ -9,3 +9,10 @@ Following, the AMI is then copied to the root-volume, to start booting it.
 There are many different types of instances, for different purposes and use cases.
 
 ## Lifecycle
+EC2 instances are initialized by an AMI, and after that they enter the **pending** stage. When the instance is ready to go, it enters the **running** stage, where you can now reboot the instance and interrupt its execution (thus entering the **Stopping** state and further **Stopped**).
+
+An instance may also **hibernate**, following the same flow as if it were stopping. Booting it again initializes it right where it stopped since the machine state is saved in its memory.
+
+Terminating an instance means you completely shut down it, forever. The **termination protection** keeps an instance data temporarily backed up in case of shutting down an instance by mistake.
+
+Initializing and terminating instances is a pretty usual flow, and it happens all the time when needed.
