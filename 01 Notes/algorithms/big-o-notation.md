@@ -73,4 +73,4 @@ Short story short, these are the three main concepts to keep in mind when talkin
 
 1. Growth is related to input;
 2. Constants are dropped;
-3. Worst case scenario is the way to measure.
+3. Worst case scenario is *usually* the way we measure.
