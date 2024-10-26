@@ -2,7 +2,7 @@ just like a tree, a graph is a non-linear data structure. it is a collection of 
 
 in a tree there are rules dictating those vertices. first of all, vertices and edges represent parent-child relationship. an edge connects two nodes and sets the hierarchical structure of parent-child.
 
-if a tree has N nodes, then the number of edges is exactly N -  1, because all nodes have at least one parent except for the root node. edges connect parents to their children thus the root node not having a parent means it has no edge coming from another node to it, so N - 1.
+if a tree has N nodes, then the number of edges is exactly N - 1, because all nodes have at least one parent except for the root node. edges connect parents to their children thus the root node not having a parent means it has no edge coming from another node to it, so N - 1.
 
 also, in a tree any node must be reachable from the root by exactly one path. this means that if a node V belongs to a tree, there has to be one path from the root that reaches V.
 
@@ -33,6 +33,8 @@ graphs representations:
 we can apply standard graph theory algorithms to solve problems. for the web example, a famous algorithm that can be applied is web-crawling.
 web-crawling is basically graph traversal, or in simple words, the act of visiting all nodes in a graph.
 
-graphs can be weighted, because sometimes in a graph all connections can not be treated as equal. for example, the highways between cities can have different lengths. again: vertices are cities and edges are the roads, and since they have different lengths, we can weigh them by their length.
+graphs can also be weighted, because sometimes in a graph all connections can not be treated as equal. for example, the highways between cities can have different lengths.
+
+again: vertices are cities and edges are the roads, and since they have different lengths, we can weigh them by their length.
 
 to find the shortest path between a city A to a city B we can take the edges that creates a path between those two cities but take into account the edges with the lowest weights to find the shortest path between them.
