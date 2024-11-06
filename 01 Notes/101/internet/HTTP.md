@@ -14,9 +14,9 @@ Na realidade, existem muitos outros computadores entre o navegador e o servidor 
 
 O agente-usuário, predominantemente chamado de **cliente**, é qualquer ferramenta que age em nome do **usuário**. Na maioria dos casos, é o **navegador Web** (o browser).
 
-O navegador é ************sempre************ a entidade que inicia as requisições ao servidor.
+O navegador é **sempre** a entidade que inicia as requisições ao servidor. O servidor está apenas esperando (ou escutando) por essas chamadas.
 
-Para mostrar uma página na web por exemplo, o navegador envia uma **requisição** ao servidor pedindo o documento **HTML** daquela página. Ele então realiza uma análise do arquivo e todos seus componentes, bem como recursos adicionais como o CSS ou scripts.
+Para mostrar uma página na web por exemplo, o navegador envia uma **requisição** ao servidor pedindo o documento **HTML** daquela página. Ele então realiza uma análise do arquivo e todos seus componentes, bem como recursos adicionais como o CSS ou scripts, e devolve como **resposta** o que foi solicitado.
 
 Depois disso, o navegador **interpreta** tudo que foi buscado e mostra em **tela** ao usuário.
 
@@ -28,7 +28,7 @@ Um servidor não é necessáriamente apenas uma máquina, mas vários servidores
 
 ### Proxies (ou representantes):
 
-Entre o navegador Web e o servidor, vários computadores e máquinas transmitem as mensagens HTTP. Devido a estrutura em camadas da pilha Web, a maioria dessas máquinas operam em alguma das camadas: de transporte, de rede ou física, sendo transparente na camada da aplicação HTTP, e potencialmente exercendo um grande impacto na performance.
+Entre o navegador Web e o servidor, vários computadores e máquinas transmitem as mensagens HTTP. Devido a estrutura em camadas de pilha da Web, a maioria dessas máquinas operam em alguma das camadas: de transporte, de rede ou física, sendo transparente na camada da aplicação HTTP, e potencialmente exercendo um grande impacto na performance.
 
 Essas máquinas que operam na camada de aplicação são normalmente conhecidas como *******_**proxies**_ (ou representantes, ou procuradores, etc).
 
@@ -45,10 +45,10 @@ Eles podem ser transparentes ou não (alterações nas requisições não passam
 
 Quando o cliente quer comunicar com um servidor, este sendo um servidor final ou um _proxy_, ele realiza os seguintes passos:
 
-1.  Abre uma conexão TCP: A conexão TCP será usada para enviar uma requisição, ou várias, e receber uma resposta. O cliente pode abrir uma nova conexão, reusar uma conexão existente, ou abrir várias conexões aos servidores.
-2.  Envia uma mensagem HTTP: mensagens HTTP antigas (1.1 ou anteriores) são legíveis às pessoas. Isso foi completamente mudado a partir do HTTP/2.0.
+1.  **Abre uma conexão TCP**: A conexão TCP será usada para enviar uma requisição, ou várias, e receber uma resposta. O cliente pode abrir uma nova conexão, reusar uma conexão existente, ou abrir várias conexões aos servidores.
+2.  **Envia uma mensagem HTTP**: mensagens HTTP antigas (1.1 ou anteriores) são legíveis às pessoas. Isso foi completamente mudado a partir do HTTP/2.0.
 
-```json
+```http
 GET / HTTP/1.1
 Host: developer.mozilla.org
 Accept-Language: fr
@@ -56,7 +56,7 @@ Accept-Language: fr
 
 3.  Lê a resposta do servidor:
 
-```json
+```http
 HTTP/1.1 200 OK
 Date: Sat, 09 Oct 2010 14:28:02 GMT
 Server: Apache
@@ -86,7 +86,7 @@ Exemplo de uma requisição HTTP:
 As requisições consistem dos seguintes elementos:
 
 -   Um método HTTP, geralmente é um verbo como [GET](<https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods/GET>), [POST](<https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods/POST>), [DELETE](<https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods/DELETE>), [PUT](<https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods/PUT>), etc. ou um substantivo como [OPTIONS](<https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods/OPTIONS>) ou [HEAD](<https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods/HEAD>) que define qual operação o cliente quer fazer. Tipicamente, um cliente quer **pegar um recurso** (usando [GET](<https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods/GET>)) ou **publicar dados** de um formulário HTML (usando [POST](<https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods/POST>)).
--   O **caminho** do recurso a ser buscado:  URL do recurso sem os elementos que são de contexto, por exemplo sem o protocolo, o domínio ou a porta.
+-   O **caminho** do recurso a ser buscado: é a URL do recurso sem os elementos que são de contexto, por exemplo sem o protocolo, o domínio ou a porta.
 -   A **versão** do protocolo HTTP.
 -   **Cabeçalhos** (headers) opcionais que contém informações adicionais para os servidores.
 -   Ou um corpo de dados, para alguns métodos como `POST`, similares aos corpos das respostas, que contém o recurso requisitado.
@@ -132,4 +132,4 @@ Dentre os dois protocolos de transporte mais comuns na internet, o **TCP é conf
 -   **Proxy e tunelamento:** **Servidores e/ou clientes estão frequentemente localizados em _intranets_ e escondem seu verdadeiro endereço IP aos outros. Requisições HTTP recorrem aos _proxies_ para contornar essa barreira na rede.
 -   **Sessões:** Usando os _cookies_ HTTP, permite você vincular requisições com o estado do servidor. Isso cria as sessões, apesar do protocolo HTTP básico não manter estado.
 
-#web #redes
+#web #network #protocols
