@@ -95,4 +95,12 @@ one important thing to remember is that the people who read your code *will be p
 when there is no “programmer-eese” for what you’re doing, use the name from the problem domain. at least the programmer who maintains your code can ask a domain expert what it means.
 
 separating solution and problem domain concepts is part of the job of a good programmer and designer. the code that has more to do with problem domain concepts
-should have names drawn from the problem domain
+should have names drawn from the problem domain.
+
+Imagine that you have variables named `firstName`, `lastName`, `street`, `houseNumber`, `city`, `state`, and `zipcode`. taken together it’s pretty clear that they form an address. but what if you just saw the state variable being used alone in a method? would you automatically infer that it was part of an address?
+
+you can add context by using prefixes: `addrFirstName`, `addrLastName`, `addrState`, and so on. at least readers will understand that these variables are part of a larger structure. of course, a better solution is to create a class named `Address`. then, even the compiler knows that the variables belong to a bigger concept.
+
+last but not least, having fear of renaming things is something we can't have. fearing that other developers will object in renaming things will not be a concern when names change for the better.
+
+you will probably end up surprising someone when you rename, just like you might with any other code improvement. don't let this fear stop you in your tracks.
