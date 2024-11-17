@@ -4,7 +4,9 @@ names should reveal intent, seriously, and that may take time. the name of a var
 1. why does it exist;
 2. what does it do;
 3. how it is used;
+
 if a name requires a comment, then it is not revealing its intent.
+
 what is the purpose of this code?
 ```
 public List<int[]> getThem() {
@@ -15,7 +17,7 @@ public List<int[]> getThem() {
 	return list1;
 }
 ```
-it is well indented, it has no complex logics and yet you can't tell a single thing about this code when reading it. many questions arise upon it: what is the code supposed to get? what is list1? what objects are in `theList`? why is number `4` such an important number?
+it is well indented, it has no complex logics and yet you can't tell a single thing about this code when reading it. many questions arise upon it: what is the code supposed to `get`? what is `list1`? what objects are in `theList`? why is number `4` such an important number?
 
 when writing code, simplicity may not always be the problem, but the implicity of it. the example above does not explicit context enough in the code itself, meaning its purpose is implicit to whom have written it.
 
@@ -47,7 +49,7 @@ noise words are another meaningless distinction. Imagine that you have a `Produc
 class. if you have another called `ProductInfo` or `ProductData`, you have made the names different without making them mean anything different. `Info` and `Data` are indistinct noise words.
 
 noise words are redundant. the word `variable` should never appear in a variable
-name. the word `table` should never appear in a table name. How is `NameString` better than `Name`? would a name ever be a floating point number? If so, it breaks an earlier rule about disinformation.
+name. the word `table` should never appear in a table name. how is `NameString` better than `Name`? would a name ever be a floating point number? If so, it breaks an earlier rule about disinformation.
 
 programming is a social activity. when naming things, it should be not only meaningful but also readable. if something is not readable then it means other people can't read it properly and discuss it, thus failing on what programming is: a social activity.
 ```
@@ -68,21 +70,19 @@ class Customer {
 };
 ```
 
-now people could read it and rise questions like: "hey, why is the modification time stamp older than its generation stamp?". single letter names also fail on that since its pretty hard not only to spell but to search for a variable `gts` instead of `generationTimeStamp`.
+now people could read it and rise questions like: "hey, how come is the modification time stamp older than its generation stamp?". single letter names also fail on that since its pretty hard not only to spell but to search for a variable `gts` instead of `generationTimeStamp`.
 
 if a variable or constant is used multiple times across code, then give it a search-friendly name.
 
 when talking about interfaces and implementations, the author points that an interface name should not be encoded, but its implementation instead. e.g.: we'll build a factory for the creation of shapes. this factory will be an interface and it will be implemented by a concrete class. instead of calling the factory `IShapeFactory`, leave this encoding (prefixing `I` on it) to the implementation.
 
-so, instead of encoding the factory, just name it `ShapeFactory` and then name the implementation something like `ShapeFactoryImplementation`.
+so, instead of encoding the factory, just name it `ShapeFactory` and then name the implementation something like `ShapeFactoryImplementation : ShapeFactory`.
 
-**clarity is king**: classes and objects should have noun or noun phrase names like `Customer`, `Account` and `AddressParser`. a class should not be a verb, like `Parser`, `Processor` or `Shifter`.
+**clarity is king**: classes and objects should have noun or noun phrase names like `Customer`, `Account` and `AddressParser`. a class should not be a verb, like `Parser`, `Processor` or `Shifter`. in the other hand, methods should have verb: `deletePage`, `retrieveAccountTransaction`, `setName` and similar are ok for method naming.
 
-in the other hand, methods should have verb: `deletePage`, `retrieveAccountTransaction`, `setName` and similar are ok for method namings.
+don't name things just to be cute or funny. don't write a method to clean up some object and name it after `whack()`, other people may not share the same sense of humor as you.  instead, just name it `kill()` or `cleanObject()`.
 
-don't name things just to be cute or funny. don't write a method to clean up some object and name it after `whack()`, other people may not share the same sense of humor as you. 
-
-instead, just name it `kill()` or `cleanObject()`.also, avoid using the same word for two purposes. using the same term for two different ideas may be considered as a pun for other developers, and they may not laugh off it.
+also, avoid using the same word for two purposes. using the same term for two different ideas may be considered as a pun for other developers, and they may not laugh off it.
 
 say what you mean. mean what you say.
 
