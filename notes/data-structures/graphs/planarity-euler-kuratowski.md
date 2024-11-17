@@ -13,7 +13,9 @@ consider the graph $K5$  which is a **complete** graph (a graph where every pair
 there are several methods and theorems to determine the planarity of a graph:
 
 ## Kuratowski's Theorem
-a graph is planar if and only if it does not contain a subgraph, that is a subdivision of either $K5$ (the complete graph of five vertices) or $K3,3$ (the complete bipartite graph on two sets of three vertices).
+**Theorem (Kuratowski, 1930):** _A finite graph $G$ is planar **if and only if** it does not contain a subgraph that is a subdivision of $K5$ (the complete graph on five vertices) or $K3,3$​ (the complete bipartite graph with partitions of three vertices each).
+
+a graph is planar if and only if it does not contain a subgraph that is a subdivision of either $K5$ (the complete graph of five vertices) or $K3,3$ (the complete bipartite graph on two sets of three vertices).
 - if you can find a $K5$ or a $K3,3$ within your graph, the graph is non-planar
 - if neither exists, the graph is planar.
 
