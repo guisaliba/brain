@@ -26,9 +26,9 @@ $$ V - E + F = 2 $$
 
 ## determining planarity
 
-1. Check for $K5$ or $K3,3$
-2. Apply Euler's Formula
-3. Attempt to draw the graph.
+1. check for $K5$ or $K3,3$
+2. apply Euler's Formula
+3. attempt to draw the graph
 
 if $K5$ or $K3,3$ is found, that is, a complete graph of five vertices or the the complete bipartite graph on two sets of three vertices is found, it is not planar.
 
