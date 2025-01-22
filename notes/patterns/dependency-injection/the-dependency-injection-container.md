@@ -47,7 +47,7 @@ class MyService {
 ### property injection
 dependencies are passed using properties:
 
-```
+```pseudo
 class MyService {
   prop db
   
