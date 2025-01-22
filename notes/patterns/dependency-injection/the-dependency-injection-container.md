@@ -1,4 +1,4 @@
-key concepts of dependency injection is inversion of control (IoC) where instead of an object creating its own dependencies, they are provided to it from an extenral source.
+key concepts of dependency injection is inversion of control (IoC) where instead of an object creating its own dependencies, they are provided to it from an external source.
 the DI container is the one responsible for instantiating and managing dependencies instead of the object itself.
 
 ## registration (binding) phase
@@ -47,7 +47,7 @@ class MyService {
 ### property injection
 dependencies are passed using properties:
 
-```pseudo
+```
 class MyService {
   prop db
   
