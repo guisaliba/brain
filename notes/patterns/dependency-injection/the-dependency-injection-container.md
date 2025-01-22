@@ -1,6 +1,8 @@
 key concepts of dependency injection is inversion of control (IoC) where instead of an object creating its own dependencies, they are provided to it from an external source.
 the DI container is the one responsible for instantiating and managing dependencies instead of the object itself.
 
+*“A Dependency Injection Container is an object that knows how to instantiate and configure objects. And to be able to do its job, it needs to knows about the constructor arguments and the relationships between the objects.” [source](https://fabien.potencier.org/do-you-need-a-dependency-injection-container.html)
+
 ## registration (binding) phase
 the container "knows" which implementations to provide for specific interfaces or classes. stating that the container knows it actually means it should know, which in other words means it must be configured to know and resolve that.
  
