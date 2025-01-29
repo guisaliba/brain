@@ -11,7 +11,8 @@ def hello():
 
 for that application to be deployed without docker, the developer would need to ensure many things such as: ensuring the required runtimes and dependencies are installed on the server, the python code gets uploaded to the server's filesystem, and the server correctly starts the application using the correct necessary parameters.
 
-the following Dockerfile solves all of that:
+the following Dockerfile solves all of those problems:
+
 ```Dockerfile
 # syntax=docker/dockerfile:1
 FROM ubuntu:22.04
