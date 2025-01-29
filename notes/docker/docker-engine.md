@@ -4,6 +4,8 @@ Docker Engine is an open source containerization technology for building and con
 2. APIs to expose calls that programs can use to talk and instruct the Docker daemon;
 3. a CLI client `docker`
 
+![[docker-architecture-1.webp]]
+
 the daemon creates and manages Docker objects, such as images, containers, networks, and volumes. Docker has a set of APIs of its own to allow the CLI client (`docker`) control or interact with the Docker daemon.
 
 since Docker uses a client-server architecture, the Docker client talks to the Docker daemon, which does the heavy lifting of building, running, and distributing Docker containers.
