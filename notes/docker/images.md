@@ -8,6 +8,8 @@ usually an image is a service that will run in a _kind of a VM_ (but it's not ac
 
 an image is a read-only template with instructions to create a Docker container. often, an image is based on another image (e.g.: your image needs the Ubuntu 22.04 image for your application to actually work) with some additional customization.
 
-you might create your own images or you might use existing images published in a registry. sometimes all you need for your simple application to exist is the Node.js runtime, in order to execute your JavaScript code. so you only have to `FROM node` to serve as your base image. from there on, you're good to go running all the other necessary instructions for your code to work.
+you might create your own images or you might use existing images published in a registry.
+
+sometimes all you need for your simple app to exist is the Node.js runtime, in order to execute your JavaScript code. so you only have to `FROM node` to serve as your base image. from there on, you're good to go running all the other necessary instructions for your code to work.
 
 to build your own image you create a [[Dockerfile]] defining the steps needed to create the image and run it.

@@ -1,4 +1,4 @@
-a container is a runnable instance of an image. you can create, start, stop, move or delete a container using the Docker API or CLI. 
+a container is a runnable instance of a Docker image. you can create, start, stop, move or delete a container using the Docker API or CLI. see more on [[images]].
 
 by default a container is relatively well isolated from other containers and its host machine. you can control how isolated a container's network, storage, or other underlying subsystems are from other containers or from the host machine.
 
