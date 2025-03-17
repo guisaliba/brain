@@ -1,4 +1,4 @@
-it all starts with the Dockerfile. docker builds images by reading instructions from a Dockerfile, it is a text file containing instructions for building the source code. using the default name Dockerfile allows to run `docker build` command without having to specify any additional command flags.
+it all starts with the Dockerfile. docker builds images by reading instructions from a Dockerfile, it is a text file containing instructions for building the source code. using the default name Dockerfile allows to run the `docker build` command to build an image without having to specify any additional command flags.
 
 ```python
 from flask import Flask
@@ -32,9 +32,11 @@ CMD flask run --host 0.0.0.0 --port 8000
 
 the first line is optional. it instructs the docker builder what syntax to use when parsing the Dockerfile. parser directives must appear before any other comment, whitespace or instruction in the Dockerfile.
 
-the `FROM` instruction defines what base image to use. in this case, it sets the base image to the 22.04 release of Ubuntu. everything that follows in the Dockerfile is executed in this base image. so, if the `FROM` instruction was to set the base image to Node.js for example, every following instruction would run in the specified Node runtime.
+the `FROM` instruction defines what base image to use. in this case, it sets the base image to the 22.04 release of Ubuntu. everything that follows in the Dockerfile is executed in this base image.
 
-there are many public images a developer can leverage in their projects, importing them into their build steps using the `FROM` instruction in the Dockerfile.
+so, if the `FROM` instruction was to set the base image to Node.js for example, every following instruction would run in the specified Node runtime.
+
+there are many public images a developer can leverage in their projects, and they can make use of them all into their build steps using the `FROM` instruction in the Dockerfile.
 
 the `RUN` instructions, as it intuitively defines, executes commands. in this case, it executes a shell in Ubuntu (the base image set) to update and install the app dependencies. as one can notice, the second `RUN` instruction uses `pip` to install Flask, so `pip` must be already installed by the time the Dockerfile tries to run `pip install flask==3.0.*` in the shell. that's why the **first** `RUN` instruction installs `python3-pip`.
 

@@ -16,12 +16,12 @@ when you run the command above, the following happens:
 5. Docker starts the container and runs the command `/bin/bash`.
 6. when the command `exit` is run to terminate the `/bin/bash` command, the container stops but doesn't get deleted. you can start it again or remove it.
 
-pretend you're developing a killer web app consisting of three components: a React frontend, a Python API and a PostgreSQL database. each of these can be run (and should be) in a different, isolated and self-contained **container**.
+pretend you're developing an awesome web app consisting of three components: a React **frontend**, a Python API for the **backend** and a PostgreSQL **database**. each of these can be run (and should be) in a different, isolated and self-contained **container**.
 
 each one of them runs in their own isolated environment, completely isolated from everything else in your machine. they can talk to each other leveraging networking, since each gets an IP address assigned, exposing a port on one of them creates a network path that can be reached by the other containers using the network.
 
 ![[aN4kQ.webp|683]]
 
-a container must not get confused with a Virtual Machine. a VM is an entire operating system with its own kernel, hardware drivers, programs and applications. a container is simply an isolated process with all of the files it needs to run.
+a container must not get confused with a Virtual Machine. a VM is an entire operating system with its own kernel, hardware drivers, programs and applications. a container is simply an isolated process running whatever image it is defined to run, with all of the files it needs to run.
 
 if you run multiple containers, they all share the same kernel.
