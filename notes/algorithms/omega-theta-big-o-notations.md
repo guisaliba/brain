@@ -11,8 +11,7 @@ some considerations:
 2. the asymptotic behavior of $f(n)$ is the cost limit as $n$ grows in size;
 
 a function $f(n)$ asymptotically **dominates** another $g(n)$ function when there are two positive constants $c$ and $m$ where $n >= m$ we got: $|g(n)| ⩽ c × |f (n)|$
-
-![](../../images/Pasted image 20250423175940.webp)
+[[/images/Pasted image 20250423175940.webp]]
 1. $n$ is the input so we are measuring the asymptotic behavior as it grows in size;
 2. $m$ is the exact input ($n$) where from that on ($n>=m$), $f(n)$ dominates $g(n)$;
 3. we can say that at $m$ the function $f(n)$ asymptotically dominates $g(n)$;

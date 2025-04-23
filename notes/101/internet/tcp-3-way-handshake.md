@@ -25,6 +25,6 @@ diving deep into that, we can translate these steps in a conversation between th
 
 with this conversation completed once, they start exchanging packets based on the sequence number (SEQ), which main goal is to enumerate each one's packets amidst this process.
 
-![[image.jpg]]
+![[image.jpg|449]]
 
-#network #protocols
+#protocols
