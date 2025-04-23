@@ -49,4 +49,9 @@ in other words, $g(n) = Ω(f(n))$.
 ![[Pasted image 20250423182259.webp]]
 
 # theta notation
-the Θ (theta) notation
+the Θ (theta) notation is a asymptotic limit for both $f(n)$ and $g(n)$ functions when compared, it stablishes both the superior limit for one and inferior limit for the other.
+this can only happen when we have two constants $c1$ and $c2$ taken into account, e.g.:
+
+![[Pasted image 20250423184108.webp|611]]
+
+this is the representation of $g(n) = Θ(f(n))$ . the $g(n)$ is dominated both superiorly and inferiorly by $f(n)$ when there are three $c1$, $c2$ and $m$ constants.
