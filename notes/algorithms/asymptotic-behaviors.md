@@ -11,7 +11,9 @@ some considerations:
 2. the asymptotic behavior of $f(n)$ is the cost limit as $n$ grows in size;
 
 a function $f(n)$ asymptotically **dominates** another $g(n)$ function when there are two positive constants $c$ and $m$ where $n >= m$ we got: $|g(n)| ⩽ c × |f (n)|$
-[[Pasted image 20250423175940.webp]]
+
+![[Pasted image 20250423175940.webp]]
+
 1. $n$ is the input so we are measuring the asymptotic behavior as it grows in size;
 2. $m$ is the exact input ($n$) where from that on ($n>=m$), $f(n)$ dominates $g(n)$;
 3. we can say that at $m$ the function $f(n)$ asymptotically dominates $g(n)$;
@@ -41,6 +43,7 @@ the big-o notation specifies a superior limit of a function. in other words, if 
 ![[Pasted image 20250423181815.webp]]
 
 important operations with this notation are:
+
 ![[Pasted image 20250423181928.webp]]
 
 ## omega notation
@@ -49,6 +52,7 @@ the Ω (omega) notation defines the inferior limit for a function, it is the opp
 that being said, we can state that, for constants $c$ and $m$, for every $n >= m$ we have $g(n) ⩾ c × f (n)$.
 
 in other words, $g(n) = Ω(f(n))$.
+
 ![[Pasted image 20250423182259.webp]]
 
 # theta notation
