@@ -21,7 +21,7 @@ If any question can be theoretically explained, then try to explain it on theory
 Must-know topics:
 1. Relational databases (SQL), at least one service;
 2. NoSQL, at least one service;
-3. Messageries (queues, etc);
+3. Messages (queues, consumers, etc);
 4. CRUD;
 5. TDD;
 6. Clean Code;
