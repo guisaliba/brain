@@ -29,4 +29,8 @@ Must-know topics:
 8. Unit tests;
 9. CI/CD (concept at least);
 10. Git flows (GitLab/GitHub devops workflows), must know one of them -> Must ask GPT how to do it, no need to know the core of it but what it is and how it works (stages, steps, pipeline, examples, etc)
-11. IaC (Infrastructure as Code), must know to TALK about it, how I used it in my experiences e.g.: in my current job I use Terraform to create resources such as 
+11. IaC (Infrastructure as Code), must know to TALK about it, how I used it in my experiences e.g.: in my current job I use Terraform to create resources on our cloud AWS enviornment.
+12. Docker -> at least Dockerfile, Docker Compose
+13. Kubernetes
+14. Observability (concepts and what it is), must know at least one or two of the main services out there e.g.: NewRelic and Datadog
+15. Cloud services (AWS, GCP,)
