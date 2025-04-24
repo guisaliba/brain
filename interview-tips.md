@@ -12,6 +12,10 @@ Market salaries expectations
 
 To every question, try to apply the S.T.A.R. framework: what was the designated task to me, what happened before (context) the task, what did I do to accomplish it (approach, hands-on, development and solution building) and then what was the result after I took action on it.
 
+For technical interviews, focus more on the ACTION part of the storytelling rather than the task or result. 
+Speak about what I did, how I built it, what the solution I built did, some validations I had to consider while building it, maybe why I chose that approach and what I identified that could have been improved on it (or I actually improved if the task was about refactoring or improving something).
+
+
 If something very specific about a language or framework is asked, try to capture the concept that is being asked, and avoid the actual details and implementations on the technology.
 
 Try to explain the concept and how you think it works based on your experiences and intuition and dodge from the technology implementation of the concept itself.
@@ -35,4 +39,5 @@ Must-know topics:
 14. Observability (concepts and what it is), must know at least one or two of the main services out there e.g.: NewRelic and Datadog;
 15. Cloud services (AWS, GCP, Azure, depends on what the company actually uses as their cloud environment) -> Even if I don't know specifically the products/services of the company providers, I can talk about how I know for one of these providers and that the company's provider has it as well and what is it's name e.g.: AWS S3 and GCP Storage.
 
-Take one of my experiences in my 
+Take one of my experiences and literally tell what I did on that experience but as if I had done it in the tech stack they want (or maybe in both the stack I worked on and what the company wants).
+
