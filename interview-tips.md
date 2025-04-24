@@ -35,3 +35,4 @@ Must-know topics:
 14. Observability (concepts and what it is), must know at least one or two of the main services out there e.g.: NewRelic and Datadog;
 15. Cloud services (AWS, GCP, Azure, depends on what the company actually uses as their cloud environment) -> Even if I don't know specifically the products/services of the company providers, I can talk about how I know for one of these providers and that the company's provider has it as well and what is it's name e.g.: AWS S3 and GCP Storage.
 
+Take one of my experiences in my 
