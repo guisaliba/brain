@@ -10,3 +10,4 @@ Market salaries expectations
 8-11 (PL)
 11-16/17 (SR)
 
+To every question, try to apply the S.T.A.R. framework: what was the designated task to me, what happened before (context) the task, what I did 
