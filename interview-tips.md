@@ -41,3 +41,5 @@ For these kinds of situations, it is great to ask GPT and do some little researc
 If there is a specific technology question that I don't know how to answer about it, I can state that I did something really similar with the tech stack I worked on and then explain what I did and that it might be easier to search for on documentations and implement it on what they want to have.
 
 For situations asking "How did you implement this" and I don't know how to, I can say that I actually implemented something (a new feature, a bugfix, improvement, etc.) although I didn't build it from ground-up because it was not my responsibility at the time.
+
+Search for parallels in the tech stacks I know e.g.: .NET and what it is in the tech stack the position wants me to know e.g.: NestJS. Compare concepts, practices, tools, how to build stuff in what I know with what they want me to have.
