@@ -18,3 +18,15 @@ Try to explain the concept and how you think it works based on your experiences 
 
 If any question can be theoretically explained, then try to explain it on theory as much as you can. Focus on WHAT not on HOW the thing works (as long as they specifically do not ask how it works).
 
+Must-know topics:
+1. Relational databases (SQL), at least one service;
+2. NoSQL, at least one service;
+3. Messageries (queues, etc);
+4. CRUD;
+5. TDD;
+6. Clean Code;
+7. ORM (at least one library);
+8. Unit tests;
+9. CI/CD (concept at least);
+10. Git flows (GitLab/GitHub devops workflows), must know one of them -> Must ask GPT how to do it, no need to know the core of it but what it is and how it works (stages, etc)
+11. 
