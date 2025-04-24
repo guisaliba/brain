@@ -14,4 +14,7 @@ To every question, try to apply the S.T.A.R. framework: what was the designated 
 
 If something very specific about a language or framework is asked, try to capture the concept that is being asked, and avoid the actual details and implementations on the technology.
 
-Try to explain the concept and how you think it works based on your experiences and intuition 
+Try to explain the concept and how you think it works based on your experiences and intuition and dodge from the technology implementation of the concept itself.
+
+If any question can be theoretically explained, then try to explain it on theory as much as you can. Focus on WHAT not on HOW the thing works (as long as they specifically do not ask how it works).
+
