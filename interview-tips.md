@@ -43,3 +43,5 @@ Take one of my experiences and literally tell what I did on that experience but 
 
 If I don't know something in fact (in practice), it is safe for JR/PL positions to say "I know what it is, I have worked with it and used it as user level only, I unfortunately don't know with depth because I actually did not configure and set these things up."
 For these kinds of situations, it is great to ask GPT and do some little research on what it is, have some visual examples and try to understand what it does.
+
+If there is a specific technology question that I don't know how to answer about it, I can state that I did something really similar with the tech stack I worked on and that I know 
