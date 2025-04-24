@@ -1,4 +1,5 @@
-Market salaries expectations
+Market salaries expectations:
+
 3-6/7 (JR)
 8-11 (PL)
 11-16/17 (SR)
