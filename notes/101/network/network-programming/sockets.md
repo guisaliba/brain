@@ -14,3 +14,5 @@ so if there are 100 files opened in your OS, there will be 100 entries in OS (li
 if your process opens 10 files then your Process Table will have 10 entries for file descriptors. same happens when you open a network socket, it is also represented by an integer and it is called Socket Descriptor.
 
 ## internet sockets
+there are plenty of Internet sockets, but we'll address only two of them: **Stream Sockets** and **Datagram Sockets**, although Raw Sockets are really powerful too (check on it later).
+Stream Sockets are also referred to as `SOCK_STREAM` and Datagram Sockets as `SOCK_DGRAM`, the latter is called sometimes as "connectionless sockets".
