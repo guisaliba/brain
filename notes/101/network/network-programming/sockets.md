@@ -18,7 +18,13 @@ there are plenty of Internet sockets, but we'll address only two of them: **Stre
 Stream Sockets are also referred to as `SOCK_STREAM` and Datagram Sockets as `SOCK_DGRAM`, the latter is called sometimes as "connectionless sockets".
 
 ### stream sockets
-stream sockets are a reliable two-way connected communication streams. if you output two items "1" and "2" in this order, they will arrive at that same order at the opposite end. they are also error-free.
+stream sockets are a reliable two-way **connected** communication streams. if you output two items "1" and "2" in this order, they will arrive at that same order at the opposite end. they are also error-free.
 what uses stream sockets? lot of stuff do. web browsers for example use the HTTP protocol which uses stream sockets to get pages.
 if you `telnet www.google.com 80` (which will connect to Google's IP at port 80) and type `GET / HTTP/1.1` an hit `return` twice, it will spit the HTML of that page `/`  back to you.
 stream sockets use TCP protocol to achieve such high level of data transmission quality. TCP ensures data arrives sequentially and error-free.
+
+### datagram sockets
+also called connectionless. if you send a datagram, it may arrive, but **out of order**. datagram sockets do not use TCP, they use the "User Datagram Protocol", or UDP.
+you don't have to maintain an open connection as you do with stream sockets, hence connectionless. 
+just build a packet, put an IP header on it with destination info and dispatch it. no connection needed.
+they are used when a few dropped packets are not the end of the universe. multiplayer games, streaming audio, video and other services make use of datagram sockets.
