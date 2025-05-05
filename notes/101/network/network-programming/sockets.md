@@ -28,3 +28,8 @@ also called connectionless. if you send a datagram, it may arrive, but **out of 
 you don't have to maintain an open connection as you do with stream sockets, hence connectionless. 
 just build a packet, put an IP header on it with destination info and dispatch it. no connection needed.
 they are used when a few dropped packets are not the end of the universe. multiplayer games, streaming audio, video and other services make use of datagram sockets.
+
+## data encapsulation (network theory)
+basically, data encapsulation is: a packet is born, this packet gets wrapped (encapsulated) in a header by the first protocol (e.g.: TFTP), then the whole thing is encapsulated again by the next protocol (e.g.: UDP), then again by the next (IP) then by the final protocol on the physical (hardware) layer (e.g.: Ethernet).
+when another computer receives this packet, it starts to unwrap all of it. first the hardware strips the Ethernet header, then the kernel strips the IP and UDP headers, the TFTP program strips the TFTP, and finally we have the data!
+that's all. visualizing it should be something like:
