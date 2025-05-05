@@ -16,3 +16,9 @@ if your process opens 10 files then your Process Table will have 10 entries for 
 ## internet sockets
 there are plenty of Internet sockets, but we'll address only two of them: **Stream Sockets** and **Datagram Sockets**, although Raw Sockets are really powerful too (check on it later).
 Stream Sockets are also referred to as `SOCK_STREAM` and Datagram Sockets as `SOCK_DGRAM`, the latter is called sometimes as "connectionless sockets".
+
+### stream sockets
+stream sockets are a reliable two-way connected communication streams. if you output two items "1" and "2" in this order, they will arrive at that same order at the opposite end. they are also error-free.
+what uses stream sockets? lot of stuff do. web browsers for example use the HTTP protocol which uses stream sockets to get pages.
+if you `telnet www.google.com 80` (which will connect to Google's IP at port 80) and type `GET / HTTP/1.1` an hit `return` twice, it will spit the HTML of that page `/`  back to you.
+stream sockets use TCP protocol to achieve such high level of data transmission quality. TCP ensures data arrives sequentially and error-free.
