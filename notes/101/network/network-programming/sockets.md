@@ -36,3 +36,6 @@ when another computer receives this packet, it starts to unwrap all of it. first
 that's all. visualizing it should be something like:
 
 ![[Pasted image 20250504231230.webp]]
+
+## references
+- https://beej.us/guide/bgnet/html/split/what-is-a-socket.html
