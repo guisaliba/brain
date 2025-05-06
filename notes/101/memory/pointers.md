@@ -1,7 +1,7 @@
 # what are pointers?
 pointers are literally what they say they are: pointers to something. but wait, what does that mean?
 
-it means that a pointer (or any pointer) exists to point to something known. "something known" is actually a memory address that stores some value.
+it means that a pointer (or any pointer) exists to point at something known. "something known" is actually a memory address that stores some value.
 
 if a memory address stores a value, then we could get (or reference) this value by pointing to it, instead of accessing it and kind of copying the value being held on that address.
 
