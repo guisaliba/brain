@@ -1,5 +1,6 @@
 # what are pointers?
 pointers are literally what they say they are: pointers to something. but wait, what does that mean?
+
 it means that a pointer (or any pointer) exists to point to something known. "something known" is actually a memory address that stores some value.
 
 if a memory address stores a value, then we could get (or reference) this value by pointing to it, instead of accessing it and kind of copying the value being held on that address.
@@ -20,21 +21,21 @@ this happens not by pointing to whatever value "x" is holding but to the address
 
 in other words, if "x" lives in a memory address `0xCCCC` (hexadecimal representation) and stores the int value `10`, then "y" could live in another address `0xCCD0` and store `0xCCCC`, which is the address of "x", not the value `10`.
 
-in the end, accessing the value at `*y` will return us `10`, but it is not **holding** `10`, instead it holds whatever currently lives at the memory address of "x".
+in the end, accessing the value at `*y` will return us `10`, but variable `y` is **not holding** `10`, instead it is holding whatever currently lives at the memory address of "x".
 
 we can change what lives at `0xCCCC` through the `*y` pointer, not having to directly access that address in order to modify what it holds.
 
 if we were to do something like `*y = 20` and then access `x` again, we would have `20` instead of the original value `10`. this happened without us accessing `x` directly.
 
-# a better visualization of pointers
-## memory state after variable declaration
+## a better visualization
+### memory state after variable declaration
 
-|Variable Name|Memory Address|Value Stored|Description|
-|---|---|---|---|
-|`x`|`0xAF28`|`10` (integer)|Integer variable storing 10|
-|`y`|`0xBF44`|`0xAF28` (address)|Pointer storing the address of x|
+| Variable Name | Memory Address | Value Stored       | Description                      |
+| ------------- | -------------- | ------------------ | -------------------------------- |
+| `x`           | `0xAF28`       | `10` (integer)     | Integer variable storing 10      |
+| `y`           | `0xBF44`       | `0xAF28` (address) | Pointer storing the address of x |
 
-## memory state after let's say `*y = 84`
+### memory state after let's say `*y = 84`
 
 | Variable Name | Memory Address | Value Stored       | Description                      |
 | ------------- | -------------- | ------------------ | -------------------------------- |
