@@ -25,3 +25,18 @@ in the end, accessing the value at `*y` will return us `10`, but it is not **hol
 we can change what lives at `0xCCCC` through the `*y` pointer, not having to directly access that address in order to modify what it holds.
 
 if we were to do something like `*y = 20` and then access `x` again, we would have `20` instead of the original value `10`. this happened without us accessing `x` directly.
+
+# a better visualization of pointers
+## memory state after variable declaration
+
+|Variable Name|Memory Address|Value Stored|Description|
+|---|---|---|---|
+|`x`|`0xAF28`|`10` (integer)|Integer variable storing 10|
+|`y`|`0xBF44`|`0xAF28` (address)|Pointer storing the address of x|
+
+## memory state after let's say `*y = 84`
+
+| Variable Name | Memory Address | Value Stored       | Description                      |
+| ------------- | -------------- | ------------------ | -------------------------------- |
+| `x`           | `0xAF28`       | `84` (integer)     | Value changed via pointer        |
+| `y`           | `0xBF44`       | `0xAF28` (address) | Pointer still stores x's address |
