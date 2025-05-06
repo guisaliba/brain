@@ -1,8 +1,11 @@
 # what are pointers?
 pointers are literally what they say they are: pointers to something. but wait, what does that mean?
 it means that a pointer (or any pointer) exists to point to something known. "something known" is actually a memory address that stores some value.
+
 if a memory address stores a value, then we could get (or reference) this value by pointing to it, instead of accessing it and kind of copying the value being held on that address.
+
 this means that we can access (and even modify) the value living in an address without actually having to access that address directly.
+
 we can visualize this in C e.g.:
 ``` C
 int x = 10; // x is a variable storing the value 10
@@ -20,4 +23,5 @@ in other words, if "x" lives in a memory address `0xCCCC` (hexadecimal represent
 in the end, accessing the value at `*y` will return us `10`, but it is not **holding** `10`, instead it holds whatever currently lives at the memory address of "x".
 
 we can change what lives at `0xCCCC` through the `*y` pointer, not having to directly access that address in order to modify what it holds.
+
 if we were to do something like `*y = 20` and then access `x` again, we would have `20` instead of the original value `10`. this happened without us accessing `x` directly.
