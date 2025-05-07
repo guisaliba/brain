@@ -1,0 +1,1 @@
+fully managed key-value and document NoSQL database. gotta write more on it later.
