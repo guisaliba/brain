@@ -1,0 +1,1 @@
+fully managed CDN. gotta write more on it later.
