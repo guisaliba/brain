@@ -1,4 +1,4 @@
-Market salaries expectations:
+Market salaries expectations (BRL at BR):
 
 3-6/7 (JR)
 8-11 (PL)
