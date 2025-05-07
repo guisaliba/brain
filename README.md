@@ -14,6 +14,8 @@ This repository syncs with my local vault every 30 seconds.
 This project was built using:
 
 - Obsidian
+- Markdown
+- MDX
 - Git
 
 ## Usage
