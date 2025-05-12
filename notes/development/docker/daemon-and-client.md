@@ -1,3 +1,6 @@
+# subject: [[docker]]
+# topics: #docker 
+---
 Quando utilizamos o Docker em nossa máquina, ele é composto de dois agentes:
 
 - **Docker Daemon**

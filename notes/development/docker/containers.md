@@ -1,22 +1,18 @@
 # subject: [[docker]]
 # topics: #docker #containers #vm
 
-## A palavra chave para entender o Docker é **containers.**
+## understanding docker through containers
 
-Entender o que são os containers é fundamental para entender o funcionamento do Docker.
+the keyword for understanding docker is **containers.** understanding what containers are is fundamental to understanding how docker works. and to understand containers, we need to understand the concept of **virtual machines.**
 
-E para entendermos os containers, precisamos entender o conceito de **máquinas virtuais.**
+a virtual machine is an environment that runs within another Operating System (**OS**). it emulates an entire Operating System, from the kernel to all configurations of the chosen OS. this causes the user to have a resource **overhead**.
 
-Uma máquina virtual é um ambiente que roda dentro de outro Sistema Operacional (**OS**). Ela emula um Sistema Operacional inteiro, desde o Kernel até todas as configurações do OS escolhido. Isso faz com que o usuário tenha um **overhead** de recursos.
+and what does resource overhead mean? it means that when a virtual machine is initialized, it will mandatorily sequester resources from the machine on which it is hosted. that is, CPU processing and available memory. the more virtual machines initialized, or rather, the more environments sequestering resources, the heavier the entire process becomes.
 
-E o que significa um overhead de recursos? Significa que, quando uma máquina virtual é inicializada, ela vai obrigatoriamente sequestar recursos da máquina em que ela está hospeadada.
+these machines could be used, for example, in a scalable application that grows increasingly in size, demanding more and more virtual machines to be raised. from this, a light, simple, and conducive environment becomes necessary: **containers.**
 
-Isto é, processamento de CPU e memória dispónível. Quanto mais máquinas virtuais inicializadas, ou seja, quanto mais ambientes sequestrando recursos, mais pesado todo o processo fica.
+## containers:
 
-Essas máquinas poderiam ser utilizadas por exemplo, em uma aplicação escalonável, que cresce cada vez mais de tamanho, demandando cada vez mais máquinas virtuais levantadas. A partir disso, torna-se necessário um ambiente leve, simples e propício: **************os containers.**************
+instead of virtualizing an entire machine to create a new environment, containers are just a process in the OS that is **tricked** into thinking it has an entire Operating System at its disposal. in the end, it is just a process, much simpler, efficient, and cheaper.
 
-## Os containers:
-
-Ao invés de virtualizar uma máquina inteira para criar um novo ambiente, os containers são apenas um processo no OS que é ****************enganado****************, por achar que ele possui um Sistema Operacional inteiro à sua disposição. No fim, ele é apenas um processo, muito mais simples, eficiente e barato.
-
-Essa é a ideia do **Docker**. Criar containers para construir aplicações dentro deles. A principal vantagem dos containers é que, diferente das máquinas virtuais, eles compartilham recursos com o OS principal, e compartilham também entre si (no caso de vários containers rodando na máquina).
+this is the idea of **docker**. creating containers to build applications inside them. the main advantage of containers is that, unlike virtual machines, they share resources with the main OS, and also share among themselves (in the case of multiple containers running on the machine).
