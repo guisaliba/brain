@@ -1,5 +1,3 @@
-# subject: [[courses]]
-
 ## Algoritmos - Khan Academy
 https://pt.khanacademy.org/computing/computer-science/algorithms
 ## The GitLab Way (TeamOps with certification)
