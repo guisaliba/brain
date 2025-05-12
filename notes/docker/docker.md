@@ -26,4 +26,3 @@ docker has three building steps.
 1. **build**: the building step consists on building from ground up what an image needs to exist, and it all starts with the Dockerfile. 
 2. **ship**: after they're built, images can be published to a hub such as Dockerhub where they'll be host and can be pulled from. by default, images are published in **privately**.
 3. **run**: running an image leverages the Docker Engine to orchestrate the dependencies to run that image. the Docker Engine acts as a client-server application for building and containerizing applications.
-
