@@ -12,3 +12,4 @@ created_date: "10-08-2023"
 modified_date: "23-09-2023"
 ---
 This article explains abstraction layers, which you can use in many programming domains.
+
