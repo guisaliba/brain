@@ -1,6 +1,6 @@
 # subject: [[git]]
 # topics: #git
-
+--- 
 ## introduction:
 
 git is a type of **Version Control System (VCS)** used to keep code updated/in the correct version, roll back when a critical error occurs, among various other functions. it is essential when working in teams, and even alone. git is responsible for allowing us to interact with GitHub and organize our files and projects.

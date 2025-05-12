@@ -1,3 +1,6 @@
+# subject: [[docker]]
+# topics: #docker #containers #vm
+
 ## A palavra chave para entender o Docker é **containers.**
 
 Entender o que são os containers é fundamental para entender o funcionamento do Docker.

@@ -1,18 +1,20 @@
 # subject: [[git]]
 # topics: #git
+---
+## git's three states
 
-O Git possui três estágios (ou estados), que são o principal mecanismo de como tudo funciona. Esse é o conceito mais importante desse VCS. Seus arquivos podem residir em três estados diferentes: **modified**, **committed** e **staged.**
+git has three stages (or states), which are the main mechanism of how everything works. this is the most important concept of this VCS. your files can reside in three different states: **modified**, **committed**, and **staged**.
 
-- ********************Modified:******************** Esse estado significa que algo foi modificado nos seus arquivos/diretório porém ainda **não** foram commitados à sua database.
-- **Staged**: Um arquivo que está no estado staged é um arquivo que foi modificado e marcado como **pronto** para ser commitado e guardado no próximo snapshot do seu código.
-- ********************Commited:******************** O commited significa que seu arquivo (ou mais de um) subiu para a database e está guardado em segurança. No snapshot tirado pelo Git, esses arquivos estarão lá.
+- **Modified:** this state means that something has been modified in your files/directory but has **not** yet been committed to your database.
+- **Staged:** a file in the staged state is a file that has been modified and marked as **ready** to be committed and stored in the next snapshot of your code.
+- **Committed:** committed means that your file (or more than one) has been uploaded to the database and is safely stored. in the snapshot taken by git, these files will be there.
 
-Esses três estados nos introduzem ao conceito de **working tree** do Git, um fluxo de trabalho.
+these three states introduce us to the concept of git's **working tree**, a workflow.
 
-O fluxo de trabalho do Git é basicamente isso:
+git's workflow is basically this:
 
-1. Você **modifica** arquivos na sua working tree.
-2. Você **seleciona** à mão quais mudanças você quer que estejam no próximo commit, ou seja, você põe esses arquivos selecionados em **stage**.
-3. Você faz o **commit**, que pega somente os arquivos modificados selecionados (**staged**), e guarda um **snapshot** permanente no seu diretório Git.
+1. you **modify** files in your working tree.
+2. you **select** by hand which changes you want to be in the next commit, meaning you put these selected files in **stage**.
+3. you make the **commit**, which takes only the selected modified files (**staged**), and stores a permanent **snapshot** in your git directory.
 
-Um **diretório Git** é uma pasta criada automaticamente pelo Git uma vez que você o inicializa no seu projeto. É nessa pasta que ele guarda todas as informações de mudanças, stage, commit, fluxo e **.gitignore**, um arquivo onde você diz ao Git o que ele deve **ignorar**, não incluindo tais pastas ou arquivos especificados no próximo snapshot.
+a **git directory** is a folder automatically created by git once you initialize it in your project. it's in this folder that it stores all information about changes, stage, commit, flow, and **.gitignore**, a file where you tell git what it should **ignore**, not including such specified folders or files in the next snapshot.
