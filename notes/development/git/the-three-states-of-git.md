@@ -1,3 +1,6 @@
+# subject: [[git]]
+# topics: #git
+
 O Git possui três estágios (ou estados), que são o principal mecanismo de como tudo funciona. Esse é o conceito mais importante desse VCS. Seus arquivos podem residir em três estados diferentes: **modified**, **committed** e **staged.**
 
 - ********************Modified:******************** Esse estado significa que algo foi modificado nos seus arquivos/diretório porém ainda **não** foram commitados à sua database.
@@ -13,5 +16,3 @@ O fluxo de trabalho do Git é basicamente isso:
 3. Você faz o **commit**, que pega somente os arquivos modificados selecionados (**staged**), e guarda um **snapshot** permanente no seu diretório Git.
 
 Um **diretório Git** é uma pasta criada automaticamente pelo Git uma vez que você o inicializa no seu projeto. É nessa pasta que ele guarda todas as informações de mudanças, stage, commit, fluxo e **.gitignore**, um arquivo onde você diz ao Git o que ele deve **ignorar**, não incluindo tais pastas ou arquivos especificados no próximo snapshot.
-
-#git 
