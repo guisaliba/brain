@@ -1,4 +1,7 @@
-# Nest.js is a Node.js framework to build robust server-side applications.
+# subject: [[nestjs]]
+# topics: #nestjs #nodejs #web-development
+---
+## Nest.js is a Node.js framework to build robust server-side applications.
 Fully supports TypeScript yet still enables coding in pure JavaScript.
 
 Under the hood, Nest makes use of robust HTTP Server frameworks like [Express](https://expressjs.com/) (the default) and optionally can be configured to use [Fastify](https://github.com/fastify/fastify) as well!
@@ -46,5 +49,3 @@ This generates an entire new Module with its own Controller, Service and integra
 Nest has native support to the best database tools of the Node.js ecossystem. Prisma, TypeORM, MikroORM, etc. are all natively supported and easy to use in a Nest application. 
 
 Many of them e.g. TypeORM has an `npm` package that natively supports Nest and provides tools and syntax to integrate the ORM into your Nest application.
-
-#nest #node

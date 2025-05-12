@@ -1,3 +1,6 @@
+# subject: [[api]]
+# topics: #web-development #backend
+--- 
 Muitas vezes durante desenvolvimento iremos nos deparar com a seguinte situação: o frontend está sendo feito, ou quase pronto porém o backend do produto ainda não está preparado para ser consumido no front.
 
 Isso significa que, nosso frontend não tem de onde puxar dados ou fazer requests, tratar erros etc, tudo que ele pode fazer é trabalhar com dados estáticos, o que não é de muita ajuda.
