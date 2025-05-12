@@ -1,3 +1,5 @@
+# subject: [[docker]]
+# topics: #containers #vm 
 ### O conceito de Máquinas Virtuais:
 
 Primeiro precisamos entender o que são VM’s. Virtual Machines (VM’s) são Máquinas Virtuais com OS próprio que executam de forma isolada dentro do Host (OS principal).

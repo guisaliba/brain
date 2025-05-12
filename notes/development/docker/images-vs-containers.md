@@ -1,4 +1,4 @@
-imageContainer e Imagem são dois conceitos no Docker que estão extremamente interligados. Entender o funcionamento de um é fundamental para entender o funcionamento do outro, e vice-versa.
+Container e Imagem são dois conceitos no Docker que estão extremamente interligados. Entender o funcionamento de um é fundamental para entender o funcionamento do outro, e vice-versa.
 
 Em poucas palavras, uma Imagem é um ambiente em que se rodará um Container. É a partir da Imagem que o Container executa aquilo que ele precisa executar. Sem uma Imagem, um Container não pode existir.
 
@@ -13,13 +13,14 @@ class Image {
 	programas,
 	variaveis_de_ambiente,
 	aplicacao,
+	setup,
 	etc
 }
 
 const container = new Image(); 
 ```
 
-Assim como no JavaScript uma variável é uma caixa, um espaço que recebe algum dado, no Docker, o Container é um espaço aonde será recebido algo e posteriormente executado.
+Assim como no JavaScript uma variável é uma caixa, um espaço que recebe algum dado, no Docker, o Container é um espaço aonde será recebido algo e posteriormente executado, sendo esse algo uma Imagem.
 
 A variável container nessa analogia está recebendo uma função que executa a classe Imagem. E a partir de uma imagem, é possível iniciar VÁRIOS containers. 
 
