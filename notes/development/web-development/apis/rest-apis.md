@@ -1,3 +1,7 @@
+# subject: [[api]]
+# topics: #web-development #backend 
+---
+
 Uma API é quem permite a comunicação entre sistemas, tanto internamente quanto externamente. É uma aplicação client-server que permite a interoperabilidade entre sistemas.
 
 Seguir as melhores práticas e padrões para se construir uma API é muito importante.
@@ -20,7 +24,7 @@ Um dos padrões mais famosos atualmente na web para se fazer uma API é o padrã
 ## E como sabemos se uma API é RESTful?
 
 - Podemos identificar uma API RESTful através da Maturidade de Richardson.
-- O modelo de [[richardson]] são 4 pilares que, caso seguidos ao construir uma API, ela possa ser considerada uma API RESTful.
+- O modelo de [[richardson-maturity]] são 4 pilares que, caso seguidos ao construir uma API, ela possa ser considerada uma API RESTful.
 
 ## **Quais são os benefícios das APIs RESTful?**
 

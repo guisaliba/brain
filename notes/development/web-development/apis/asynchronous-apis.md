@@ -1,3 +1,6 @@
+# subject: [[api]]
+# topics: #web-development #backend
+---
 Uma API síncrona é aquela API em que cada uma das operações enviadas pelo cliente ao servidor é completada em ordem, antes que a próxima operação seja executada.
 
 ### Exemplo:

@@ -17,7 +17,9 @@ Existem inúmeras formas de se fazer isso e até mesmo ferramentas ou biblioteca
 
 Simples. Instalamos uma ferramenta ou biblioteca, e em seguida, usando os métodos e funções da ferramenta instalada, começamos a construir nossa fake API no próprio frontend.
 
-Na root da nossa aplicação (ou no index) aonde estamos renderizando tudo, podemos usar uma função do MirageJS por exemplo para já construir nossa API ali mesmo.
+Suponha que estamos escrevendo uma aplicação em React, podemos fazer uso de uma biblioteca chamada MirageJS por exemplo e construir um endpoint qualquer que nos retorne alguns dados essenciais da nossa aplicação.
+
+Um exemplo de código com o Mirage:
 
 ```tsx
 createServer({
@@ -40,17 +42,8 @@ createServer({
 })
 ```
 
-## O que esse pedaço de código está dizendo?
-
-A função createServer() está mockando um servidor para receber requests HTTP do nosso frontend. Dentro dela, podemos definir as rotas em que queremos receber essas chamadas.
-
-A função routes() é a responsável aqui por definir as rotas, quando escrevemos this.namespace = ‘api’ estamos dizendo ao servidor que nossas rotas virão do endpoint [https://app/api](https://app/api). Assim, toda rota definida partirá desse endpoint.
-
-O this.get() é nada mais nada menos que nossa request, nesse caso do tipo GET. Ela está sendo feita no endpoint /api/transactions e retornando um objeto com várias informações.
-
 ## E como o frontend consome essa fake API?
-
-Podemos utilizar um cliente HTTP como o Axios para simular requests na nossa fake API. Implementá-lo no código é simples:
+Podemos utilizar um cliente HTTP como o Axios por exemplo, se estivermos utilizando um frontend JavaScript como o React para simular requests na nossa fake API. Implementá-lo no código é simples:
 
 ```tsx
 // /services/api
@@ -62,19 +55,4 @@ export const api = axios.create({
 })
 ```
 
-No nosso código, aonde quisermos fazer uso dessa request, como por exemplo em um componente aonde o useEffect() vai observar qualquer alteração nessas requests, escrevemos:
-
-```tsx
-import { api } from ./services/api
-
-useEffect(() => {
-    api.get('transactions')
-      .then((response) => console.log(response.data))
-  }, [])
-```
-
-## O que esse pedaço de código está dizendo?
-
-O useEffect() é o responsável por observar no React quando o valor de uma variável é alterado, e ser executado novamente a cada mudança.
-
-Nossa const api é uma função do Axios que cria um cliente HTTP para nossa API do MirageJS. O baseURL define de qual endereço as requests serão feitas. Nesse exemplo a request é do tipo GET, então `api.get('transactions')` está fazendo uma request para o endpoint /transactions.
+A partir disso podemos utilizar quaisquer dados retornados por essa request e consumi-los em nosso frontend.

@@ -1,3 +1,6 @@
+# subject: [[api]]
+# topics: #web-development #security
+---
 Se um programa ou aplicativo possui uma API, clientes externos podem solicitar serviços dela.
 
 A segurança das APIs é o processo de proteção das APIs contra ataques. Assim como aplicativos, redes e servidores podem estar sujeitos a ataques, as APIs podem ser vítimas de várias ameaças diferentes.

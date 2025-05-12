@@ -1,4 +1,6 @@
-## Nível 0:
+# subject: [[api]]
+# topics: #web-development #backend 
+## Nível 0
 
 - Uma API está no Nível 0 quando ela utiliza do protocolo HTTP.
 - Porém essa API utiliza o protocólo apenas para comunicação.
@@ -32,4 +34,4 @@
 - O inverso também ocorre. Ao acessar aquele específico produto, ele possui também um caminho de retorno, em que ele volta para o local que está inserido.
     
 
-### Ao satisfazer esses 4 pilares, a API pode ser considerada [[restful-api]]
+### Ao satisfazer esses 4 pilares, a API pode ser considerada [[rest-apis]]
