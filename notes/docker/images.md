@@ -1,3 +1,6 @@
+# subject: [[docker]]
+# topics: #docker
+---
 on a Dockerfile, the `FROM` command that specifies the base image fetches an image from somewhere. usually, this image gets fetched from Dockerhub but there are many places that host images and leverages pulling these images to your applications.
 
 when a base image gets pulled from a hub (or host) for the first time, running that Dockerfile image again won't pull that base image again, since the SHA (hash) of the base image didn't change. that saves a lot of resources and build time.

@@ -1,4 +1,4 @@
-# subject: [[generative-ai]]
+# subject: [[gen-ai]]
 # topics: #LLMs #ai 
 
 Tokenization: Yes, tokenization is the process of breaking down an input into smaller chunks, such as words or subwords, to enable the model to process and generate language more effectively. Different tokenization strategies can be employed, such as ignoring punctuation or breaking long words into multiple tokens.

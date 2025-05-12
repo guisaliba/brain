@@ -1,3 +1,6 @@
+# subject: [[docker]]
+# topics: #docker #dockerfile
+---
 it all starts with the Dockerfile. docker builds images by reading instructions from a Dockerfile, it is a text file containing instructions for building the source code. using the default name Dockerfile allows to run the `docker build` command to build an image without having to specify any additional command flags.
 
 ```python
