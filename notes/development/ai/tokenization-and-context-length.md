@@ -1,3 +1,6 @@
+# subject: [[generative-ai]]
+# topics: #LLMs #ai 
+
 Tokenization: Yes, tokenization is the process of breaking down an input into smaller chunks, such as words or subwords, to enable the model to process and generate language more effectively. Different tokenization strategies can be employed, such as ignoring punctuation or breaking long words into multiple tokens.
 
 Context length: Exactly! The context length represents the number of tokens the model considers when generating each subsequent token. A longer context length can result in more precise output, as the model has more information to draw upon when making predictions.
