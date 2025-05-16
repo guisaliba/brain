@@ -5,7 +5,7 @@ tags:
   - algorithms
   - "#optimization"
 ---
-Branch and Bound is an algorithmic technique used to solve optimization problems. it works exploring all possible solutions to a problem and dividing the problem space into smaller sub-problems.
+branch and bound is an algorithmic technique used to solve optimization problems. it works exploring all possible solutions to a problem and dividing the problem space into smaller sub-problems.
 
 when a set of sub-problems to the original problem space is found, some constraints (or bounds) are applied, in order to eliminate certain subproblems from consideration.
 
