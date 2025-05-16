@@ -1,5 +1,15 @@
-# Big O is a way to categorize your algorithm on time and memory complexity based on the input. It tells how your algorithm reacts to different given inputs.
-
+---
+description: How different algorithms costs behave when compared to each other
+tags:
+  - big-o
+  - algorithms
+title: Asymptotic behaviors (O, Ω, Θ)
+---
+# subject: [[algorithms]]
+# topics: #big-o #algorithms 
+---
+## Definition
+Big O is a way to categorize your algorithm on time and memory complexity based on the input. It tells how your algorithm reacts to different given inputs.
 ## Growth is with respect to the input
 As your input grows, how fast does computation or memory grow? The growth of these two are **directly** related to the input, if the input grows, they will grow as well.
 
