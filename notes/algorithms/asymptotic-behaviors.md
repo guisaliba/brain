@@ -1,8 +1,9 @@
 ---
+title: Asymptotic behaviors (O, Ω, Θ)
 tags:
   - big-o
   - algorithms
-title: Asymptotic behaviors (O, Ω, Θ)
+description:
 ---
 the mathematic function to represent the estimated cost of an algorithm is $f(n)$
 
