@@ -20,7 +20,7 @@ these algorithms are used to find the optimal solution for combinatory, discrete
 3. Resource allocation;
 etc.
 
-they incorporate different search techniques to traverse a state space tree, such as [BFS](https://github.com/guisaliba/dsa/blob/main/algorithms/search/graphs-search/bfs/notes.md), [DFS](https://github.com/guisaliba/dsa/blob/main/algorithms/search/graphs-search/dfs/notes.md) and [LC]().
+they incorporate different search techniques to traverse a state space tree, such as [BFS](https://github.com/guisaliba/dsa/blob/main/algorithms/search/graphs-search/bfs/notes.md), [DFS](https://github.com/guisaliba/dsa/blob/main/algorithms/search/graphs-search/dfs/notes.md) and [[LC]].
 
 the algorithm uses upper and lower bounds to cut down on the size of the search area. this has proven to be successful in locating the best solutions to challenging optimization problems.
 
