@@ -20,15 +20,17 @@ these algorithms are used to find the optimal solution for combinatory, discrete
 3. Resource allocation;
 etc.
 
-they incorporate different search techniques to traverse a state space tree, such as [BFS](https://github.com/guisaliba/dsa/blob/main/algorithms/search/graphs-search/bfs/notes.md), [DFS](https://github.com/guisaliba/dsa/blob/main/algorithms/search/graphs-search/dfs/notes.md) and [[LC]].
+they incorporate different search techniques to traverse a state space tree, such as [BFS](https://github.com/guisaliba/dsa/blob/main/algorithms/search/graphs-search/bfs/notes.md), [DFS](https://github.com/guisaliba/dsa/blob/main/algorithms/search/graphs-search/dfs/notes.md) and [[LC]]. the algorithm uses upper and lower bounds to cut down on the size of the search area.
 
 B&B generates a state space tree to efficiently search the solution space of a given problem instance.
 
 in B&B, all children of an E-node in a state space tree are produced before any live node gets converted in an E-node. thus, the E-node remains an E-node until it becomes a dead node.
 
-the algorithm uses upper and lower bounds to cut down on the size of the search area. this has proven to be successful in locating the best solutions to challenging optimization problems.
+it starts with an initial lower bound and iterations improve it until an optimized solution is found. this is achieved by applying a bounding function at each iteration on the possible solutions at each node.
 
-it starts with an initial lower bound and iterations improve it until an optimized solution is found.
+a **bounding function** is a heuristic function that evaluates the lower and upper bounds on the possible solutions at each node. if a node does not produce a solution better than the current best solution, it is abandoned without further exploration.
+
+the algorithm then branches to another path to get a better solution. the desired solution to the problem is the value of the best solution produced so far.
 
 however, it's worst case time complexity is exponential in the size of the input ($O(n^2)$) and it uses a lot of memory in order to store the search tree and the current best answer to the problem.
 
