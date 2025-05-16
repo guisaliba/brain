@@ -1,12 +1,10 @@
 ---
-description: How different algorithms costs behave when compared to each other
+title: Big O Notation (O)
+description: What is Big O Notation, how and why is it used for in computer science
 tags:
   - big-o
   - algorithms
-title: Asymptotic behaviors (O, Ω, Θ)
----
-# subject: [[algorithms]]
-# topics: #big-o #algorithms 
+  - "#cs"
 ---
 ## Definition
 Big O is a way to categorize your algorithm on time and memory complexity based on the input. It tells how your algorithm reacts to different given inputs.
