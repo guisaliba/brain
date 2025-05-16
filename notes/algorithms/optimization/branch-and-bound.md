@@ -20,6 +20,8 @@ these algorithms are used to find the optimal solution for combinatory, discrete
 3. Resource allocation;
 etc.
 
+they incorporate different search techniques to traverse a state space tree, such as [[]]
+
 the algorithm uses upper and lower bounds to cut down on the size of the search area. this has proven to be successful in locating the best solutions to challenging optimization problems.
 
 it starts with an initial lower bound and iterations improve it until an optimized solution is found.
