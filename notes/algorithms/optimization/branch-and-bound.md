@@ -38,6 +38,19 @@ there are two ways to represent a branch and bound algorithm solution:
 1. variable size: if we have to select a combination of elements from `{A, B, C, D}` that optimizes the given problem, and it is found that A and B together give the best solution, then the solution will be `{A, B}`.
 2. fixed-size: represented by 0s and 1s where 1 represent that we select the element which at nth position and 0 represent that we don't select the element at the nth position. for the above example, the solution would be given by `{1, 1, 0, 0}`.
 
+visualizing an exploration of a state space tree using the [[LC]]-branch and bound:
+in this technique, nodes are explored based on their cost. the cost of a node can be defined with the help of the given problem, thus defining a cost function.
+
+once the cost function is defined, the cost of each node can be defined. let's consider the diagram below.
+![[111.webp]]
+
+in this method, node C will be explored since it has the minimum (least) cost. during exploration of node 4 which is element C, there is only one possible element that remains unexplored, which is D.
+
+so node C will get expanded to one single element D. let's say this node number is 6.
+![[222.webp]]
+
+now node 6 has no element left to explore, so there is no further expansions. hence, the element `{C, D}` is the optimal way to choose for the least cost.
+
 however, it's worst case time complexity is exponential in the size of the input ($O(n^2)$) and it uses a lot of memory in order to store the search tree and the current best answer to the problem.
 
 the quality of the problem-specific constraints determines how well this technique performs, meaning that the harsher the bounds, the worser it's performance might be.
