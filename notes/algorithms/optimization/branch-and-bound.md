@@ -14,13 +14,15 @@ branch and bound uses backtracking to return to a previous node in the search tr
 
 a branch and bound algorithm provide an optimal solution to an NP-Hard problem by exploring the entire search space. through the exploration of the entire search space, a branch and bound algorithm identify possible candidates for solutions step-by-step.
 
+the algorithm uses upper and lower bounds to cut down on the size of the search area.
+
 these algorithms are used to find the optimal solution for combinatory, discrete and general mathematical optimization problems, such as:
 1. Traveling Salesman problem;
 2. Knapsack problem;
 3. Resource allocation;
 etc.
 
-they incorporate different search techniques to traverse a state space tree, such as [BFS](https://github.com/guisaliba/dsa/blob/main/algorithms/search/graphs-search/bfs/notes.md), [DFS](https://github.com/guisaliba/dsa/blob/main/algorithms/search/graphs-search/dfs/notes.md) and [[LC]]. the algorithm uses upper and lower bounds to cut down on the size of the search area.
+they incorporate different search techniques to traverse a state space tree, such as [BFS](https://github.com/guisaliba/dsa/blob/main/algorithms/search/graphs-search/bfs/notes.md), [DFS](https://github.com/guisaliba/dsa/blob/main/algorithms/search/graphs-search/dfs/notes.md) and [[LC]]. the order in which the state space tree is searched classifies the branch and bound method.
 
 B&B generates a state space tree to efficiently search the solution space of a given problem instance.
 
@@ -31,6 +33,10 @@ it starts with an initial lower bound and iterations improve it until an optimiz
 a **bounding function** is a heuristic function that evaluates the lower and upper bounds on the possible solutions at each node. if a node does not produce a solution better than the current best solution, it is abandoned without further exploration.
 
 the algorithm then branches to another path to get a better solution. the desired solution to the problem is the value of the best solution produced so far.
+
+there are two ways to represent a branch and bound algorithm solution:
+1. variable size: if we have to select a combination of elements from `{A, B, C, D}` that optimizes the given problem, and it is found that A and B together give the best solution, then the solution will be `{A, B}`.
+2. fixed-size: represented by 0s and 1s where 1 represent that we select the element which at nth position and 0 represent that we don't select the element at the nth position. for the above example, the solution would be given by `{1, 1, 0, 0}`.
 
 however, it's worst case time complexity is exponential in the size of the input ($O(n^2)$) and it uses a lot of memory in order to store the search tree and the current best answer to the problem.
 
