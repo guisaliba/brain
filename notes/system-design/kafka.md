@@ -23,4 +23,7 @@ that's called **Tight Coupling**. each service directly calls the other, if one 
 what if we could remove that tight coupling? what if something can sit in the middle of an order being placed and a notification being sent to our customers?
 
 Seller -> Post Office -> Buyer
-a seller never delivers a package to the buyer themselves. they send it to a post office, so they take care of delivering the package to whoever bought it.
+a seller never delivers a package to the buyer themselves. they send it to a post office, so they take care of delivering the package to whoever bought it. Kafka is the post office.
+it takes care of receiving a package and making it available to whoever needs it, aka, the buyers. now, whoever left that package in the post office does not need to be concerned about it once they drop it, they can go back to their own duties and let the post office handle it.
+
+"leaving a package" is called publishing an event. an event is the 
