@@ -29,4 +29,13 @@ it takes care of receiving a package and making it available to whoever needs it
 "leaving a package" is called publishing an event. an **event** records the **fact that something happened** in our e-commerce business, they are also called **record** or **message**. they are simple key-value structures, that also contains a timestamp and some optional metadata (like information about the order, the customer who placed it, etc).
 when you read or write data to Kafka, you do this in the form of **events**.
 
-so now the order microservice does not need to wait for a response, they can just publish an event to Kafka, and leave it to be. if a service publishes an event into Kafka, they are called **producers**.
+so now the order microservice does not need to wait for a response, they can just publish an event to Kafka, and leave it to be. if a service publishes (write) an event into Kafka, they are called **producers**. this is done through the Producer API, to produce and send events.
+
+but where do events go? since many services can be producers and send events to Kafka, how Kafka organizes them and store each event? that's where **topics** come in.
+a **topic** is a section of the post office, a department, that group and store the same type of packages. for example, the order service will publish orders to the order topic. a topic is defined just like a schema in a database, the developer decides what and how they look like.
+
+what next? packages are safely stored in their own departments, but how does the department handles these packages to all those buyers waiting to receive them?
+**consumers** are the buyers, that will **listen to a topic** (a department) of the post office, waiting for any package that arrives there in that topic. 
+a consumer is just another service, like the producers, but they don't write data to Kafka, they read it instead and take their own actions whenever something is read.
+
+Kafka is not a replacement for a database.
