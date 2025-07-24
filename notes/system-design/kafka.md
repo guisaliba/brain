@@ -57,4 +57,8 @@ that's where **consumer groups** comes in. applications that are consumers can b
 Kafka distributes the load automatically by assigning partitions to consumers, so when a partition finishes delivering events to a consumer, they can be reassigned to another one.
 
 and last but not least, where is all of this data phisically saved? in the Kafka **broker**.
-data in topics is saved in Kafka "servers" called brokers. each broker can be thought of a post office branch. topic's partitions are distributed across multiple branches (brokers)
+data in topics is saved in Kafka "servers" called brokers. each broker can be thought of a post office branch. 
+topic's partitions are distributed across multiple branches (brokers). if a broker goes down, that partition is also stored in another one, so they don't end up being completely lost or forgotten in the package delivering line.
+that's what makes Kafka different from standard message brokers. in services like SQS, when a message is consumed, it is deleted. in Kafka, an event (or a package) is stored as long as you need.
+that period is a custom configurable **retention period**. this enables real time data processing, so consumers can read those events anytime they want, even multiple time if they need to.
+Kafka focus on event streaming and long term data-retention, while message queueing services focus on delivering a message with reliability and that's it.
