@@ -39,3 +39,8 @@ what next? packages are safely stored in their own departments, but how does the
 a consumer is just another service, like the producers, but they don't write data to Kafka, they read it instead and take their own actions whenever something is read.
 
 Kafka is not a replacement of a database.
+
+a chain reaction of **events** is the result of multiple events happening based on the publishing of one event as seen before. for example, a service publishing an order event to the order topic may cause a service listening to that topic publish an event to an inventory topic.
+then, someone can be listening to that inventory topic and produce an alert for products below the stock threshold, publishing another event to another re-stock topic. everything is a domino.
+
+real time processing in Kafka are also called **streams**.
