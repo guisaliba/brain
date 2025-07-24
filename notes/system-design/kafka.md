@@ -44,6 +44,17 @@ a chain reaction of **events** is the result of multiple events happening based 
 then, someone can be listening to that inventory topic and produce an alert for products below the stock threshold, publishing another event to another re-stock topic. everything is a domino.
 
 real time processing in Kafka are also called **streams**. a stream is a continuous real time flow of records (key-value pairs). let's imagine a service that needs to send real time data (such as the location of a person) constantly, updating the user UI with that information (the location).
-for such use cases, Kafka uses what is called **Stream APIs**. it is different from the so far described architecture of producers publishing and consumers processing one event at a time.
+for such use cases, Kafka uses what is called **Streams API**. it is different from the so far described architecture of producers publishing and consumers processing one event at a time.
 streams will process continuous flows of data, providing higher-level functions like transformations and stateful operations like aggregatiosn (counts, averages, sums) and joins.
-in code, the Kafka Streams API library 
+in code, the Kafka Streams API library leverages the creation of a **stream** to perform stream processing by reading from a topic, processing realtime data and output it to many topics.
+
+and how does that scale? if our e-commerce grew to be large and process a huge amount of realtime data and many event publishing, how would we deal with such an amount?
+since we already have sections (departments) in our post office (Kafka), we could just add more workers to each department as needed. in Kafka that's called **partitions**. if a topic gets overloaded, you smartly decide how to partition your topic, just like a schema design.
+do you need more workers to deliver packages to the EU? or the US? it's a design decision.
+
+what about the consumers? if producers can write to multiple partitions and the same time, how does the buyers receive all of these packages at the same time too? the partitions workers are being super efficient now but the buyers can't handle that much packages.
+that's where **consumer groups** comes in. applications that are consumers can be grouped into a consumer group, so replicas of the same application must share the same consumer group id once they are created. this way, Kafka knows everyone that should receive those events, even if there's 100 instances of the same application waiting for them to arrive.
+Kafka distributes the load automatically by assigning partitions to consumers, so when a partition finishes delivering events to a consumer, they can be reassigned to another one.
+
+and last but not least, where is all of this data phisically saved? in the Kafka **broker**.
+data in topics is saved in Kafka "servers" called brokers. each broker can be thought of a post office branch. topic's partitions are distributed across multiple branches (brokers)
