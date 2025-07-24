@@ -6,3 +6,9 @@ tags:
   - pub-sub
 description: Introduction to pub/sub and Apache Kafka
 ---
+- Event streams
+- Topics
+- Brokers
+- Producers
+- Consumers
+- 
