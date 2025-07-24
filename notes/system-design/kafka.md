@@ -11,4 +11,7 @@ description: Introduction to pub/sub and Apache Kafka
 - Brokers
 - Producers
 - Consumers
+- Disperse streams into unified realtime pipelines
+- Realtime data bus, allows different microservices to talk to each other
+- Monitoring and observability -> ELK Stack
 - 
