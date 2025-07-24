@@ -2,5 +2,7 @@
 tit: What is Apache Kafka?
 tags:
   - system-design
-  - messageries
+  - messaging
+  - pub-sub
+description: Introduction to pub/sub and Apache Kafka
 ---
