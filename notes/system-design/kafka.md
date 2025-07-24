@@ -1,10 +1,10 @@
 ---
-tit: What is Apache Kafka?
+tit: Kafka
 tags:
   - system-design
   - messaging
   - pub-sub
-description: Introduction to pub/sub and Apache Kafka
+description: A comprehensive overview of Apache Kafka and pub/sub architecture.
 ---
 think of an e-commerce: when a customer places an order, a chain of events must happen to correctly process that placed order.
 like updating stock in database, sending purchase confirmation notification to customer, updating analytics data boards and so forth and so on.
@@ -17,7 +17,7 @@ that's called **Tight Coupling**. each service directly calls the other, if one 
 one slow service and everything slows down. 10 minutes of outage means hours of orders backlog. the list goes on.
 what if we could remove that tight coupling? what if something can sit in the middle of an order being placed and a notification being sent to our customers?
 
-Seller -> Post Office -> Buyer
+## Seller -> Post Office -> Buyer
 
 a seller never delivers a package to the buyer themselves. they send it to a post office, so they take care of delivering the package to whoever bought it. **Kafka is the post office**.
 
@@ -27,7 +27,7 @@ now, whoever left that package in the post office does not need to be concerned 
 
 "leaving a package" is called publishing an event. an **event** records the **fact that something happened** in our e-commerce business, they are also called **record** or **message**.
 
-they are simple key-value structures, that also contains a timestamp and some optional metadata (like information about the order, the customer who placed it, etc).
+they are simple key-value structures, that also contains a timestamp and some optional metadata (like information about the order, the customer who placed it, etc.).
 when you read or write data to Kafka, you do this in the form of **events**.
 
 so now the order microservice does not need to wait for a response, they can just publish an event to Kafka, and leave it to be.
