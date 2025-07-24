@@ -23,7 +23,10 @@ that's called **Tight Coupling**. each service directly calls the other, if one 
 what if we could remove that tight coupling? what if something can sit in the middle of an order being placed and a notification being sent to our customers?
 
 Seller -> Post Office -> Buyer
-a seller never delivers a package to the buyer themselves. they send it to a post office, so they take care of delivering the package to whoever bought it. Kafka is the post office.
-it takes care of receiving a package and making it available to whoever needs it, aka, the buyers. now, whoever left that package in the post office does not need to be concerned about it once they drop it, they can go back to their own duties and let the post office handle it.
+a seller never delivers a package to the buyer themselves. they send it to a post office, so they take care of delivering the package to whoever bought it. **Kafka is the post office**.
+it takes care of receiving a package and making it available to whoever needs it, aka, the buyers. now, whoever left that package in the post office does not need to be concerned about it once they drop it there, they can go back to their own duties and let the post office handle it.
 
-"leaving a package" is called publishing an event. an event is the 
+"leaving a package" is called publishing an event. an **event** records the **fact that something happened** in our e-commerce business, they are also called **record** or **message**. they are simple key-value structures, that also contains a timestamp and some optional metadata (like information about the order, the customer who placed it, etc).
+when you read or write data to Kafka, you do this in the form of **events**.
+
+so now the order microservice does not need to wait for a response, they can just publish an event to Kafka, and leave it to be. if a service publishes an event into Kafka, they are called **producers**.
