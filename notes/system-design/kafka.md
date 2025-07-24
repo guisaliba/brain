@@ -62,3 +62,5 @@ topic's partitions are distributed across multiple branches (brokers). if a brok
 that's what makes Kafka different from standard message brokers. in services like SQS, when a message is consumed, it is deleted. in Kafka, an event (or a package) is stored as long as you need.
 that period is a custom configurable **retention period**. this enables real time data processing, so consumers can read those events anytime they want, even multiple time if they need to.
 Kafka focus on event streaming and long term data-retention, while message queueing services focus on delivering a message with reliability and that's it.
+watching Netflix is just like Kafka. consumers (viewers) can watch whenever they want, at their own pace and even replay whatever they want.
+traditional message brokers are like TV. they just broadcast live (or at a scheduled time) and everyone needs to watch the same thing at the same time. if viewer misses a show, it's gone.
