@@ -38,4 +38,4 @@ what next? packages are safely stored in their own departments, but how does the
 **consumers** are the buyers, that will **listen to a topic** (a department) of the post office, waiting for any package that arrives there in that topic. 
 a consumer is just another service, like the producers, but they don't write data to Kafka, they read it instead and take their own actions whenever something is read.
 
-Kafka is not a replacement for a database.
+Kafka is not a replacement of a database.
