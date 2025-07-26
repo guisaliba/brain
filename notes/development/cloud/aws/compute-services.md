@@ -1,4 +1,5 @@
 ## 1. **Instances (Virtual Machines)**
+
 - **Amazon EC2**:
     - **What**: Secure, scalable virtual servers in the cloud.
     - **Key Points**: Flexible compute capacity that can be scaled up or down in minutes.

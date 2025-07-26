@@ -67,4 +67,3 @@ function printData() {
 
 printData() // Undefined variable: data
 ```
-
