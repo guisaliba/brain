@@ -1,15 +1,14 @@
 ---
-title: "A summary on DI in NestJS"
-source: "https://gemini.google.com/app/013561c0d4917302"
-author:
-  - "[[Gemini]]"
-published:
+title: A summary on DI in NestJS
+source: https://gemini.google.com/app/013561c0d4917302
+author: []
+published: 
 created: 2025-08-04
-description:
+description: 
 tags:
-  - "clippings"
+  - clippings
 ---
-### \## The Core Idea: Modules and Providers 🧩
+## The Core Idea: Modules and Providers 🧩
 
 NestJS organizes your application into **Modules**. Think of each module as a self-contained "toolbox." The tools inside this box are your **Providers**.
 
@@ -17,11 +16,9 @@ NestJS organizes your application into **Modules**. Think of each module as a se
 - **Injection:** The act of "giving" a class an instance of a provider it needs. This happens automatically through the class `constructor`.
 
 ---
-
-### \## The `@Module` Decorator: A Quick Reference
+## The `@Module` Decorator: A Quick Reference
 
 The `@Module()` decorator tells NestJS how a toolbox is organized. Each array inside it has a specific purpose.
-
 - **`providers: [ ]`**
 	- **WHAT GOES IN:** Your injectable classes (`ErrorService`, `SimilarProductValidator`).
 	- **PURPOSE:** Registers the class with the module's internal container. This makes the provider available for injection into any other class *within this same module*.
@@ -37,11 +34,9 @@ The `@Module()` decorator tells NestJS how a toolbox is organized. Each array in
 	- **PURPOSE:** To make a provider "public" so other modules that import this module can use it. By default, providers are private to their own module.
 
 ---
-
-### \## The Cross-Module Workflow
+## The Cross-Module Workflow
 
 To use a service from one module (e.g., `ErrorService` from `ErrorsModule`) in another (`SimilarProductsModule`), you must:
-
 1. **In the Source Module (`ErrorsModule`):**
 	- List `ErrorService` in the `providers` array.
 	- List `ErrorService` in the `exports` array to make it public.
