@@ -1,12 +1,13 @@
 ---
 title: A summary on DI in NestJS
 source: https://gemini.google.com/app/013561c0d4917302
-author: []
+author: 
 published: 
 created: 2025-08-04
 description: 
 tags:
   - clippings
+  - nestjs
 ---
 ## The Core Idea: Modules and Providers 🧩
 
@@ -17,7 +18,6 @@ NestJS organizes your application into **Modules**. Think of each module as a se
 
 ---
 ## The `@Module` Decorator: A Quick Reference
-
 The `@Module()` decorator tells NestJS how a toolbox is organized. Each array inside it has a specific purpose.
 - **`providers: [ ]`**
 	- **WHAT GOES IN:** Your injectable classes (`ErrorService`, `SimilarProductValidator`).
