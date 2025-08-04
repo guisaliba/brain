@@ -1,5 +1,5 @@
 ---
-title: A summary on DI in NestJS
+title: A quick summary on DI in NestJS
 source: https://gemini.google.com/app/013561c0d4917302
 author: 
 published: 
