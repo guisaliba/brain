@@ -18,6 +18,7 @@ NestJS organizes your application into **Modules**. Think of each module as a se
 
 ---
 ## The `@Module` Decorator: A Quick Reference
+
 The `@Module()` decorator tells NestJS how a toolbox is organized. Each array inside it has a specific purpose.
 - **`providers: [ ]`**
 	- **WHAT GOES IN:** Your injectable classes (`ErrorService`, `SimilarProductValidator`).
