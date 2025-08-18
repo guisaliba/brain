@@ -46,6 +46,7 @@ console.log(4 / [])
 
 Aqui nesse exemplo, o TypeScript avisaria como erro que não se pode dividir um **number (4**) por um **array.** Essa operação só poderia ser realizada com um number, bigint, etc.
 ## 3. O TS funciona como uma espécie de documentação inicial:
+
 ```tsx
 type Platform = 'Windows' | 'Mac OS' | 'Linux'
 type Feature = 'Single Player' | 'Co-op'
@@ -62,7 +63,6 @@ interface GameDetails {
 O exemplo acima nos diz nos detalhes do jogo que as plataformas aceitas são um array de plataformas `Platform[]` e nesse caso, anteriormente tipadas são três plataformas: Windows ou Mac OS ou Linux.
 
 Isso é de muita utilidade para por exemplo, um novo desenvolvedor começar a trabalhar no jogo, já ter uma noção de quais são as plataformas aceitas pelo jogo, as features, etc.
-
 ## 4. Deixa sua IDE extremamente poderosa:
 
 ```tsx
@@ -73,13 +73,10 @@ message.
 ```
 
 ## E as desvantagens do TS?
-
 O TypeScript possuim sim algumas desvantagens:
 
 1. Necessita ser compilado para JavaScript.
 2. Aprendizado inicial dos tipos e boas práticas.
 3. Os erros nem sempre são muito claros. Ou então são **ENORMES**!
 
-Tirando isso, o TS é bem simples.
-
-Se você sabe JavaScript você vai saber TypeScript. **A diferença é que você vai escrever mais**.
+Tirando isso, o TS é bem simples. Se você sabe JavaScript você vai saber TypeScript. **A diferença é que você vai escrever mais**.
