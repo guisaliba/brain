@@ -15,7 +15,15 @@ the answer is no. Lambdas are shipped with something called **cold start**. it m
 
 after that cold execution, any other subsequent executions in a window of time will be run almost instantly, around 100ms. it's kinda of waking up your code, warming it up, and then running it. this way AWS doesn't need to keep your code up to run all the time.
 
-talking about code, a Lambda function is basically a function declared as a **handler** (or Lambda handler). this function has two parameters: **event** and **context**.
+talking about code, a Lambda function is basically a function declared as a **handler** (or Lambda handler). this function has two parameters: **event** and **context**. whenever it gets invoked, the Lambda runtime will pass these two down to the handler.
+
+event is a JSON with data for the function to process.
+context is a bunch of informations about the runtime environment, invokation, etc.
+
+when the code of your handler is done, you have to deploy it to AWS along with its trigger. the trigger can be configured through the Lambda console panel, the same place where you would define your code in the console's own code editor.
+
+as aforementioned, the event could be an S3 bucket file upload, so in the trigger configuration you can choose it to be from S3, choose the bucket and what events on that bucket should the trigger be listening to.
+e.g.: file upload, file deletion, copy, restore from Glacier initiated, etc.
 
 
 #### Event-Driven Architecture:
