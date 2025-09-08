@@ -9,6 +9,12 @@ it allows developers to manage pieces of functionalities that otherwise would ha
 
 if your function is executed at its peak e.g. 100 times a day, you don't pay for 100 executions all the time, for every day in the month. you pay per execution, meaning that if the average executions of your Lambda is e.g. 5 times a day you'll likely pay for those and in a busy day, for the 100 invokes.
 
+but even though calling it serverless, doesn't mean it's not running  in a server. so how does AWS manages to execute your own Lambdas at the exact time they should be executed? are they listening to all the Lambdas all the time?
+
+the answer is no. Lambdas are shipped with something called **cold start**. it means that when an event asks to execute your function (in other words, triggers), AWS will take 100ms - 1s (which is extremely fast) to run your code.
+
+after that cold execution, any other subsequent executions in a window of time will be run almost instantly, around 100ms. it's kinda of waking up your code, warming it up, and then running it. this way AWS doesn't need to keep your code up to run all the time.
+
 #### Event-Driven Architecture:
 
 In an **event-driven architecture**, applications respond to "events" rather than running continuously. Events can be triggered by user actions (like clicking a button), system changes (like a file upload), or external sources (like a webhook). The system listens for these events and then executes code (functions or services) in response. This architecture is well-suited for building scalable, distributed systems where components are loosely coupled and react to changes asynchronously.
