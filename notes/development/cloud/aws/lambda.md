@@ -5,7 +5,7 @@ this can also be interpreted as "code that runs on a server that you don't have 
 
 Lambda works with events. that means, the piece of code you defined as your Lambda function will be executed or ran in response to an event. this could be a file being uploaded to an S3 bucket, a change in a DynamoDB table, etc.
 
-
+it allows developers to manage pieces of functionalities that otherwise would have to live in a dedicated server, or inside a container
 
 #### Event-Driven Architecture:
 
