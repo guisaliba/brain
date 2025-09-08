@@ -7,7 +7,7 @@ Lambda works with events. that means, the piece of code you defined as your Lamb
 
 it allows developers to manage pieces of functionalities that otherwise would have to live in a dedicated server, or inside a container with several additional costs. Lambda solves that problem while allowing scaling with ease.
 
-if your function is executed at its peak e.g. 100 times a day, you don't pay for 100 executions all the time, for every day in the month. you pay per execution, meaning that if the average executions of your Lambda is e.g. 5 times a day you'll likely pay 
+if your function is executed at its peak e.g. 100 times a day, you don't pay for 100 executions all the time, for every day in the month. you pay per execution, meaning that if the average executions of your Lambda is e.g. 5 times a day you'll likely pay for those and in a busy day, for the 100 invokes.
 
 #### Event-Driven Architecture:
 
