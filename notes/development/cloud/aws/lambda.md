@@ -15,7 +15,8 @@ the answer is no. Lambdas are shipped with something called **cold start**. it m
 
 after that cold execution, any other subsequent executions in a window of time will be run almost instantly, around 100ms. it's kinda of waking up your code, warming it up, and then running it. this way AWS doesn't need to keep your code up to run all the time.
 
-talking about code, a Lambda function is basically a function declared as a **handler** (or Lambda h)
+talking about code, a Lambda function is basically a function declared as a **handler** (or Lambda handler). this function has two parameters: **event** and **context**.
+
 
 #### Event-Driven Architecture:
 
