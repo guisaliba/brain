@@ -15,6 +15,8 @@ the answer is no. Lambdas are shipped with something called **cold start**. it m
 
 after that cold execution, any other subsequent executions in a window of time will be run almost instantly, around 100ms. it's kinda of waking up your code, warming it up, and then running it. this way AWS doesn't need to keep your code up to run all the time.
 
+talking about code, a Lambda function is basically a function declared as a **handler** (or Lambda h)
+
 #### Event-Driven Architecture:
 
 In an **event-driven architecture**, applications respond to "events" rather than running continuously. Events can be triggered by user actions (like clicking a button), system changes (like a file upload), or external sources (like a webhook). The system listens for these events and then executes code (functions or services) in response. This architecture is well-suited for building scalable, distributed systems where components are loosely coupled and react to changes asynchronously.
