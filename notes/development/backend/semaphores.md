@@ -16,3 +16,13 @@ but the keypoint here is what's happening at the head of all 4 lines.
 people could try to order out of their turn, let friends cut, and ensue chaos.
 perhaps there is a manager that sends people away if they're doing this, so the manager can be thought of an enforcing **semaphore logic**. 
 
+suppose you have a shared resource that can be freely accessed by one or more threads. this shared resource could be a remote server, a shared in-memory datastore, a complex video transcoding pipeline.
+**a system that is shared should be shared in a reliable way that doesn't allow for bombardment of the system.**
+
+if you were trying to control access to a pipeline it would be bad if anyone could kick off 10k jobs to transcode some video, at the same time. your pipeline could crash down.
+
+a **mutex** can be thought of a mechanism that **control multi-threaded access to code**.
+it only ever allows a single thread exclusivity over this code. this is important to avoid data-races and all sorts of problems.
+
+if a mutex is concerned with ensuring a single thread ever accesses ==_code exclusively_== ==a semaphore is concerned with ensuring== ==_at most N threads can ever access code exclusively_====.
+
