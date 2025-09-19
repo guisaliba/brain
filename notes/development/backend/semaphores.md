@@ -23,5 +23,5 @@ if you were trying to control access to a pipeline it would be bad if anyone cou
 a **mutex** can be thought of a mechanism that **control multi-threaded access to code**.
 it only ever allows a single thread exclusivity over this code. this is important to avoid data-races and all sorts of problems.
 
-if a mutex is concerned with ensuring a single thread ever accesses ==_code exclusively_== ==a semaphore is concerned with ensuring== ==_at most N threads can ever access code exclusively_====.
+==if a mutex is concerned with ensuring a single thread ever accesses== ==_code exclusively_== ==a semaphore is concerned with ensuring== ==_at most N threads can ever access code exclusively_====.
 
