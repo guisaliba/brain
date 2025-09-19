@@ -1,5 +1,4 @@
 a semaphore is a mechanism that can be used to constrain or control access to a shared resource access. we can make a simple mental model of with with restaurant orders:
-
 - imagine that you went to McDonalds to order (and eat) a burger. along with you, 400 other people had the same idea at the exact same time and went to the same place to order a burger.
 - what would happen if the 400 people tried to order their meal at the same time?
 complete chaos is the answer for the question above. there is no sane way of allowing 400 people order their meals at the same time in a tiny place such as the McDonalds.
