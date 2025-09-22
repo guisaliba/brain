@@ -6,3 +6,4 @@ you gotta be confident, you gotta be sure that you already KNOW how to do stuff.
 
 mindset should be about the problem, and how to solve it. it doesn't matter the tech, what should be done to solve it? so it's important to showcase your adaptability and being comfortable choosing the best technology for the specific project's needs.
 
+all of this will be based in your own experiences, so the most important part of those interviews is how you're going to link your professional experiences with all the confidence and showcasing.
