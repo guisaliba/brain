@@ -15,7 +15,6 @@ Your goal is to present yourself as the perfect fit for a custom software develo
 
 FACSS doesn't build one product; it builds many solutions for different clients. Show that you thrive in that environment.
 
-brother, i am troubled... something is wrong. and i do not know if the wrongness lies within the world... or within myself.
 - **Connect to their core business:**
     > "I was particularly interested in FACSS because your focus is on **developing custom software**. My entire career has been about translating specific business needs—whether for a large e-commerce group, a major bank, or a city government—into robust and efficient technical solutions. I really enjoy the challenge of understanding a unique problem and building the right tool for it."
 #### **2. Highlight Your Technical Versatility**
