@@ -8,4 +8,7 @@ this means that a closure is a function that carries both:
 the key is that closures do not depend on the parent still being on the **stack**. when the function in which the closure was created is outlived, all of its memory is gone from the stack, but the closure still remembers the variables, bindings etc.
 the runtime keeps the captured variables alive for as long as the closure referencing them is alive.
 
-usually, local variables live on the stack and disappear when the function returns.
+this can be visualized through a mental model:
+- usually, local variables live on the stack and disappear when the function returns
+- when a closure **captures** a variable, the runtime "lifts" that variable from the stack into the **heap**, so it outlives the function call
+- 
