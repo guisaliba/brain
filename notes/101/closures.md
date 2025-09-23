@@ -13,4 +13,6 @@ this can be visualized through a mental model:
 - when a closure **captures** a variable, the runtime "lifts" that variable from the stack into the **heap**, so it outlives the function call
 - both the closure and any other closures share references to the same memory
 
-they are not tied to when the parent executes, they're tied to variable lifetimes.
+they are not tied to when the parent executes, they're tied to variable lifetimes and variables live as long as there are closures referencing them.
+
+in higher-level languages, the garbage collector takes care of this cleanup.
