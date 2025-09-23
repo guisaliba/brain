@@ -14,4 +14,4 @@ Considere para sua análise:
 
 
 - Problema de decisão geográfica
-- Análise de dados como: custo imobiliário, malha viária, potencial consumo nos estados vizinhos, escoamento de produtos, infraestrutura geográfica, 
+- Análise de dados como: custo imobiliário, malha viária, potencial consumo nos estados vizinhos, escoamento de produtos, infraestrutura geográfica (ex.: energia), fiscalização governamental
