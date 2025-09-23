@@ -33,8 +33,7 @@ this can be visualized through a mental model:
 they are not tied to when the parent executes, they're tied to variable lifetimes and variables live as long as there are closures referencing them.
 
 so in the `makeCounter` example:
-- The variable `count` isn’t duplicated for each call of `counter()` — it’s one shared piece of state living on the heap.
-    
-- That’s why successive calls keep incrementing instead of starting fresh.
+- the variable `count` isn’t duplicated for each call of `counter()` — it’s one shared piece of state living on the heap
+- that’s why successive calls keep incrementing instead of starting fresh
 
 in higher-level languages, the garbage collector takes care of this cleanup.
