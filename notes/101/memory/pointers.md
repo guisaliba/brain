@@ -7,7 +7,8 @@ if a memory address stores a value, then we could get (or reference) this value 
 
 this means that we can access (and even modify) the value living in an address without actually having to access that address directly.
 
-we can visualize this in C e.g.:
+this can be visualized in this piece of C code:
+
 ``` C
 int x = 10; // x is a variable storing the value 10
 int *y = &x; // y is a pointer storing the address of x
@@ -16,6 +17,7 @@ printf("%d", *y); // 10
 *y = 20;
 printf("%d", x); // 20
 ```
+
 what happens here is that "x", a named location that has a memory address, holds the integer value of 10. then, the variable "y" points to whatever "x" is holding.
 
 this happens not by pointing to whatever value "x" is holding but to the address of "x".
@@ -36,7 +38,7 @@ if we were to do something like `*y = 20` and then access `x` again, we would ha
 | `x`           | `0xAF28`       | `10` (integer)     | Integer variable storing 10      |
 | `y`           | `0xBF44`       | `0xAF28` (address) | Pointer storing the address of x |
 
-### memory state after let's say `*y = 84`
+### memory state after e.g.: `*y = 84`
 
 | Variable Name | Memory Address | Value Stored       | Description                      |
 | ------------- | -------------- | ------------------ | -------------------------------- |
