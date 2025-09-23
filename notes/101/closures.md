@@ -11,4 +11,6 @@ the runtime keeps the captured variables alive for as long as the closure refere
 this can be visualized through a mental model:
 - usually, local variables live on the stack and disappear when the function returns
 - when a closure **captures** a variable, the runtime "lifts" that variable from the stack into the **heap**, so it outlives the function call
-- 
+- both the closure and any other closures share references to the same memory
+
+they are not tied to when the parent executes, they're tied to variable lifetimes.
