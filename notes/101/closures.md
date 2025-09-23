@@ -5,4 +5,4 @@ this means that a closure is a function that carries both:
 1. its code (what it does)
 2. its environment (the captured variables it can access)
 
-the key is that closures do not depend on the parent still being on the **stack**.
+the key is that closures do not depend on the parent still being on the **stack**. when the function in which the closure was created is outlived, all of its memory is gone from the stack, but the closure still remembers the variables, bindings etc.
