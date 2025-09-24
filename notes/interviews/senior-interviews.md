@@ -65,3 +65,8 @@ These help you understand if it's the right environment for you.
 - "What do you think is the most important quality for a software engineer to succeed here at FACSS?"
 - "What is the company's vision for the next couple of years? Are you looking to specialize in a particular industry or technology?"
 - "Could you tell me a bit about the person I would be reporting to and the team I would be a part of?"
+
+
+software de telemetria para veiculos pesados
+antigamente empresa Lenarge
+20 pessoas (devs e POs)
