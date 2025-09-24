@@ -68,5 +68,5 @@ These help you understand if it's the right environment for you.
 
 
 software de telemetria para veiculos pesados
-antigamente empresa Lenarge
+	antigamente empresa Lenarge
 20 pessoas (devs e POs)
