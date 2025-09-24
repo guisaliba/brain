@@ -8,15 +8,15 @@ mindset should be about the problem, and how to solve it. it doesn't matter the 
 
 all of this will be based in your own experiences, so the most important part of those interviews is how you're going to link your professional experiences with all the confidence and showcasing.
 
-### What to Say to Resemble the Company
+## What to Say to Resemble the Company
 
 Your goal is to present yourself as the perfect fit for a custom software development company. Frame your experience not just by the tech you used, but by the problems you solved.
 #### **1. Emphasize Your Role as a "Solution Builder"**
 
-FACSS doesn't build one product; it builds many solutions for different clients. Show that you thrive in that environment.
+*Company* doesn't build one product; it builds many solutions for different clients. Show that you thrive in that environment.
 
 - **Connect to their core business:**
-    > "I was particularly interested in FACSS because your focus is on **developing custom software**. My entire career has been about translating specific business needs—whether for a large e-commerce group, a major bank, or a city government—into robust and efficient technical solutions. I really enjoy the challenge of understanding a unique problem and building the right tool for it."
+    > "I was particularly interested in *company* because your focus is on **company focus**. My entire career has been about translating specific business needs—whether for a large e-commerce group, a major bank, or a city government—into robust and efficient technical solutions. I really enjoy the challenge of understanding a unique problem and building the right tool for it."
 #### **2. Highlight Your Technical Versatility**
 
 A custom software company loves engineers who are not tied to a single technology. Your diverse background is a major strength.
@@ -39,9 +39,9 @@ Your experience leading guilds connects perfectly with their secondary business 
     > "Something I'm also passionate about is knowledge sharing. At Banco Inter, I took the initiative to lead and restructure our developer guilds to help over 60 colleagues grow. I believe that a strong team builds the best software, and I enjoy mentoring and collaborating to find the best solutions."
 ---
 
-### Insightful Questions to Ask the Interviewer
+## Insightful Questions to Ask the Interviewer
 
-Asking smart questions shows you're genuinely interested and thinking like a future employee. These questions are tailored to a company like FACSS.
+Asking smart questions shows you're genuinely interested and thinking like a future employee. These questions are tailored to a company like *company*.
 #### **1. Questions About Projects and Clients**
 
 These show you're thinking about the work itself and the business model.
@@ -62,11 +62,6 @@ These show you care about technical excellence and your own development.
 
 These help you understand if it's the right environment for you.
 
-- "What do you think is the most important quality for a software engineer to succeed here at FACSS?"
+- "What do you think is the most important quality for a software engineer to succeed here at *company*?"
 - "What is the company's vision for the next couple of years? Are you looking to specialize in a particular industry or technology?"
 - "Could you tell me a bit about the person I would be reporting to and the team I would be a part of?"
-
-
-software de telemetria para veiculos pesados
-	antigamente empresa Lenarge
-20 pessoas (devs e POs)
