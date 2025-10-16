@@ -36,7 +36,7 @@ Your experience leading guilds connects perfectly with their secondary business 
 
 - **Align with their training focus:**
     
-    > "Something I'm also passionate about is knowledge sharing. At Banco Inter, I took the initiative to lead and restructure our developer guilds to help over 60 colleagues grow. I believe that a strong team builds the best software, and I enjoy mentoring and collaborating to find the best solutions."
+    > "Something I'm also passionate about is knowledge sharing. At *company XYZr*, I took the initiative to lead and restructure our developer guilds to help over 60 colleagues grow. I believe that a strong team builds the best software, and I enjoy mentoring and collaborating to find the best solutions."
 ---
 
 ## Insightful Questions to Ask the Interviewer
