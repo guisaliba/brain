@@ -52,7 +52,7 @@ Google heavily invested in many supporting tools to make this approach viable.
 
 ## Conventional commits
 The Conventional Commits specification provides a lightweight convention for creating explicit commit histories, making it easier to write automated tools on top of commit messages.
-The standadr commit format is:
+The standard commit format is:
 ```
 `<type>[optional scope]: <description>
 
