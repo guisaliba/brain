@@ -88,4 +88,21 @@ When reviewing a pull request, there are also good practices to adhere to:
 ## Software artifacts and build management
 Artifact versioning ensures traceability throughout the software development lifecycle.
 Build artifacts are the output of the build process, including compiled code, libraries, and resources necessary for running software.
-Versioning is crucial
+Versioning is crucial to provide clear documentation of software evolution, enabling easy retrieval, stability and reducing risk of introducing errors or conflicts.
+Adopting Semantic Versioning (**SemVer**) is one of the greatest standards nowadays (**major.minor.patch**). This adoption can be leveraged through artifact repositories such as npm registry.
+Because of the growing integration of different pieces of software into others, managing dependencies and packaging has also become crucial.
+Using package managers such as npm and pip with version locking and automating dependency updates with pull requests are part of many software CMs.
+
+## Release strategies
+Feature flags decouple feature release from code deployment, enabling dynamic control of feature availability.
+Canary releases, A/B testing and kill switches (quickly disable problematic features) are some of the most famous release strategies.
+**Five Maturity Levels**:​​​
+
+1. **Initial**: Ad hoc, unpredictable processes
+2. **Managed**: Basic project management processes established
+    
+3. **Defined**: Organizational processes well-defined and standardized
+    
+4. **Quantitatively Managed**: Processes measured and controlled quantitatively
+    
+5. **Optimizing**: Continuous process improvement based on quantitative feedback
