@@ -97,7 +97,6 @@ Using package managers such as npm and pip with version locking and automating d
 Feature flags decouple feature release from code deployment, enabling dynamic control of feature availability.
 Canary releases, A/B testing and kill switches (quickly disable problematic features) are some of the most famous release strategies.
 
-
 ## Five maturity levels of CM:​​​
 1. **Initial**: Ad hoc, unpredictable processes
 2. **Managed**: Basic project management processes established
