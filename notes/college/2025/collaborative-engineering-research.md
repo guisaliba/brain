@@ -31,3 +31,61 @@ Rebase makes it difficult to track how and when commits where merged though.
 
 ## The Linux kernel: A case study in open source CM
 The Linux kernel source is managed using Git. There are several key stages: development and contribution, testing, integration, release management, and maintenance.
+The kernel follows strict coding standards and requires that patches conform to specific formatting rules.
+Patches are submitted to subsystem maintainers who review them on mailing lists, often providing feedback that requires multiple iterations.
+The review process may take several rounds before patches are accepted.
+### Hierarchical structure
+Subsystem maintainers oversee specific areas like memory management, device drivers, and filesystems. Each maintainer has their own Git tree, and changes flow up through this hierarchy until eventually reaching Linus Torvalds's master tree.
+After a stable kernel release, a two-week merge window opens where maintainers submit pull requests to Torvalds.
+
+## Google's monorepo
+Google's approach is a radical departure from conventional CM, operating one of the world's largest monolithic repositories using a custom version control system (VCS) called **Piper**.
+Piper houses most of Google's code—including search, ads, photos, docs/drive, maps, and internal infrastructure—except from Chrome and Android (both are open-source and have their own release schedules).
+practices trunk-based development on top of Piper, with the vast majority of users working at the "head" or most recent version of the codebase.
+Immediately after any commit, the new code is visible and usable by all developers.
+### Supporting tools
+Google heavily invested in many supporting tools to make this approach viable.
+- CitC (Clients in the Cloud): virtual workspaces in the cloud, devs do not maintain local copies
+- Tricorder: automatic checks to provide rapid automated feedback regardless of dev's timezone
+- Critique: complex code review framework, with submission, comments and validations
+- Pipe: Autoamtic builds triggered by commits after validated by Critique
+
+## Conventional commits
+The Conventional Commits specification provides a lightweight convention for creating explicit commit histories, making it easier to write automated tools on top of commit messages.
+The standar commit format is:
+```
+`<type>[optional scope]: <description>
+
+[optional body]
+
+[optional footer(s)]`
+```
+Common types include:
+- feat: Introduces a new feature
+- fix: Patches a bug
+- docs: Documentation changes only
+- style: Formatting changes not affecting code functionality
+- refactor: Code restructuring without fixing bugs or adding features
+- perf: Performance improvements
+- test: Adding or modifying tests
+- chore: Changes to build process or auxiliary tools
+- ci: Continuous integration configuration changes
+- build: Changes affecting the build system or dependencies
+
+## Pull requests
+Effective pull request practices form the backbone of collaborative CM:
+1. Review your own code before creating the PR
+2. Keep PRs small and focused on single features
+3. Create draft pull requests for early feedback
+4. Use clear, descriptive titles with tags ([Fix], [Feature], [Refactor])
+5. Specify required reviewers
+When reviewing a pull request, there are also good practices to adhere to:
+6. Check for adherence to coding standars
+7. Verify test coverage
+8. Provide constructive feedback **with solutions**
+9. Approve, request changes, or comment
+
+## Software artifacts and build management
+Artifact versioning ensures traceability throughout the software development lifecycle.
+Build artifacts are the output of the build process, including compiled code, libraries, and resources necessary for running software.
+Versioning is crucial
