@@ -1,5 +1,3 @@
-
-
 AWS Lambda is a piece of code that runs **serverless**.
 this can also be interpreted as "code that runs on a server that you don't have to buy or manage". you can run whatever you define as your code e.g.: a Python script, a JS function running on Node, etc.
 
