@@ -1,12 +1,13 @@
 ---
-title: "About the go command - The Go Programming Language"
-source: "https://go.dev/doc/articles/go_command"
-author:
-published:
+title: About the go command - The Go Programming Language
+source: https://go.dev/doc/articles/go_command
+author: 
+published: 
 created: 2025-03-23
-description:
+description: 
 tags:
-  - "clippings"
+  - clippings
+  - "#go"
 ---
 The Go distribution includes a command, named "`[go](https://go.dev/cmd/go/)`", that automates the downloading, building, installation, and testing of Go packages and commands.
 

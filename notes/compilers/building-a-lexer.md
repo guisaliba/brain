@@ -293,6 +293,6 @@ export class Lexer {
 }
 ```
 
-As we read the next character in the constructor of the `Lexer`, we can start by getting the token, read the next character and return the created token.
+As we read the next character in the constructor of the `Lexer`, we get the token, read the next character and return the created token.
 
 Running our test again, we fixed all the issues and it is passing now.
