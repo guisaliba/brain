@@ -104,14 +104,16 @@ Canary releases, A/B testing and kill switches (quickly disable problematic feat
 4. **Quantitatively Managed**: Processes measured and controlled quantitatively
 5. **Optimizing**: Continuous process improvement based on quantitative feedback
 
-**Version Control Fundamentals:**
+
+
+## 1. **Version Control Fundamentals:**
 - Systematic tracking and management of changes to software systems throughout their lifecycle
 - Enables multiple developers to work simultaneously without conflicts
 - Provides complete audit trail of who changed what, when, and why
 - Allows reverting to previous versions when issues arise
 - Essential for maintaining software integrity, traceability, and accountability
 
-**Early Systems (1970s-1980s):**
+## 2. **Early Systems (1970s-1980s):**
 
 - **SCCS (1972)**: First real version control system created at Bell Labs
 - **RCS (late 1970s)**: Improved storage efficiency with reverse-deltas
@@ -136,7 +138,7 @@ Canary releases, A/B testing and kill switches (quickly disable problematic feat
 - **Powerful Branching/Merging**: Cheap branch creation, sophisticated merge algorithms
 - **Industry Standard**: 95%+ of new projects use Git as of 2025
 
-## Branching Development Strategies
+## 3. Branching Development Strategies
 **What Are Branches and Why Use Them:**
 - Isolated lines of development allowing parallel work on features, fixes, and releases
 - Enable experimentation without affecting stable code
