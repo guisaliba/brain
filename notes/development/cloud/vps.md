@@ -1,0 +1,1 @@
+VPS stands for Virtual Private Server. 
