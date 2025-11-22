@@ -16,3 +16,5 @@ major cloud providers rarely use the term "VPS", they call them Instances (AWS E
 this allows for high availability, as VMs can move to healthy hardware when needed.
 scalability is also another characteristic of modern VPS, e.g.: an EC2 Instance can often be resized or set to auto-scale.
 
+![[Pasted image 20251122190253.webp]]
+
