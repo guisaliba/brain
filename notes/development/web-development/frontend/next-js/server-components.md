@@ -5,7 +5,7 @@ Unlike traditional React components (which render on the server _and_ then "hy
 2. **Can be Async.** They can use `async/await` directly in the component body to fetch data.
 3. **Have direct backend access.** They can connect directly to databases or read file systems.
 
- In the Next.js App Router, every component is a **Server Component by default**. To make it a Client Component, you must add the directive `"use client"` at the very top of the file.
+ In the Next.js App Router, every component is a **Server Component by default**. That's true for both layouts and pages. To make it a Client Component, you must add the directive `"use client"` at the very top of the file.
 
 does that mean server data is exclusively to Server Components? can Client ones access it?
 
