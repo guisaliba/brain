@@ -82,7 +82,6 @@ Once a file is marked with `"use client"`, **all its imports and child component
 
 
 ## Passing data from Server to Client Components
-
 You can pass data from Server Components to Client Components using props.
 
 ```tsx
@@ -113,3 +112,31 @@ Alternatively, you can stream data from a Server Component to a Client Component
 
 > **Good to know**: Props passed to Client Components need to be [serializable](https://react.dev/reference/react/use-server#serializable-parameters-and-return-values) by React.
 
+### Interleaving Server and Client Components
+You can pass Server Components as a prop to a Client Component. This allows you to visually nest server-rendered UI within Client components.
+
+A common pattern is to use `children` to create a _slot_ in a `<ClientComponent>`. For example, a `<Cart>` component that fetches data on the server, inside a `<Modal>` component that uses client state to toggle visibility.
+```tsx
+'use client'
+ 
+export default function Modal({ children }: { children: React.ReactNode }) {
+  return <div>{children}</div>
+}
+```
+
+Then, in a parent Server Component (e.g.`<Page>`), you can pass a `<Cart>` as the child of the `<Modal>`:
+```tsx
+import Modal from './ui/modal'
+import Cart from './ui/cart'
+ 
+export default function Page() {
+  return (
+    <Modal>
+      <Cart />
+    </Modal>
+  )
+}
+```
+
+In this pattern, all Server Components will be rendered on the server ahead of time, including those as props. 
+The resulting RSC payload will contain references of where Client Components should be rendered within the component tree.
