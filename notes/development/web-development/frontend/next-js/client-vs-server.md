@@ -55,6 +55,10 @@ export default function LikeButton({ likes }: { likes: number }) {
 
 `<LikeButton>` handles client-side interactivity (counts the number of likes on a post).
 
+`"use client"` is used to declare a **boundary** between the Server and Client module graphs (trees).
+
+Once a file is marked with `"use client"`, **all its imports and child components are considered part of the client bundle**. This means you don't need to add the directive to every component that is intended for the client.
+
 ## How do Server and Client components work?
 ### On the server
 - **Server Components** are rendered into a special data format called the React Server Component Payload (RSC Payload).
@@ -67,3 +71,11 @@ export default function LikeButton({ likes }: { likes: number }) {
 > - The rendered result of Server Components
 > - Placeholders for where Client Components should be rendered and references to their JavaScript files
 > - Any props passed from a Server Component to a Client Component
+
+### On the client (first rendering)
+1. **HTML** is used to immediately show a fast non-interactive preview of the route to the user.
+2. **RSC Payload** is used to reconcile the Client and Server Component trees.
+3. **JavaScript** is used to hydrate Client Components and make the application interactive.
+
+> **What is hydration?**
+> Hydration is React's process for attaching [event handlers](https://react.dev/learn/responding-to-events) to the DOM, to make the static HTML interactive.
