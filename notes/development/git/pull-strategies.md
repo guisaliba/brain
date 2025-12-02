@@ -1,4 +1,4 @@
-# subject: [[pull-strategies]]
+# subject: [[git]]
 ## topics: #git #branches
 --- 
 ## 1. `pull.rebase = false` → **Merge**

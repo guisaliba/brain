@@ -1,3 +1,6 @@
+# subject: [[next-js]]
+## topics: #nextjs #server-components
+--- 
 **React Server Components (RSC)** are a new paradigm in React where components render **exclusively on the server**.
 
 Unlike traditional React components (which render on the server _and_ then "hydrate" or run again in the browser), Server Components:
