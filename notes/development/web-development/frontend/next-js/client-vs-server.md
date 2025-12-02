@@ -79,3 +79,37 @@ Once a file is marked with `"use client"`, **all its imports and child component
 
 > **What is hydration?**
 > Hydration is React's process for attaching [event handlers](https://react.dev/learn/responding-to-events) to the DOM, to make the static HTML interactive.
+
+
+## Passing data from Server to Client Components
+
+You can pass data from Server Components to Client Components using props.
+
+```tsx
+import LikeButton from '@/app/ui/like-button'
+import { getPost } from '@/lib/data'
+ 
+export default async function Page({
+  params,
+}: {
+  params: Promise<{ id: string }>
+}) {
+  const { id } = await params
+  const post = await getPost(id)
+ 
+  return <LikeButton likes={post.likes} />
+}
+```
+
+```tsx
+'use client'
+ 
+export default function LikeButton({ likes }: { likes: number }) {
+  // ...
+}
+```
+
+Alternatively, you can stream data from a Server Component to a Client Component with the [`use` Hook](https://react.dev/reference/react/use)
+
+> **Good to know**: Props passed to Client Components need to be [serializable](https://react.dev/reference/react/use-server#serializable-parameters-and-return-values) by React.
+
