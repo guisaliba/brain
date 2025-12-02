@@ -55,3 +55,15 @@ export default function LikeButton({ likes }: { likes: number }) {
 
 `<LikeButton>` handles client-side interactivity (counts the number of likes on a post).
 
+## How do Server and Client components work?
+### On the server
+- **Server Components** are rendered into a special data format called the React Server Component Payload (RSC Payload).
+- **Client Components** and the RSC Payload are used to [pre-render](https://nextjs.org/docs/app/guides/caching#rendering-strategies) HTML.
+
+> **What is the React Server Component Payload (RSC)?**
+> 
+> The RSC Payload is a compact binary representation of the rendered React Server Components tree. It's used by React on the client to update the browser's DOM. The RSC Payload contains:
+> 
+> - The rendered result of Server Components
+> - Placeholders for where Client Components should be rendered and references to their JavaScript files
+> - Any props passed from a Server Component to a Client Component
