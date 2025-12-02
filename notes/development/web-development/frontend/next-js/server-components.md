@@ -16,3 +16,18 @@ Client Components run in the user's browser (after being pre-rendered on the ser
 They access server data by:
 1. **Props:** A Server Component fetches data and passes it down to the Client Component as props.
 2. **API Routes / Server Actions:** The Client Component makes an AJAX request (fetch) to your server to ask for data.
+
+if we think of Server Components as the "skeleton" and Client Components as "the muscles", the picture gets solid clean. the skeleton is built for the muscles to give movement (using) it.
+
+| Feature                | **Server Component** (Default)                       | **Client Component** (`"use client"`)                |
+| :--------------------- | :--------------------------------------------------- | :--------------------------------------------------- |
+| **Where it runs**      | Server only.                                         | Server (pre-render) + Browser.                       |
+| **Access to Database** | ✅ Direct access.                                     | ❌ No. Must ask server via API.                       |
+| **Access to Cookies**  | ✅ Can read incoming cookies.                         | ❌ Can only read `document.cookie` (if not HttpOnly). |
+| **Interactivity**      | ❌ No `onClick`, `onChange`, `useState`, `useEffect`. | ✅ Yes. All React hooks work here.                    |
+| **Bundle Size**        | 0kb (Code stays on server).                          | Adds to the JavaScript downloaded by user.           |
+## TLDR;
+**Use a Server Component when:**
+- You need to fetch data (from DB, API, or Supabase).
+- You need to access backend resources (API keys you don't want to expose).
+- You are rendering static content (text, images, layout).
