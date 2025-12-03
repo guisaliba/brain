@@ -1,0 +1,1 @@
+ELB stands for Elastic Load Balancing

@@ -1,0 +1,2 @@
+Amazon Machine Image (AMI) is a blueprint to create virtual servers ([[ec2]] instances).
+you cannot start an EC2 instance from thin air. it needs an OS and initial software, the AMI is responsible to provide this information before provisioning the VPS (EC2).
