@@ -25,7 +25,7 @@ scalability is also another characteristic of modern VPS, e.g.: an EC2 Instance 
 |**VPN**|The secure tunnel to connect to the VPS/VPC.|
 |**Cloud Instance**|A modern, scalable version of a VPS (e.g., AWS EC2).|
 
-imagine a restaurant analogy to see how they fit together:
+imagine a restaurant analogy to see how these fit together with famous providers services (ECS, EC2 and Fargate from AWS):
 
 |**Service**|**Analogy**|**Concept**|
 |---|---|---|
