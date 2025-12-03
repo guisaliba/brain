@@ -18,5 +18,19 @@ major cloud providers rarely use the term "VPS", they call them Instances (AWS E
 this allows for high availability, as VMs can move to healthy hardware when needed.
 scalability is also another characteristic of modern VPS, e.g.: an EC2 Instance can often be resized or set to auto-scale.
 
-![[Pasted image 20251122190253.webp]]
+|**Term**|**Main Characteristic**|
+|---|---|
+|**VPS**|A virtual computer used to run apps/websites.|
+|**VPC**|The private network where the VPS lives.|
+|**VPN**|The secure tunnel to connect to the VPS/VPC.|
+|**Cloud Instance**|A modern, scalable version of a VPS (e.g., AWS EC2).|
 
+imagine a restaurant analogy to see how they fit together:
+
+|**Service**|**Analogy**|**Concept**|
+|---|---|---|
+|**Dedicated Server**|You buy a **standalone house** to cook in. You fix the roof, the plumbing, and pay all bills.|Bare Metal|
+|**VPS / EC2**|You rent a **kitchen suite** inside a large commercial building. You have your own space, but the landlord fixes the roof.|Virtual Machine|
+|**Docker Container**|The **Lunchbox** containing the food (code). It is portable; you can open it in the house or the suite.|Software Unit|
+|**AWS ECS**|The **Head Chef**. He doesn't cook; he just yells orders: "Take this lunchbox and put it in that kitchen!"|Orchestrator|
+|**AWS Fargate**|**Uber Eats**. You don't see the kitchen or the house. You just order the food (container) and it appears. You don't care where it was cooked.|Serverless|
