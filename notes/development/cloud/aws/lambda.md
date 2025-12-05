@@ -36,7 +36,8 @@ Lambda thrives in **event-driven architecture**, where the flow of an applicatio
 - **S3 Events** like file uploads.
 - **DynamoDB Streams** for database changes.
 - **SQS (Simple Queue Service)** or **SNS (Simple Notification Service)** for messaging and queueing systems.
-##### Example:
+
+Example:
 - A user uploads a file to an S3 bucket (event).
 - This triggers a Lambda function that processes the file (e.g., image resizing, video encoding, or data parsing).
 - The function completes, and the processed file is saved, or the result is forwarded to another service.
@@ -48,6 +49,6 @@ Lambda thrives in **event-driven architecture**, where the flow of an applicatio
 - **Pay-as-you-go**: If you only need to run code occasionally, Lambda is cost-effective because you only pay when the function is actually running.
 
 ### Containers, VMs, and Lambda
-Lambda abstracts away the infrastructure, but understanding how containers and VMs relate helps clarify how Lambda operates behind the scenes.
+Lambda abstracts away the infrastructure, but understanding how [[containers]] and VMs (read more on [[containers-vs-virtual-machines]]) relate helps clarify how Lambda operates behind the scenes.
 - **VMs**: Lambda doesn’t involve you in VM management. AWS handles the allocation of VMs behind the scenes, ensuring that your Lambda function runs in a secure and isolated environment, but you don't need to think about VMs at all.
-- **Containers**: Lambda functions run inside lightweight **containers** to ensure portability and isolation. However, AWS manages these containers for you. While you don't explicitly manage the containers in Lambda, you can build your Lambda functions as **container images** if needed, giving you more control over your runtime environment.
+- **Containers**: Lambda functions run inside lightweight **containers** to ensure portability and isolation. However, **AWS manages these containers for you**. While you don't explicitly manage the containers in Lambda, you can build your Lambda functions as **container images** if needed, giving you more control over your runtime environment.
