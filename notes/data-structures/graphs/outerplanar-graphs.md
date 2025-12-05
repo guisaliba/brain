@@ -1,5 +1,3 @@
-# Outerplanar Graphs
-
 ## 1. Outerplanar Graphs
 
 ### Definition
