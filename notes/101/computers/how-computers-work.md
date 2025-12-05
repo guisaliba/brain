@@ -33,6 +33,4 @@ Nesse primeiro momento, o “interruptor” está aberto, o que faz com que a co
 Porém, se colocássemos uma fonte de energia nesse transistor, a corrente encontraria através dele um caminho mais fácil para percorrer, passando por ele. Nesse momento, ele agiria como um interruptor fechado, fazendo com que a lâmpada se apague.
 
 ![[4 1.png]]
-
-### Podemos entender mais sobre essa lógica em: Operadores lógicos.
 #cs #logic
