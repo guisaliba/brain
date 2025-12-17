@@ -15,4 +15,6 @@
 - even software related stuff such as Cloudflare can be used through a Terraform provider: that's SaaS
 
 - Terraform powers best DevOps practices: it is a DevOps first tool
-- 
+- adding a new resource on top of the existing Terraform environment isn't a "hard reset". Terraform looks to the current "world" and is capable to understand what you're adding and what has been there already
+- on the previous example, adding a Load Balancer in front of the VM, K8s and VPC would also require it to go through the Terraform pipeline again: code, plan, apply
+- once Terraform plan kicks in, it realizes that only the Load Balancer is a new folk on the town. plan will not recreate the other three. this avoids configuration drifts and potential issues
