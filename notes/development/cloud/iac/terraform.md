@@ -1,0 +1,2 @@
+- open source tool developed by HashiCorp
+- declarative language to manage resources
