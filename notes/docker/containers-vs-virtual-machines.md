@@ -17,7 +17,6 @@ this makes it possible to separate program executions from the host. a VM has it
 VMs are heavy and not very optimized, requiring a lot of processing from the host.
 
 a better alternative then emerges, Linux containers.
-
 ### containers:
 containers are like VMs but they run on the same kernel as the host (the base machine), without creating a new one for each new program executed, making them lighter and more efficient.
 
