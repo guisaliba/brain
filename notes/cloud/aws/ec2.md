@@ -1,6 +1,6 @@
 **Amazon Elastic Compute Cloud (EC2)** web service that provides safe and scalable computation resources in the cloud, providing virtual machines called **instances**.
 
-**Amazon Machine Image ([[AMI]])** is a root-volume image for deploying EC2 instances, it usually contains the operational system of the machine, its arch (ARM x32, x64 etc) and other additional pre-installed software.
+**Amazon Machine Image ([[ami]])** is a root-volume image for deploying EC2 instances, it usually contains the operational system of the machine, its arch (ARM x32, x64 etc) and other additional pre-installed software.
 
 EC2 are the live instantiations of AMIs, just like a cake is a live demo of its receipt, it works just like the class-object relationship. When a new instance is created, AWS allocates a VM which is executed in a hypervisor.
 Following, the AMI is then copied to the root-volume, to start booting it.
