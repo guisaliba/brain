@@ -5,6 +5,6 @@
 - show which command started the process: `ps -p 12345 -o pid,ppid,user,cmd`
 
 **kill process**
-`kill <PID>`
+`sudo kill <PID>`
 - forceful kill (when the above is unresponsive): `kill -9 <PID>`
 - verify with `ps -p <PID>` -> 
