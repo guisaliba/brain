@@ -7,4 +7,4 @@
 **kill process**
 `sudo kill <PID>`
 - forceful kill (when the above is unresponsive): `kill -9 <PID>`
-- verify with `ps -p <PID>` -> 
+- verify with `ps -p <PID>` 
