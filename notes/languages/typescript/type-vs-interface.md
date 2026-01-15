@@ -44,4 +44,26 @@ type Teacher = {
   role: 'moderator';
   classes: Class[]
 }
+
+type User = Student | Teacher; // OK
+interface Guest extends User {}; // An interface can only extend and object type or intersection of object types with statically known members.
 ```
+
+also, most people say that **only interfaces and classes can be used as a class contract**. using a type would be a mistake, and throw an error:
+
+``` typescript
+type StudentRepository = {
+  create: (name: string) => string;
+};
+
+class Student implements StudentsRepository { 
+  create(name: string) {
+    return `Welcome, ${name}!`; 
+  }; 
+}; // Error: A class may only implement another class or interface.
+```
+
+that's partially true. before TypeScript v2.1 that would indeed throw the error above. but since then, both `type` and `interface` keywords can define contracts and be implemented with `implements` on a class.
+
+
+## hovers
