@@ -25,3 +25,23 @@ so the rule was pretty simple: *use interfaces to define objects. otherwise, use
 that eventually came up to change. here's the [pull request](https://github.com/microsoft/TypeScript/pull/957) that introduced the `type` keyword, and here is the [pull request](https://github.com/microsoft/TypeScript/pull/1025) that removed the object definition restriction.
 
 
+## interfaces define objects, types defines any(type)thing
+one of the main differences between types and interfaces. while interfaces can only declare objects, and objects can have methods, properties, etc. types can also do that (define objects) but even more.
+types can define **any other type**: arrays, tuples, unions, functions, literals, mapped types and even primitives like string, number, boolean, etc.
+
+interfaces can not extend unions. even if it's an union of objects (after all, it would result in an union ultimately):
+``` typescript
+type Student = {
+  name: string;
+  age: number;
+  role: 'user';
+  courses: Courses[];
+}
+
+type Teacher = {
+  name: string;
+  age: number;
+  role: 'moderator';
+  classes: Class[]
+}
+```
