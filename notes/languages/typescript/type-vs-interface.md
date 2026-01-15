@@ -1,5 +1,5 @@
 # subject: [[typescript]]
-## topics: #typescript #web-development 
+## topics: #types
 ## source: [type-vs-interface](https://www.alvseven.com/type-vs-interface)
 ---
 ## background
