@@ -1,5 +1,5 @@
 # subject: [[typescript]]
-## topics: #types
+## topics: #types #language-behaviors
 ## source: [type-vs-interface](https://www.alvseven.com/type-vs-interface)
 ---
 ## background
