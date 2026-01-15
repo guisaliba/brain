@@ -24,7 +24,6 @@ type Lesson = {
 so the rule was pretty simple: *use interfaces to define objects. otherwise, use types.*
 that eventually came up to change. here's the [pull request](https://github.com/microsoft/TypeScript/pull/957) that introduced the `type` keyword, and here is the [pull request](https://github.com/microsoft/TypeScript/pull/1025) that removed the object definition restriction.
 
-
 ## interfaces define objects, types defines any(type)thing
 one of the main differences between types and interfaces. while interfaces can only declare objects, and objects can have methods, properties, etc. types can also do that (define objects) but even more.
 types can define **any other type**: arrays, tuples, unions, functions, literals, mapped types and even primitives like string, number, boolean, etc.
@@ -50,7 +49,6 @@ interface Guest extends User {}; // An interface can only extend and object type
 ```
 
 also, most people say that **only interfaces and classes can be used as a class contract**. using a type would be a mistake, and throw an error:
-
 ``` typescript
 type StudentRepository = {
   create: (name: string) => string;
@@ -62,8 +60,6 @@ class Student implements StudentsRepository {
   }; 
 }; // Error: A class may only implement another class or interface.
 ```
-
 that's partially true. before TypeScript v2.1 that would indeed throw the error above. but since then, both `type` and `interface` keywords can define contracts and be implemented with `implements` on a class.
-
 
 ## hovers
