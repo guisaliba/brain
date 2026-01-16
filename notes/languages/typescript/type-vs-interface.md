@@ -134,7 +134,8 @@ const config = {
     development: "dev_env_123"
   },
   databases: {
-    enviroments.
+    local: "sqlite",
+    
   }
 }
 ```
