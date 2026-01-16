@@ -126,7 +126,6 @@ const user: User = {
 
 ## derived types
 interfaces can not create derived types. that means, creating a type from a value that exists at runtime, using the `typeof` keyword:
-
 ```typescript
 const config = {
   environments: {
@@ -140,4 +139,9 @@ type ApiEnvironments = typeof config.enviroments;
 type EnvironmentKeys = keyof ApiEnviroments; 
 ```
 
-that's not possible with an `interface`, although it's possible to type an interface property 
+that's not possible with an `interface`, although it's possible to type an interface property with a `typeof` operator:
+```typescript
+interface ApiConfig {
+  environments: typeof config.environments;
+};
+```
