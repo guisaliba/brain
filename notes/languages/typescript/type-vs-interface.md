@@ -76,3 +76,52 @@ interface String {
 
 on the other hand, hovering over a type shows it's name but also it's type definition. instead of behaving like creating a new type like the interface, it behaves as if we were creating an alias.
 an alias for a type could be even for an [[anonymous type]].
+
+## declaration merging
+`interface`s can be redeclared multiple times. for each redeclaration, TypeScript auto-merges:
+```typescript
+interface User {
+  name: string;
+  age: number;
+};
+
+interface User {
+  email: string
+};
+
+interface User {
+  phoneNumber: string;
+};
+
+const user: User = {
+  name: 'Saliba'
+  age: 24
+  email: 'guisaliba@email.com'
+  phoneNumber: '3199999999'
+}; // This works!
+```
+
+the same doesn't happen to a `type`, as declaring it is treated as an alias for a specific type, as aforementioned. once an alias is created it can't be modified or extended:
+```typescript
+type User {
+  name: string;
+  age: number;
+}; // Duplicate identifier 'User'.
+
+type User {
+  email: string
+}; // Duplicate identifier 'User'.
+
+type User {
+  phoneNumber: string;
+}; // Duplicate identifier 'User'.
+
+const user: User = {
+  name: 'Saliba'
+  age: 24
+  email: 'guisaliba@email.com'
+  phoneNumber: '3199999999'
+};
+```
+
+## derived types
