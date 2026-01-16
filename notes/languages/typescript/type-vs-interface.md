@@ -63,3 +63,16 @@ class Student implements StudentsRepository {
 that's partially true. before TypeScript v2.1 that would indeed throw the error above. but since then, both `type` and `interface` keywords can define contracts and be implemented with `implements` on a class.
 
 ## hovers
+hovering over types and interfaces have different implications. while hovering on an interface, only it's name shall be displayed. doing that is like creating a new type:
+```typescript
+interface String {
+  x: string;
+  y: string;
+  z: string;
+};
+
+// Hovering over that would only display "String"
+```
+
+on the other hand, hovering over a type shows it's name but also it's type definition. instead of behaving like creating a new type like the interface, it behaves as if we were creating an alias.
+an alias for a type could be even for an [[anonymous type]].
