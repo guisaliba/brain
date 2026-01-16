@@ -125,3 +125,14 @@ const user: User = {
 ```
 
 ## derived types
+interfaces can not create derived types. that means, creating a type from a value that exists at runtime, using the `typeof` keyword:
+
+```typescript
+const config = {
+  environments: {
+    production: "prd_env_289"
+    development: "dev_env_123"
+  },
+  
+}
+```
