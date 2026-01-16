@@ -133,9 +133,11 @@ const config = {
     production: "prd_env_289"
     development: "dev_env_123"
   },
-  databases: {
-    local: "sqlite",
-    
-  }
-}
+  maxPoolsAllowed: 5,
+} as const;
+
+type ApiEnvironments = typeof config.enviroments;
+type EnvironmentKeys = keyof ApiEnviroments; 
 ```
+
+that's not possible with an `interface`, although it's possible to type an interface property 
