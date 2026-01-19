@@ -1,6 +1,7 @@
-## Visão geral do HTTP
-
-**HTTP** é um **protocolo** que permite a obtenção de recursos, como documentos HTML. É a **base** de qualquer troca de dados na Web e um protocolo **cliente-servidor**, o que significa que as requisições são iniciadas pelo destinatário, geralmente um navegador da Web.
+# subject: [[http]]
+# topics: #protocols #network
+---
+the **HTTP** é um **protocolo** que permite a obtenção de recursos, como documentos HTML. É a **base** de qualquer troca de dados na Web e um protocolo **cliente-servidor**, o que significa que as requisições são iniciadas pelo destinatário, geralmente um navegador da Web.
 
 Clientes e servidores se comunicam trocando mensagens individuais (ao contrário de um fluxo de dados). As mensagens enviadas pelo cliente, geralmente um navegador da Web, são chamadas de **solicitações** (requests), ou também **requisições**, e as mensagens enviadas pelo servidor como resposta são chamadas de **respostas** (responses).
 
