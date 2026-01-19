@@ -1,7 +1,6 @@
----
-title: Glossary of terms
-source: https://atproto.com/guides/glossary
-description: A collection of terminology used in the AT Protocol and their definitions.
+# subject: [[at-protocol]]
+# topics: #atproto
+# source: https://atproto.com/guides/glossary
 ---
 The AT Protocol uses a lot of terms that may not be immediately familiar. This page gives a quick reference to these terms and includes some links to more information.
 
