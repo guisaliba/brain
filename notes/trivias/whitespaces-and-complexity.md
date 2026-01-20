@@ -1,3 +1,6 @@
+# subject: [[trivias]]
+# topics: #clean-code #interesting
+---
 _I don't even know if what I'm about to write is indeed some kind of truth. I accidentally came across this excerpt of a [book at O'Reilly](https://learning.oreilly.com/library/view/your-code-as/9781680500813/f_0041.html) website while researching on "Negative Space Programming"._
 
 All programming languages use whitespaces as indentation, some even treats it as a requirement (e.g.: Python) for the compiler/interpreter to actually build your code. But in most cases, and even for those that treats it as something more meaningful, indentation is more about the code's shape, readability and organization.

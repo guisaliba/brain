@@ -8,7 +8,7 @@ names should reveal intent, seriously, and that may take time. the name of a var
 if a name requires a comment, then it is not revealing its intent.
 
 what is the purpose of this code?
-```
+```csharp
 public List<int[]> getThem() {
 	List<int[]> list1 = new ArrayList<int[]>();
 	for (int[] x : theList)
@@ -23,7 +23,7 @@ when writing code, simplicity may not always be the problem, but the implicity o
 
 maybe if we had enough context to tell this code belongs to a mine sweeper game, we could find out that the board is a list of cells called `theList`. we could rename it to `gameBoard` and achieve something more explicit and readable:
 
-```
+```csharp
 public List<int[]> getFlaggedCells() {
 	List<int[]> flaggedCells = new ArrayList<int[]>();
 	for (int[] cell : gameBoard)
@@ -52,7 +52,7 @@ noise words are redundant. the word `variable` should never appear in a variable
 name. the word `table` should never appear in a table name. how is `NameString` better than `Name`? would a name ever be a floating point number? If so, it breaks an earlier rule about disinformation.
 
 programming is a social activity. when naming things, it should be not only meaningful but also readable. if something is not readable then it means other people can't read it properly and discuss it, thus failing on what programming is: a social activity.
-```
+```csharp
 class DtaRcrd102 {
 	private Date genymdhms;
 	private Date modymdhms;

@@ -1,5 +1,7 @@
-# what is Eigenfactor?
-The Eigenfactor score is a metric developed to measure the total importance or influence of a scientific journal within the academic community.
+# subject: [[trivias]]
+# topics: #research #metrics
+---
+the Eigenfactor score is a metric developed to measure the total importance or influence of a scientific journal within the academic community.
 
 it is based on the number of citations that journals receive, weighting citations by the influence of the journal. when a journal is citated on highly influential journals, that weights more heavily than those from less influential ones.
 

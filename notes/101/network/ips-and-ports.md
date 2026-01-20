@@ -5,7 +5,5 @@ IPv6 is basically `2^128` so that's a lot. in fact, 340 trillion trillion trilli
 
 e.g.: `2001:0db8:c9d2:aee5:73e3:934a:a5ae:9551`
 
-
-
 ## references
 - https://beej.us/guide/bgnet/html/split/ip-addresses-structs-and-data-munging.html
