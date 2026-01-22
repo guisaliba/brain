@@ -3,3 +3,5 @@
 # source: https://overreacted.io/a-social-filesystem/
 ---
 !![[Pasted image 20260119034803.webp]]
+
+social networks are currently (in most cases)
