@@ -1,4 +1,4 @@
 # subject: [[queues]]
-# topics: #dsa  #network #atproto
-# source: [[]]
+# topics: #dsa 
+# source: [[Basic-Queueing-Theory.pdf]]
 ---
