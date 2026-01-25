@@ -1,4 +1,4 @@
 # subject: [[queues]]
-# topics: #data-structure #network #atproto
-# source: https://atproto.com/
+# topics: #dsa  #network #atproto
+# source: [[]]
 ---
