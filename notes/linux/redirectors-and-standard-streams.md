@@ -1,18 +1,12 @@
 ---
-title: "Perplexity"
-source: "https://www.perplexity.ai/search/what-is-2-1-and-2-dev-null-on-XluCGqfmTbyxJxfX4oq7eg"
+title: What is 2>&1 and 2>/dev/null in Linux shells
+source: https://www.perplexity.ai/search/what-is-2-1-and-2-dev-null-on-XluCGqfmTbyxJxfX4oq7eg
 author:
-  - "[[Perplexity AI]]"
 published:
 created: 2026-02-09
-description: "Perplexity is a free AI-powered answer engine that provides accurate, trusted, and real-time answers to any question."
+description: What some redirectors and processes standard streams do in Linux
 tags:
-  - "clippings"
 ---
-[Read](https://www.perplexity.ai/spaces/read-pxlYtQlOTeqY8SFq1xHlgg)
-
-## what is 2>&1 and 2>/dev/null on linux
-
 In Linux shells, `2>&1` and `2>/dev/null` are redirection operators that control where a command sends its error messages. They work with the standard file descriptors: `0` (stdin), `1` (stdout), and `2` (stderr).
 
 ## Basics of file descriptors
