@@ -5,7 +5,4 @@ started: 2026-05-02
 publisher: Manning Publications
 read_at: https://learning.oreilly.com/library/view/looks-good-to/9781633438125
 ---
-# Intro
-Looks Good To Me 
-
 # Chapter 1
