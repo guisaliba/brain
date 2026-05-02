@@ -1,12 +1,12 @@
 ---
-title: "Where the goblins came from"
-source: "https://openai.com/index/where-the-goblins-came-from/"
+title: Where the goblins came from
+source: https://openai.com/index/where-the-goblins-came-from/
 author:
 published: 2026-04-23
 created: 2026-05-01
 description: "How goblin outputs spread in AI models: timeline, root cause, and fixes behind personality-driven quirks in GPT-5 behavior."
 tags:
-  - "clippings"
+  - clippings
 ---
 Starting with GPT‑5.1, our models began developing a strange habit: they increasingly mentioned goblins, gremlins, and other creatures in their metaphors. Unlike model bugs that show up through a tanking eval or a spiking training metric and point back to a specific change, this one crept in subtly. A single “little goblin” in an answer could be harmless, even charming. Across model generations, though, the habit became hard to miss: the goblins kept multiplying, and we needed to figure out where they came from.
 
