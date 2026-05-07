@@ -1,8 +1,11 @@
 ---
 title: Treat Agent Output Like Compiler Output
-created_at: 2026/03/09
-author:  Hugo Venturini
 source: https://skiplabs.io/blog/codegen_as_compiler
+published: 2026/03/09
+created_at: 2026/05/06
+author: Hugo Venturini
+description:
+tags: clippings
 ---
 
 Philip Su's recent post argues that code reviews are not just impractical in the age of coding agents, they're headed toward being irresponsible. He's right on trend. But I think the framing of "lights-out codebases" skips over the more interesting and uncomfortable question: why does lights-out feel so scary, and what does that fear actually tell us?
