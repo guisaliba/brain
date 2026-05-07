@@ -1,12 +1,9 @@
-https://skiplabs.io/blog/codegen_as_compiler
-
-
-Skip to main content
-Skip Logo
-Treat Agent Output Like Compiler Output
-March 9, 2026 · 6 min read
-Hugo Venturini
-Software Engineer
+---
+title: Treat Agent Output Like Compiler Output
+created_at: 2026/03/09
+author:  Hugo Venturini
+source: https://skiplabs.io/blog/codegen_as_compiler
+---
 
 Philip Su's recent post argues that code reviews are not just impractical in the age of coding agents, they're headed toward being irresponsible. He's right on trend. But I think the framing of "lights-out codebases" skips over the more interesting and uncomfortable question: why does lights-out feel so scary, and what does that fear actually tell us?
 
@@ -31,14 +28,14 @@ What's Actually Missing
 
 If compiler output requires no human review because of what surrounds it, then agent output will require no human review when we've built the equivalent. What does that actually mean?
 
-Upstream: Compilers have type systems, formal contracts about what code means before it runs. For agents, this equivalent is still primitive. We have prompts, we have some scaffolding, but we don't yet have robust formal specifications that an agent is verifiably executing against. The closest analogs, TDD, contract testing, design-by-specification, exist but are not yet standard practice when agents are the author.
+**Upstream:** Compilers have type systems, formal contracts about what code means before it runs. For agents, this equivalent is still primitive. We have prompts, we have some scaffolding, but we don't yet have robust formal specifications that an agent is verifiably executing against. The closest analogs, TDD, contract testing, design-by-specification, exist but are not yet standard practice when agents are the author.
 
-The verification layer: Compilers are deterministic. Given the same source, you get the same output. Agents are not. This means the test suite that used to catch human mistakes needs to be substantially more comprehensive when the author can produce plausible-but-subtly-wrong code at 50x the rate. The idea of using AI to check AI, pre- and post-action reviews, dedicated security agents, is the right direction. But it's nascent, and we're nowhere near treating it as infrastructure.
+**The verification layer:** Compilers are deterministic. Given the same source, you get the same output. Agents are not. This means the test suite that used to catch human mistakes needs to be substantially more comprehensive when the author can produce plausible-but-subtly-wrong code at 50x the rate. The idea of using AI to check AI, pre- and post-action reviews, dedicated security agents, is the right direction. But it's nascent, and we're nowhere near treating it as infrastructure.
 
-Downstream: The production monitoring and rollback culture that makes deploying compiled binaries safe is reasonably mature. Canary deploys, feature flags, observability tooling, this stuff works. Applying it rigorously to agent-generated changes is tractable. It just isn't yet habitual.
+**Downstream:** The production monitoring and rollback culture that makes deploying compiled binaries safe is reasonably mature. Canary deploys, feature flags, observability tooling, this stuff works. Applying it rigorously to agent-generated changes is tractable. It just isn't yet habitual.
 The Uncomfortable Part
 
-Here's the contrarian edge: the engineers most resistant to lights-out codebases are often the same engineers who would resist, if they could time-travel back, the idea that you don't need to review your linker's output. The intuition feels protective. It is actually just unfamiliarity with where the trust has been relocated.
+**Here's the contrarian edge:** the engineers most resistant to lights-out codebases are often the same engineers who would resist, if they could time-travel back, the idea that you don't need to review your linker's output. The intuition feels protective. It is actually just unfamiliarity with where the trust has been relocated.
 
 Trusting compiler output isn't naïve. It's the result of decades of investment in making that trust warranted. We didn't skip the hard work, we did the hard work in a different place. The same logic applies here. The question isn't "should we trust agent output?" It's "have we built the infrastructure that makes that trust reasonable?"
 
@@ -49,9 +46,9 @@ What To Build
 
 The lights-out codebase is coming. Su is right about that. But rather than simply accepting it as an inevitability to brace for, we should treat it as a design target, one that tells us exactly what we need to build:
 
-    Formal specification layers that agents execute against, not just prompts
-    Test infrastructure robust enough to substitute for the code comprehension that reviews provide
-    AI-checks-AI pipelines as first-class CI infrastructure, not bolt-on curiosity
-    Production instrumentation good enough that bad agent behavior is caught fast and rolled back faster
+- Formal specification layers that agents execute against, not just prompts
+- Test infrastructure robust enough to substitute for the code comprehension that reviews provide
+- AI-checks-AI pipelines as first-class CI infrastructure, not bolt-on curiosity
+- Production instrumentation good enough that bad agent behavior is caught fast and rolled back faster
 
 The compiler didn't make us stop caring about correctness. It moved where correctness is enforced. That's the project in front of us. The scary part isn't the lights-out codebase. The scary part is how few teams are treating what replaces the review as serious engineering work.
