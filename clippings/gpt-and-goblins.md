@@ -10,7 +10,7 @@ tags:
 ---
 Starting with GPT‑5.1, our models began developing a strange habit: they increasingly mentioned goblins, gremlins, and other creatures in their metaphors. Unlike model bugs that show up through a tanking eval or a spiking training metric and point back to a specific change, this one crept in subtly. A single “little goblin” in an answer could be harmless, even charming. Across model generations, though, the habit became hard to miss: the goblins kept multiplying, and we needed to figure out where they came from.
 
-![""](https://images.ctfassets.net/kftzwdyauwt9/5y4ACkhCjaTdDFD3owjyQ0/214cc83969969a23c57d4864ba412b6e/godsped_gang_screenshot_-_dark_mode__1_.jpg?w=3840&q=80&fm=webp)
+!["Godspeed"](https://images.ctfassets.net/kftzwdyauwt9/5y4ACkhCjaTdDFD3owjyQ0/214cc83969969a23c57d4864ba412b6e/godsped_gang_screenshot_-_dark_mode__1_.jpg?w=3840&q=80&fm=webp)
 
 *In early testing, GPT‑5.5 in Codex showed an odd affinity for goblin metaphors.*
 
