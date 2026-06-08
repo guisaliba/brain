@@ -10,13 +10,13 @@ tags:
 ---
 Starting with GPT‑5.1, our models began developing a strange habit: they increasingly mentioned goblins, gremlins, and other creatures in their metaphors. Unlike model bugs that show up through a tanking eval or a spiking training metric and point back to a specific change, this one crept in subtly. A single “little goblin” in an answer could be harmless, even charming. Across model generations, though, the habit became hard to miss: the goblins kept multiplying, and we needed to figure out where they came from.
 
-!["Godspeed"](https://images.ctfassets.net/kftzwdyauwt9/5y4ACkhCjaTdDFD3owjyQ0/214cc83969969a23c57d4864ba412b6e/godsped_gang_screenshot_-_dark_mode__1_.jpg?w=3840&q=80&fm=webp)
+![[Pasted image 20260608003539.webp]]
 
 *In early testing, GPT‑5.5 in Codex showed an odd affinity for goblin metaphors.*
 
 The short answer is that model behavior is shaped by many small incentives. In this case, one of those incentives came from training the model for the [personality customization feature ⁠](https://help.openai.com/en/articles/11899719-customizing-your-chatgpt-personality), in particular the Nerdy personality. We unknowingly gave particularly high rewards for metaphors with creatures. From there, the goblins spread.
 
-![[Pasted image 20260501165904.webp]]
+![[Pasted image 20260501165904.webp|651]]
 *The goblins were funny at first, but the increasing number of employee reports became concerning.*
 
 ![[Pasted image 20260501165927.webp]]
