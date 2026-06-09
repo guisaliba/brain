@@ -1,25 +1,16 @@
 ---
-title: "How does a Vision-Language-Model (VLM) work? - Groundlight AI"
-source: "https://www.groundlight.ai/blog/how-vlm-works-tokens"
-author:
-published:
+title: How does a Vision-Language-Model (VLM) work? - Groundlight AI
+source: https://www.groundlight.ai/blog/how-vlm-works-tokens
+author: Leo Dirac, Sunil Kumar, Francine W
+published: 2024-07-16
 created: 2026-06-08
-description: "How do LLMs like ChatGPT understand images? We go through how the neural networks inside a VLM communicate with each other."
+description: How do LLMs like ChatGPT understand images? We go through how the neural networks inside a VLM communicate with each other.
 tags:
-  - "clippings"
+  - clippings
 ---
-![](https://cdn.prod.website-files.com/664b7cc2ac49aeb2da6ef0f4/67f7a58bc5d45411a5cc2c27_Group%20496.svg)
-
 ## How does a Vision-Language-Model (VLM) work?
 
 How do LLMs like ChatGPT understand images? We go through how the neural networks inside a VLM communicate with each other.
-
-![](https://cdn.prod.website-files.com/664b7cc2ac49aeb2da6ef0f4/67f7be4a2955b439d8bb5361_triangle.svg)
-
-Author(s):
-
-<iframe src="https://vlm-blog.groundlite-dev.com/" width="100%" height="1010" frameborder="0"></iframe>
-
 ## Background: Gen-AI, LLMs, and Computer Vision
 
 Gen-AI's ability to author text and create images has captured the world's imagination, and catapulted the previously academic discipline of Machine Learning into Artificial Intelligence. But still most commercially useful applications of these techniques are for automatic decision making - so-called "discriminative" tasks, where inputs are analyzed to pick from a relatively small number of outputs, like "Is this order ready?" The dominant architecture of Gen-AI is the Large Language Model (LLM), a transformer neural network which takes arbitrary prompt input text and produces output text.
