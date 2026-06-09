@@ -1,0 +1,25 @@
+{
+  "schema": "cc-recall-meta@v1",
+  "session_uid": "home:e6f2a900-be66-47ed-96b1-e7ffb99c826d",
+  "session_id": "e6f2a900-be66-47ed-96b1-e7ffb99c826d",
+  "machine_id": "home",
+  "project_slug": "unknown",
+  "started_at": "",
+  "ended_at": "",
+  "message_count": 0,
+  "cwd": "",
+  "artifacts": {
+    "transcript": "/mnt/c/obsidian_vault/AI/ClaudeCode/sessions/home/unknown/unknown__0000__e6f2a900-be66-47ed-96b1-e7ffb99c826d.md",
+    "summary": "/mnt/c/obsidian_vault/AI/ClaudeCode/sessions/home/unknown/unknown__0000__e6f2a900-be66-47ed-96b1-e7ffb99c826d__summary.md",
+    "source_jsonl": "~/.claude/projects/-home-guisaliba-projects-active-aurea-shopee-of/e6f2a900-be66-47ed-96b1-e7ffb99c826d.jsonl",
+    "files_touched": []
+  },
+  "git": null,
+  "recall": {
+    "title": "Session in unknown",
+    "topics": [],
+    "decision_points": [],
+    "open_loops": [],
+    "next_action": ""
+  }
+}
