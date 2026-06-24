@@ -1,3 +1,8 @@
+---
+title: Blockchain
+---
+
+
 *A blockchain is basically a distributed state machine replicated across many nodes.*
 
 wallets do not store crypto. they only store private keys. the blockchain is the one who stores stuff like balances, ownership and state. a wallet is just an interface + signer.
