@@ -108,4 +108,4 @@ EVM executes bytecode. this bytecode stems from a programming language called So
 
 *the EVM is a deterministic sandboxed runtime that executes smart contract bytecode identically across all Ethereum nodes.*
 
-and what is the computational cost for all of that? it can be measured by Gas.
+and what is the computational cost for all of that? it can be measured by [[Gas]].
