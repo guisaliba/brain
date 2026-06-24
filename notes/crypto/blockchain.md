@@ -1,9 +1,9 @@
 ---
 title: Blockchain
-descrip: What is a blockchain
+description: What is a blockchain and some basics on it
+tags:
+  - "#crypto"
 ---
-
-
 *A blockchain is basically a distributed state machine replicated across many nodes.*
 
 wallets do not store crypto. they only store private keys. the blockchain is the one who stores stuff like balances, ownership and state. a wallet is just an interface + signer.
