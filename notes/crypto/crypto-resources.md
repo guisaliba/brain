@@ -13,7 +13,7 @@ Understand how a Blockchain (EVM) works;
 Smart contracts;
 
 Study path:
-Ethereum (theory) > Solidity > ERC20/ERC721/ERC1155 > Deisgn patterns (proxy etc.) > Crypto/Hash
+Ethereum (theory) > Solidity > ERC20/ERC721/ERC1155 > Design patterns (proxy etc.) > Crypto/Hash
 
 Security:
  - Understand and follow best practices, no need to delay your development because of it;
