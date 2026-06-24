@@ -1,6 +1,6 @@
 ---
 title: Blockchain
-descrip:
+descrip: What is a blockchain
 ---
 
 
