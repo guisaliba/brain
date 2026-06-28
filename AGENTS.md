@@ -21,6 +21,10 @@ This repository is an Obsidian vault.
 
 `journal/` is a private Git submodule. It is managed by Obsidian Git on desktop with submodule support enabled.
 
+## Environment Notes
+
+On the primary Windows device, Obsidian runs on Windows while the Git repository lives in WSL2 at `/home/guisaliba/projects/brain`. The Windows vault path is `C:\obsidian_vault`. On other devices (Linux, Android), the vault and Git repo typically live in the same filesystem.
+
 ## Agent Rules
 
 - Do not copy, summarize, or move journal content into public folders unless explicitly instructed.
