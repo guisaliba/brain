@@ -11,7 +11,6 @@ tags:
 ---
 We always thought of the Macintosh as a fast computer, since its 68000 microprocessor was effectively 10 times faster than an Apple II, but our Achilles heel was the floppy disk. We had limited RAM, so it was often necessary to load data from the floppy, but there we were no faster than an Apple II. Once we had real applications going, it was clear the floppy disk was going to be a significant bottleneck.
   
-  
 One of the things that bothered Steve Jobs the most was the time that it took to boot when the Mac was first powered on. It could take a couple of minutes, or even more, to test memory, initialize the operating system, and load the Finder. One afternoon, Steve came up with an original way to motivate us to make it faster.  
   
 Larry Kenyon was the engineer working on the disk driver and file system. Steve came into his cubicle and started to exhort him. "The Macintosh boots too slowly. You've got to make it faster!"  
