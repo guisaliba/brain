@@ -1,29 +1,18 @@
 ---
-title: "How the Open Knowledge Format can improve data sharing"
-source: "https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing"
+title: How the Open Knowledge Format can improve data sharing
+source: https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing
 author:
   - "[[Sam McVeety]]"
   - "[[Amir Hormati]]"
 published: 2026-06-12
 created: 2026-07-05
-description: "Learn how the Open Knowledge Format helps secure data sharing and improves collaboration across teams with standardized documentation."
+description: Learn how the Open Knowledge Format helps secure data sharing and improves collaboration across teams with standardized documentation.
 tags:
-  - "clippings"
+  - clippings
+  - llm
+  - docs
+  - "#ai"
 ---
-##### Sam McVeety
-
-Tech Lead, Data Analytics, Engineering, Data Cloud, Google Cloud
-
-##### Amir Hormati
-
-Tech Lead, BigQuery, Engineering, Data Cloud, Google Cloud
-
-##### Try Gemini Enterprise Business Edition today
-
-The front door to AI in the workplace
-
-[Try now](https://business.gemini.google/?utm_source=cloud.google.com/blog&utm_medium=et&utm_campaign=FY26-Q2-GLOBAL-GLO27877-physicalevent-er-next26-mc-105752)
-
 As foundation models continue to improve, the lack of relevant context often limits what they can do, especially as they are used to build agentic systems. While these models can help you write code, summarize documents, or analyze a dataset, they still need the right information to produce accurate and actionable results.
 
 That’s why today, we’re introducing the Open Knowledge Format (OKF), an open specification that formalizes the [LLM-wiki](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) pattern into a portable, interoperable format. This is a vendor-neutral, agent- and human-friendly standard for representing the metadata, context, and curated knowledge that modern AI systems need.
@@ -83,129 +72,40 @@ An OKF **bundle** is a directory of markdown files representing **concepts:** an
 
 ```
 sales/
-```
-
-```
 ├── index.md
-```
-
-```
 ├── datasets/
-```
-
-```
 │   ├── index.md
-```
-
-```
 │   └── orders_db.md
-```
-
-```
 ├── tables/
-```
-
-```
 │   ├── index.md
-```
-
-```
 │   ├── orders.md
-```
-
-```
 │   └── customers.md
-```
-
-```
 └── metrics/
-```
-
-```
 │   ├── index.md
-```
-
-```
 └── weekly_active_users.md
 ```
 
 Each concept document has a small block of YAML front matter for structured fields and a markdown body for everything else:
 
-x
-
 ```
 ---
-```
-
-```
 type: BigQuery Table
-```
-
-```
 title: Orders
-```
-
-```
 description: One row per completed customer order.
-```
-
-```
 resource: https://console.cloud.google.com/bigquery?p=acme&d=sales&t=orders
-```
-
-```
 tags: [sales, revenue]
-```
-
-```
 timestamp: 2026-05-28T14:30:00Z
-```
-
-```
 ---
-```
 
-```
-​
-```
-
-```
 # Schema
-```
 
-```
-​
-```
+| Column          | Type   | Description                              |
+| --------------- | ------ | ---------------------------------------- |
+| \`order_id\`    | STRING | Globally unique order identifier.        |
+| \`customer_id\` | STRING | FK to [customers](/tables/customers.md). |
 
-```
-| Column        | Type      | Description                              |
-```
-
-```
-|---------------|-----------|------------------------------------------|
-```
-
-```
-| \`order_id\`    | STRING    | Globally unique order identifier.        |
-```
-
-```
-| \`customer_id\` | STRING    | FK to [customers](/tables/customers.md). |
-```
-
-```
-​
-```
-
-```
 # Joins
-```
 
-```
-​
-```
-
-```
 Joined with [customers](/tables/customers.md) on \`customer_id\`.
 ```
 
@@ -252,5 +152,4 @@ The format itself is the contribution. The tools we've shipped exist to make it 
 ---
 
 <sup>Published by the Google Cloud Data Cloud team. Open Knowledge Format is an open specification; contributions, alternative implementations, and adoption beyond Google products are all explicitly welcomed.</sup>
-
 <sup>In addition to the authors, this work came together thanks to key ideas from many others at Google, and we thank them for their contributions.</sup>
