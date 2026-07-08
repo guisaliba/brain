@@ -2,6 +2,8 @@
 
 **"Superuser"** isn't a separate account — it's a _role/concept_. It just means "a user with unrestricted privileges over the system." On Unix, the superuser role happens to be implemented as the root account. So in practice, "the superuser" and "root" are the same thing — root is just the name of the account that has superuser privileges. Some systems could theoretically implement fine-grained "superuser-like" capabilities without full root (e.g. Linux capabilities like `CAP_NET_BIND_SERVICE`), but colloquially "superuser" = root.
 
+mental model: `superuser` is the interface; `root` implements `superuser` (on Unix systems).
+
 **`su`** stands for "substitute user" (sometimes said as "switch user"). It lets you become another user, and if you don't give it a username, it defaults to root:
 
 - `su` → asks for **root's password**, then gives you a root shell
