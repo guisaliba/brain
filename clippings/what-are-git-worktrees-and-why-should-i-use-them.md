@@ -1,13 +1,14 @@
 ---
-title: "What are git worktrees, and why should I use them?"
-source: "https://github.blog/ai-and-ml/github-copilot/what-are-git-worktrees-and-why-should-i-use-them/"
+title: What are git worktrees, and why should I use them?
+source: https://github.blog/ai-and-ml/github-copilot/what-are-git-worktrees-and-why-should-i-use-them/
 author:
   - "[[Cassidy Williams]]"
 published: 2026-06-16
 created: 2026-07-06
-description: "Git worktrees have been around since 2015, but it wasn't until recently they became popular. Learn what they are, how to use them, and why you might."
+description: Git worktrees have been around since 2015, but it wasn't until recently they became popular. Learn what they are, how to use them, and why you might.
 tags:
-  - "clippings"
+  - clippings
+  - git
 ---
 It seems like the latest hotness in git these days is the concept of worktrees. Which… is kind of funny because they’ve been around since 2015.
 
@@ -114,22 +115,6 @@ Worktrees do solve a whole lot of issues, but there’s definitely some things t
 - Folder management: you have to delete the worktree folders, to avoid cluttering your parent directory over time. Apps like the GitHub Copilot app do often handle this for you, but it’s still something you might have to do yourself if you’re operating in the terminal yourself.
 - Global `.gitignore` requirements: if you create worktree folders inside your main repo directory, you have to manually add them to `.gitignore` to not accidentally track them. You *can* make these worktrees outside of your main repo (and many apps do that by default), but it’s worth noting.
 - One branch limits: Git prevents you from checking out the exact same branch in two different worktrees at the same time to prevent data corruption.
-
-## How do I use worktrees in the GitHub Copilot app?
-
-Great question! What’s awesome is they “just work” out of the box. When you open the app, there’s a dropdown that asks you where you want to run your new session on the home screen. The default is a new worktree.
-
-![Screenshot of the 'New worktree' dropdown in the GitHub Copilot app. Options are 'New worktree', 'Local repository', or 'Cloud.'](https://github.blog/wp-content/uploads/2026/06/Screenshot-2026-06-16-at-1.35.20-PM.png?w=924)
-
-Screenshot of the 'New worktree' dropdown in the GitHub Copilot app. Options are 'New worktree', 'Local repository', or 'Cloud.'
-
-Then, once you kick off a new session, you can click the session name at the top of the app, and you’ll see the (fun!) generated name of your worktree, as well as the path where it’s located, the project that worktree is for, and details about the changes that you’ve made.
-
-![Screenshot of the worktree generated in the previous step.](https://github.blog/wp-content/uploads/2026/06/Screenshot-2026-06-16-at-1.36.45-PM.png?w=877)
-
-Screenshot of the worktree generated in the previous step.
-
-Easy peasy lemon squeezy!
 
 ## Should I use worktrees?
 
