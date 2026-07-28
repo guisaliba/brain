@@ -2,11 +2,13 @@
 title: Automatio is now made of markdown files
 source: https://giulianapo.vercel.app/blog/automation-is-now-markdown
 author:
+  - Giulia Naponiello
 published: June 25
 created: 2026-07-28
 description: I built a set of AI skills for my daily workflows — filing Jira tickets, writing blog posts, searching past conversations. Here's why teaching your AI assistant how you work is the most useful thing you can automate right now.
 tags:
   - clippings
+  - ai
 ---
 I have a confession to make. This blog post was written with the help of AI. But you already knew that, right? At this point we all assume everything is AI-generated, and honestly, most of the time we're right. I've become so overwhelmed with AI-generated text that I can barely stand reading Slack messages anymore. Everything sounds the same. Everything is polished the same way. You can spot it in the first sentence.
 
