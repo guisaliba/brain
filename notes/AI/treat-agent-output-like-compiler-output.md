@@ -7,18 +7,19 @@ author: Hugo Venturini
 description:
 tags: clippings
 ---
-
 Philip Su's recent post argues that code reviews are not just impractical in the age of coding agents, they're headed toward being irresponsible. He's right on trend. But I think the framing of "lights-out codebases" skips over the more interesting and uncomfortable question: why does lights-out feel so scary, and what does that fear actually tell us?
 
 The answer, I think, is hiding in something we already used once before and then promptly forgot we did: the compiler.
-Nobody Reviews Compiler Output
+
+## Nobody Reviews Compiler Output
 
 Think about how you relate to your compiler. You write C++, Rust, Go, and the toolchain spits out a binary. Do you open that binary and read through the assembly? Do you schedule a meeting with a colleague to review the object code before shipping?
 
 Of course not. That would be absurd. And not because you blindly trust compilers, you don't. Compilers have bugs. Compilers have had famously catastrophic bugs. But you've constructed an entire apparatus that makes reviewing the output unnecessary: you write tests against observable behavior, you have type systems that constrain what the output can do, you have reproducible builds, you have fuzzing and sanitizers and formal verification in high-stakes domains. You trust the process, not the artifact.
 
 We haven't built that apparatus for coding agents. And that, not the output itself, is what's actually missing.
-The Real Diagnosis
+
+## The Real Diagnosis
 
 Consider that a developer like Michael Novati landed 417 PRs in a single day in February. That's enough to argue that reviewing AI-generated code is volumetrically impossible. And it is. But I'd push the diagnosis further: the volume isn't the problem, it's a symptom that exposes the problem.
 
