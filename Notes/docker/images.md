@@ -15,4 +15,4 @@ you might create your own images or you might use existing images published in a
 
 sometimes all you need for your simple app to exist is the Node.js runtime, in order to execute your JavaScript code. so you only have to `FROM node` to serve as your base image. from there on, you're good to go running all the other necessary instructions for your code to work.
 
-to build your own image you create a [[Dockerfile]] defining the steps needed to create the image and run it.
+to build your own image you create a [[dockerfile]] defining the steps needed to create the image and run it.

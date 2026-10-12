@@ -6,7 +6,7 @@ docker builds images by reading instructions from a Dockerfile, it is a text fil
 
 docker images consist of layers, where each layer is the result of a build instruction in the **Dockerfile**. layers are stacked sequentially and each one is a **delta representing the changes applied to the previous layer**.
 
-a Dockerfile describes how an image is going to be built. more on what a [[Dockerfile]] is.
+a Dockerfile describes how an image is going to be built. more on what a [[dockerfile]] is.
 
 each layer has a SHA (hash) that depends on the hash of the base image. if the hash of the base image doesn't change, the other layers get **cached** meaning that they're only getting built on sequential runs if they didn't exist before.
 

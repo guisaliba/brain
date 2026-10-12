@@ -1,4 +1,4 @@
-# subject: [[notes/git/101]]
+# subject: [[Notes/git/101]]
 # topics #git #git-workflow
 # source: https://www.conventionalcommits.org/en/v1.0.0/
 ---

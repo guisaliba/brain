@@ -1,4 +1,4 @@
-# subject: [[notes/git/101]]
+# subject: [[Notes/git/101]]
 # topics: #git
 ---
 ## git's three states
