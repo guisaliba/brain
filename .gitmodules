@@ -1,4 +1,4 @@
-[submodule "journal"]
-	path = journal
+[submodule "Journal"]
+	path = Journal
 	url = git@github.com:guisaliba/journal.git
 	branch = main

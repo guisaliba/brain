@@ -7,9 +7,9 @@ with it you gain isolation, because you have your OS, storage and data isolated.
 you also get a guaranteed amount of RAM and CPU and you have root access (full control) to install any software you want.
 we can think of it as a large apartment building: a VPS is one apartment inside it. you have your own key, your own space and neighbors can't walk into your living room, but you all share the building's foundation and plumbing.
 
-VPS is different from VPC and VPN. the VPS is the computer where your code or website runs, it has a processor, memory and hard drive. 
-VPC (Virtual Private Cloud) is a logical, isolated section of a cloud network. you place your VPS inside a VPC to keep it safe.
-VPN (Virtual Private Network) is a secure, encrypted tunnel. it allows the user to connect safely to the VPC or the VPS from your home internet.
+- VPS is different from VPC and VPN. the VPS is the computer where your code or website runs, it has a processor, memory and hard drive. 
+- VPC (Virtual Private Cloud) is a logical, isolated section of a cloud network. you place your VPS inside a VPC to keep it safe.
+- VPN (Virtual Private Network) is a secure, encrypted tunnel. it allows the user to connect safely to the VPC or the VPS from your home internet.
 
 the logic: you might use a **VPN** (tunnel) to securely access your **VPS** (computer), which is located inside a **VPC** (private network).
 
