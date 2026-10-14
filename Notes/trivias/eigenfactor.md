@@ -1,4 +1,4 @@
-# subject: [[trivias]]
+# subject: #trivias
 # topics: #research #metrics
 ---
 the Eigenfactor score is a metric developed to measure the total importance or influence of a scientific journal within the academic community.
