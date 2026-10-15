@@ -11,7 +11,7 @@ source:
 title: What is Apple doing?
 ---
 ## They refuse to even name it
-For the last 2.5 years, Apple's been silent when it comes to AI. That made people think they were just sleeping on it, and lead everyone to two explanations for that: they either don't have a model and accepted they've lost the AI race; or they truly believe their AI features don't need to be good.
+For the last 2.5 years, Apple's been mostly silent when it comes to AI. That made people think they were just sleeping on it, and lead everyone to two explanations for that: they either don't have a model and accepted they've lost the AI race; or they truly believe their AI features don't need to be good.
 
 I'm sticking with the latter, but not exactly that. To me, it's not that Apple believes their AI features don't have to be good. They believe the hardware needs to be good.
 The extraordinary AI features will only come true if the hardware can support it.
