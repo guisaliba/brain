@@ -1,16 +1,25 @@
 ---
-tags:
-  - ai
-  - "#economy"
-description: How Apple chose to not race for AI and might be winning it
-created: 2026-10-15
-published:
+title: What is Apple doing in the AI race?
 author:
   - Guilherme Saliba
 source:
-title: What is Apple doing?
+description: Apple chose not to race for AI and I think they still might be winning it
+tags:
+  - ai
+  - "#economy"
+reading_time: 8
+cover_image: https://guisaliba.github.io/assets/images/covers/maybe-you-are-just-speaking-to-the-wrong-audience.jpg
+created: 2026-10-15
+published:
 ---
+## TL;DR
+
+Lorem ipsum dolor sit amet.
+
+---
+
 ## They refuse to even name it
+
 For the last 2.5 years, Apple's been mostly silent when it comes to AI. That made people think they were just sleeping on it, and lead everyone to two explanations for that: they either don't have a model and accepted they've lost the AI race; or they truly believe their AI features don't need to be good.
 
 I'm sticking with the latter, but not exactly that. To me, it's not that Apple believes their AI features don't have to be good. They believe the hardware needs to be good.
@@ -22,6 +31,7 @@ That's not sleeping on something. That's strategy.
 But let me be honest with you: even though I said before that I don't stick with the "Apple don't have a model and just accepted it", I do actually believe that.
 
 ## Components are just components
+
 Apple is not an AI lab, they're not building LLMs. That's not a guess, that's the truth.
 
 That is so true that they've partnered with Google to bring Gemini to Siri [insert reference] and enhance it's capabilities of an AI assistant.
@@ -43,6 +53,7 @@ If models can't decide this race, something else will (hardware). Every time an 
 Apple doesn't spend a dime for that. They just build what people use, and they keep crafting it for people to stick with it. This is what I think will enable them to not race for AI and still benefit the most off it.
 
 ## But what if AI companies entered the device fight?
+
 Apple could measure that threat with a single question: "Can one of these companies build a hardware good enough to pull people off of the iPhone?".
 
 I think OpenAI will try to pick that fight. Not with a phone to compete directly with the iPhone. Not a laptop to compete with the MacBook. OpenAI has reportedly been building an earphone [insert reference].
@@ -56,6 +67,7 @@ And I also think they might go after a home assistant [insert reference if found
 But will that be enough to make people switch from their AirPods, iPhones and Alexas? I don't think so.
 
 ## History repeats itself
+
 1990s, Sega vs. Nintendo are fighting a videogame console war, just like OpenAI vs Anthropic and every other company selling AI.
 
 They were trading one point leads because they couldn't hold it. By the end of the decade, Sega and Nintendo would have traded leads a dozen of times. Just like every new AI model release.
@@ -66,7 +78,8 @@ Not only that. The PlayStation was exclusive. You had to buy a PlayStation to ge
 
 And they currently don't. So they wouldn't  bet everything on a hardware they've never shipped.
 
-## What about Anthropic?
+##  Anthropic?
+
 Anthropic is going the other way around. I don't think they're entering any fight other than the one they're already locked in: the models fight.
 
 For now, Claude is the right product they need. Their goal is to make Claude the best LLM out there. They even think they're the only ones that can prevent AI bringing humanity into the brink of existence [insert reference on that].
@@ -74,6 +87,7 @@ For now, Claude is the right product they need. Their goal is to make Claude the
 I think they are going for that generational leap with Claude, for sure. And I wouldn't be surprised if they actually achieved it. I also wouldn't be surprised if they didn't.
 
 ## The endgame
+
 Apple isn't safe though. If the models are good enough, then AI turns into a component. Components flow through whoever owns the customer. They're not untouchable, see?
 
 I wouldn't say they're being threatened. I don't think they are. If this AI race were to be put into a cause and effect way, I'd say Apple is always the consequence.
